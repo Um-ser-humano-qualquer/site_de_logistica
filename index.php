@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,23 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <p>André Gatão</p>
+    <div class="">
+			<form method="post" action="verificaLogin.php" id="formlogin" name="formlogin" >
+				<label>>Nome: </label>
+				<input type="text" name="nomeUsuario" id="nomeUsuario" size="20"><br />
+				
+				<label>>Senha: </label>
+				<input type="password" name="senha" id="senha" size="20">
+				<br>
+				<center>
+					<input type="submit" value="LOGAR"  />
+				</center>
+			</form>
+		</div>
+
+	<center>
+		<a href="signup.php">Não tenho uma conta.</a>
+	</center>
         
 </body>
 </html>
