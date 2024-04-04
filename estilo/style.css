@@ -4,3 +4,73 @@ body{
 *{
     background-color: aqua;
 }
+.divLogin{
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius:15px;
+    box-shadow: 5px 17px 20px 0px #0000007f;
+}
+.fundo{
+    background-image: url(Imagens/verde_marinho.avif);
+    background-size: 105% 13500%;
+    background-repeat: no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.caixaTexto{
+    font-size: 2em;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+}
+.caixaTexto2{
+    font-size: 160%;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+}
+.palavras{
+    position: absolute;
+    left: 5%;
+}
+.botao{
+    background-color: rgb(0 150 160);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 9rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+.botao2{
+    position: absolute;
+    background-color: rgb(0 150 160);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 5%;
+    height: 3.2%;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    left: 18.5%;
+    top: 1%;
+    cursor: pointer;
+}
