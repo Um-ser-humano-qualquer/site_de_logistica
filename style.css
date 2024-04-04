@@ -13,7 +13,7 @@ body{
     box-shadow: 5px 17px 20px 0px #0000007f;
 }
 .fundo{
-    background-image: url(Imagens/verde_marinho.avif);
+    background-image: url(img/verde_marinho.avif);
     background-size: 105% 13500%;
     background-repeat: no-repeat;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
