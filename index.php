@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imgs/senai-logo.png">
     <title>Sistema Logistica</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="">
+
+	<center>
+    <div class="divlogin">
 			<form method="post" action="verificaLogin.php" id="formlogin" name="formlogin" >
             
-            <input type="text" placeholder='Email' name="emailUsuario" id="emailUsuario" size="20"><br />
+            <input type="text" placeholder='Email' name="emailUsuario" class="caixaTexto" id="emailUsuario" size="20"><br />
 				
-				<input type="password" placeholder='Senha' name="senha" id="senha" size="20">
+				<input type="password" placeholder='Senha' name="senha" class="caixaTexto" id="senha" size="20">
 				<br>
 				<center>
 					<input type="submit" value="LOGAR"  />
 				</center>
 			</form>
 		</div>
-
-	<center>
+	
 		<a href="signup.php">Não tenho uma conta.</a>
 	</center>
         
