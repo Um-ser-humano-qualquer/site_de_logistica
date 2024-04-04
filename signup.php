@@ -16,7 +16,7 @@
 				<input type="password" placeholder='Senha' name="senha" id="senha" size="20">
 				<br>
 				<center>
-					<input type="submit" value="Cadastrar"  />
+					<input type="submit" value="Cadastrar"/>
 				</center>
 			</form>
 		</div>
