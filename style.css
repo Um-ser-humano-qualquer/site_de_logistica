@@ -71,3 +71,8 @@ body{
     top: 1%;
     cursor: pointer;
 }
+.link{
+    position: absolute;
+    right: 48%;
+    top: 95%;
+}

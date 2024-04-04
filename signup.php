@@ -24,7 +24,8 @@
 				<input type="text" name="diretor" id="diretor" size="20" class="caixaTexto" placeholder="diretor"><br/>
                 <br>
 				<input type="submit" value="registrar" class="botao"/>
-                <p></p>
+                <br>
+                <a href="index.php" class="link">Já possui login? Clique aqui!</a>
 			</form>
 			</div>
             <p></p>
