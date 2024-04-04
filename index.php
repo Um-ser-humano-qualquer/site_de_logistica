@@ -10,11 +10,10 @@
 <body>
     <div class="">
 			<form method="post" action="verificaLogin.php" id="formlogin" name="formlogin" >
-				<label>>Nome: </label>
-				<input type="text" name="nomeUsuario" id="nomeUsuario" size="20"><br />
+            
+            <input type="text" placeholder='Email' name="emailUsuario" id="emailUsuario" size="20"><br />
 				
-				<label>>Senha: </label>
-				<input type="password" name="senha" id="senha" size="20">
+				<input type="password" placeholder='Senha' name="senha" id="senha" size="20">
 				<br>
 				<center>
 					<input type="submit" value="LOGAR"  />
