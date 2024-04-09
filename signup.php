@@ -8,7 +8,7 @@
             <center>
 			<div class="divLogin">
 			<form method="post" action="cadastro.php" id="formcadastro" name="formcadastro">
-				<h2>Cadastro:</h2>
+				<h2>Cadastro de alunos:</h2>
 				<input type="text" name="nome" id="nome" size="20" class="caixaTexto" placeholder="nome"><br/>
 				<br>
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
