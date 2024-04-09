@@ -15,7 +15,7 @@
 				<br>
 				<input type="text" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
 				<br>
-                <a href="signupProf.php" class="link">Você é um professor? Clique aqui!</a>
+                <a href="signupProf.php" class= >Você é um professor? Clique aqui!</a>
 			</form>
 			</div>
             <p></p>
