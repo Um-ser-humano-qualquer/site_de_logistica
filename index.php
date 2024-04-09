@@ -23,7 +23,7 @@
 			</form>
 		</div>
 	
-		<a href="signup.php">Não tenho uma conta.</a>
+		<a href="signup.php">Não possui uma conta? Clique aqui!</a>
 	</center>
         
 </body>
