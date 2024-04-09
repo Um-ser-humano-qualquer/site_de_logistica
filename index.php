@@ -12,6 +12,22 @@
 	<center>
     <div class="divlogin">
 			<form method="post" action="verificaLogin.php" id="formlogin" name="formlogin" >
+			<fieldset>
+  			<legend>Fazer login como Professor</legend>
+ 			<div>
+    		<input
+      			type="checkbox"
+      			id="codificação"
+      			name="interesse"
+      			value="codificação"
+      			checked />
+    		<label for="coding"> Codificação </label>
+  			</div>
+  			<div>
+    		<input type="checkbox" id="música" name="interesse" value="música" />
+    		<label for="music"> Música </label>
+  			</div>
+			</fieldset>
             
             <input type="text" placeholder='Email' name="emailUsuario" class="caixaTexto" id="emailUsuario" size="20"><br />
 				
