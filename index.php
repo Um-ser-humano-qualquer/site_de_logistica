@@ -26,7 +26,7 @@
     	<label for="signupProfOk"> Fazer login como professor </label>
 		</div>   
 	
-		<a href="signup.php">Não possui uma conta? Clique aqui!</a>
+		<a href="signup.php">Não possui uma conta? Clique aqui!!!</a>
 	</center>
         
 </body>
