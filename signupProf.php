@@ -3,19 +3,20 @@
         <title>Logística Senai</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
-    <body class="fundo">	
+    <body class="fundo" background="img/fundo_profLogin.png">	
+
             <center>
-			<div class="divLogin">
+			<div class="divLoginn">
 			<form method="post" action="cadastro.php" id="formcadastro" name="formcadastro">
-				<h2>Cadastro de professores:</h2>
-				<input type="text" name="nomeProf" id="nomeProf" size="20" class="caixaTexto" placeholder="nome"><br/>
+				<h1>Login de professores:</h1>
+
+				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
 				<br>
-				<input type="text" name="emailProf" id="emailProf" size="20" class="caixaTexto" placeholder="email"><br/>
+				<input type="text" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
 				<br>
-				<input type="text" name="senhaProf" id="senhaProf" size="20" class="caixaTexto" placeholder="senha"><br/>
-				<br>
-                <a href="index.php" class="">Já possui uma Conta? Clique aqui!</a>
+                <a href="index.php" class="">Você é um aluno? Clique aqui!</a>
 			</form>
 			</div>
             <p></p>

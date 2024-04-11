@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body class="fundo" background="img/fundo_login.png">	
+        
             <center>
 			<div class="divLogin">
 			<form method="post" action="loginAluno.php" id="formcadastro" name="formcadastro">

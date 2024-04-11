@@ -15,6 +15,18 @@
     box-shadow: 5px 17px 20px 0px #0000007f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.divLoginn{
+    height: auto;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50% , -50%);
+    position:fixed;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius:15px;
+    box-shadow: 5px 17px 20px 0px #0000007f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .divLogin :visited{
     color: #000000;
