@@ -1,22 +1,31 @@
 .container{
     background-color: #4574db;
     position: relative;
+    
 }
 .divLogin{
     height: auto;
     top: 50%;
     left: 30%;
     transform: translate(-50% , -50%);
-    position:absolute;
+    position:fixed;
     padding: 20px 20px;
     background-color: #fff;
     border-radius:15px;
     box-shadow: 5px 17px 20px 0px #0000007f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.divLogin :visited{
+    color: #000000;
+    font-weight: bolder;
+
+}
+
+
 .fundo{
-    position: relative;
-    background-size: 100% 3200%;
+    position: absolute;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .caixaTexto{
