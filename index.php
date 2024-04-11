@@ -7,7 +7,7 @@
     <title>Sistema Logistica</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="fundo">
 
 	<div class= "container">
     <div class= "divLogin">
@@ -23,8 +23,14 @@
 			<input type="checkbox" id="bancoProf" name="bancoProf"/>
     	<label for="signupProfTrue"> Fazer login como professor? </label>
 		</div>   
+<<<<<<< HEAD
 	</div>
 		
+=======
+	
+		<a href="signup.php">Não possui uma conta? Clique aqui!!!</a>
+	</center>
+>>>>>>> b2b81d82a5e3ff2479014e31dce4c7e57a2f7637
         
 </body>
 </html>
