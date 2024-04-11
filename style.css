@@ -3,24 +3,25 @@
     position: relative;
     
 }
-.divLogin{
+.divLoginL{
     height: auto;
     top: 50%;
     left: 30%;
     transform: translate(-50% , -50%);
     position:fixed;
-    padding: 20px 20px;
-    background-color: #fff;
-    border-radius:15px;
-    box-shadow: 5px 17px 20px 0px #0000007f;
+    padding: 72px 20px;
+    background-color: #2a72f8;
+    border-radius:100px;
+    box-shadow: 15px 17px 20px 0px #0000007f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
 }
 .divLoginn{
     height: auto;
     top: 50%;
     left: 70%;
     transform: translate(-50% , -50%);
-    position:fixed;
+    position: fixed;
     padding: 20px 20px;
     background-color: #fff;
     border-radius:15px;
@@ -31,15 +32,14 @@
 .divLogin :visited{
     color: #000000;
     font-weight: bolder;
-
 }
-
 
 .fundo{
     position: absolute;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
 .caixaTexto{
     font-size: 2em;
     border-radius: 30px;
@@ -47,6 +47,7 @@
     border-style: hidden;
     border-top-style: solid;
     padding-inline-start: 15px;
+    
 }
 .caixaTexto2{
     font-size: 160%;
@@ -57,7 +58,7 @@
     padding-inline-start: 15px;
 }
 .botao{
-    background-color: rgb(0 150 160);
+    background-color: rgb(77, 190, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 9rem;
     height: 2rem;   
@@ -88,4 +89,10 @@
     left: 18.5%;
     top: 1%;
     cursor: pointer;
+}
+.link{
+    position: fixed;
+    left: 24%;
+    top: 69%;
+    color: #fff;
 }
