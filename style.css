@@ -6,11 +6,16 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    position: absolute;
+    position:absolute;
     padding: 20px 20px;
     background-color: #fff;
     border-radius:15px;
     box-shadow: 5px 17px 20px 0px #0000007f;
+}
+.fundo{
+    position: relative;
+    background-size: 100% 3200%;
+    background-repeat: no-repeat;
 }
 
 .caixaTexto{

@@ -7,10 +7,10 @@
     <title>Sistema Logistica</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="fundo">
+<body class="fundo" background="img/fundo_login.jpeg">
 
 	<center>
-    <div class="divlogin">
+    <div class="divLogin">
 		
             
             <input type="text" placeholder='Email' name="emailUsuario" class="caixaTexto" id="emailUsuario" size="20"><br />
@@ -26,7 +26,7 @@
     	<label for="signupProfOk"> Fazer login como professor </label>
 		</div>   
 	
-		<a href="signup.php">Não possui uma conta? Clique aqui!!!</a>
+		<a href="signup.php">Não possui uma conta? Clique aqui!</a>
 	</center>
         
 </body>
