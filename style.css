@@ -12,12 +12,7 @@ body{
     border-radius:15px;
     box-shadow: 5px 17px 20px 0px #0000007f;
 }
-.fundo{
-    background-image: url(img/verde_marinho.avif);
-    background-size: 105% 13500%;
-    background-repeat: no-repeat;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .caixaTexto{
     font-size: 2em;
     border-radius: 30px;

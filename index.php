@@ -7,7 +7,7 @@
     <title>Sistema Logistica</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="fundo">
 
 	<center>
     <div class="divlogin">
