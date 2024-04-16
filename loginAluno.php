@@ -18,10 +18,10 @@
 
        //verificação de login do aluno
 
-       $SQL = "SELECT   `idAluno`, `emailAluno` FROM `alunos`
+       $SQL = "SELECT  `idAluno`, `emailAluno` FROM `alunos`
             WHERE `emailAluno` = '".$emailAluno."'
-            AND `senha` = '".$senhaAluno."'
-            And `ativo` = 's';";
+            AND `senhaAluno` = '".$senhaAluno."'
+            AND `ativo` = 's';";
 
         $result = $connect->query($SQL);
 
@@ -30,13 +30,13 @@
             $row = $resultado -> fetch_array();
             $_SESSION['idAluno'] = $row[0];
             $_SESSION['nomeAluno'] = $row[1];
-            $conexao -> close();
+            $connect -> close();
             
             header('Location: pagina1.php', true, 301);
             exit();
         } else {
             
-            $conexao -> close();
+            $connect -> close();
             header('Location: index.php', true, 301);
         }
     }
