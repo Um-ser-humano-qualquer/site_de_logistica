@@ -16,16 +16,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
-.divLoginn{
+.divLogim{
     height: auto;
     top: 50%;
-    left: 70%;
+    right: 70%;
     transform: translate(-50% , -50%);
     position: fixed;
-    padding: 20px 20px;
-    background-color: #fff;
-    border-radius:15px;
-    box-shadow: 5px 17px 20px 0px #0000007f;
+    padding: 72px 20px;
+    background-color: #2a72f8;
+    border-radius:100px;
+    box-shadow: 15px 17px 20px 0px #0000007f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

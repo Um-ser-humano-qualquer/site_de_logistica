@@ -8,14 +8,20 @@
     <body class="fundo" background="img/fundo_profLogin.png">	
 
             <center>
-			<div class="divLoginn">
-			<form method="post" action="cadastro.php" id="formcadastro" name="formcadastro">
-				<h1>Login de professores:</h1>
-
+			<div class="divLogin">
+			<form method="post" action="loginAluno.php" id="formcadastro" name="formcadastro">
+				<h1>Login de Professor:</h1>
+                <br>
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
 				<br>
+                <br>
 				<input type="text" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
 				<br>
+                <br>
+                <input type="submit" value="registrar" class="botao"/>
+                
+			</form>
+			</div>
                 <a href="index.php" class="">Você é um aluno? Clique aqui!</a>
 			</form>
 			</div>
