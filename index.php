@@ -53,14 +53,14 @@
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
 				<br>
                 <br>
-				<input type="text" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
+				<input type="password" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
 				<br>
                 <br>
                 <input type="submit" value="Entrar" class="botaoo"/>
                 
 			</form>
 			</div>
-            <a href="signupProf.php" class="link">Você é um professor? Clique aqui!</a>
+            <a href="loginProf.php" class="link">Você é um professor? Clique aqui!</a>
             </center>
             
     </body>
