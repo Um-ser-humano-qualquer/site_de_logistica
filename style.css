@@ -3,42 +3,13 @@
     position: relative;
     
 }
-.divLoginL{
-    height: auto;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50% , -50%);
-    position:fixed;
-    padding: 72px 20px;
-    background-color: #2a72f8;
-    border-radius:100px;
-    box-shadow: 15px 17px 20px 0px #0000007f;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-}
-.divLogim{
-    height: auto;
-    top: 50%;
-    right: 70%;
-    transform: translate(-50% , -50%);
-    position: fixed;
-    padding: 72px 20px;
-    background-color: #2a72f8;
-    border-radius:100px;
-    box-shadow: 15px 17px 20px 0px #0000007f;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 .divLogin :visited{
     color: #000000;
     font-weight: bolder;
 }
 
-.fundo{
-    position: absolute;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+
 
 .caixaTexto{
     font-size: 2em;
@@ -56,39 +27,6 @@
     border-style: hidden;
     border-top-style: solid;
     padding-inline-start: 15px;
-}
-.botao{
-    background-color: rgb(77, 190, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 9rem;
-    height: 2rem;   
-    border-radius: 15px;
-    color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
-}
-.botao2{
-    position: absolute;
-    background-color: rgb(0 150 160);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 5%;
-    height: 3.2%;   
-    border-radius: 15px;
-    color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    left: 18.5%;
-    top: 1%;
-    cursor: pointer;
 }
 .link{
     position: fixed;
