@@ -69,7 +69,7 @@
                 
 			</form>
 			</div>
-                <a href="index.php" class="linkR">Você é um aluno? Clique aqui!</a>
+                <a href="pagina1Aluno.php" class="linkR">Você é um aluno? Clique aqui!</a>
 			</form>
 			</div>
             <p></p>
