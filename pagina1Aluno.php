@@ -15,14 +15,27 @@
         box-sizing: border-box;
         font-family: 'Outfit', sans-serif;
     }
+
     body{
-        height: 100vh;
+        height: 900vh;
     }
+
     nav.menu-lateral{
-        width: 300px;
+        width: 70px;
         height: 100%;
         background-color: #202020;
         padding: 40px o 40px 1%;
+        box-shadow: 3px 0 0 #FF0077;
+
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        overflow: hidden;
+        transition: .2s;
+    }
+
+    nav.menu-lateral:hover{
+        width: 300px;
     }
 
     .btn-expandir{
@@ -40,6 +53,14 @@
         height: 100%;
         list-style-type: none;
     }
+
+    ul li.item-menu{
+        transition: .5s;
+    }
+
+    ul li.item-menu:hover{
+        background: #FF0077;
+    }
     
     ul li.item-menu a{
         color: #fff;
@@ -48,8 +69,17 @@
         padding: 20px 4%;
         display: flex;
         margin-bottom: 20px;
+        line-height: 40px;
     }
-    
+
+    ul li.item-menu a .txt-link{
+        margin-left: 40px;
+
+    }
+    ul li.item-menu a .icon > i{
+        font-size: 30px;
+        margin-left: 15px;
+    }
 
 </style>
 </head>
@@ -90,5 +120,8 @@
 
     </nav>
 
+    <script src="menu.js">
+
+    </script>
 </body>
 </html>
