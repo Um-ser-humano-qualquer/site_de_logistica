@@ -20,7 +20,7 @@
 
        $SQL = "SELECT   `idAluno`, `emailAluno` FROM `alunos`
             WHERE `emailAluno` = '".$emailAluno."'
-            AND `senha` = '".$senhaAluno."'
+            AND `senhaAluno` = '".$senhaAluno."'
             And `ativo` = 's';";
 
         $result = $connect->query($SQL);
