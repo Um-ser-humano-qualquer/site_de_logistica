@@ -48,7 +48,7 @@
             <center>
             <img src="img/senai-logo.png" class="senaiLogo" alt="Image" height="420" width="420">
 			<div class="divLoginL">
-			<form method="post" action="loginAluno.php" id="formcadastro" name="formcadastro">
+			<form method="post" action="processoLogin.php" id="formcadastro" name="formcadastro">
 				<h1 >Login de alunos:</h1>
                 <br>
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
