@@ -40,8 +40,6 @@
     cursor: pointer;
     }
 
-<<<<<<< Updated upstream
-
     </style>
     </head>
     <body class="fundo" background="img/fundo_alunoLogin.png">	
@@ -53,16 +51,6 @@
 				<h1 >Login de alunos:</h1>
                 <br>
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
-=======
-	
-    	<input type="checkbox" id="bancoProf" name="bancoProf" checked />
-    	<label for="signupProfOk"> Fazer login como professor </label>
-	
-            
-            <input type="text" placeholder='Email' name="emailUsuario" class="caixaTexto" id="emailUsuario" size="20"><br />
-				
-				<input type="password" placeholder='Senha' name="senha" class="caixaTexto" id="senha" size="20">
->>>>>>> Stashed changes
 				<br>
                 <br>
 				<input type="password" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
