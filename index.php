@@ -2,7 +2,7 @@
     <head>
         <title>Logística Senai</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
     <style>
     .divLoginL{
     height: auto;
@@ -47,7 +47,7 @@
             <center>
             <img src="img/senai-logo.png" class="senaiLogo" alt="Image" height="420" width="420">
 			<div class="divLoginL">
-			<form method="post" action="php/processoLogin.php" id="formcadastro" name="formcadastro">
+			<form method="post" action="processoLogin.php" id="formcadastro" name="formcadastro">
 				<h1 >Login de alunos:</h1>
                 <br>
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
@@ -60,7 +60,7 @@
                 
 			</form>
 			</div>
-            <a href="php/loginProf.php" class="link">Você é um professor? Clique aqui!</a>
+            <a href="loginProf.php" class="link">Você é um professor? Clique aqui!</a>
             </center>
             
     </body>

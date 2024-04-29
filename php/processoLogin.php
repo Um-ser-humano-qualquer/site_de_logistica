@@ -32,12 +32,12 @@
             $_SESSION['nomeAluno'] = $row[1];
             $connect -> close();
             
-            header('Location: html/pagina1Aluno.php', true, 301);
+            header('Location: pagina1Aluno.php', true, 301);
             exit();
         } else {
             
             $connect -> close();
-            header('Location: index.html', true, 301);
+            header('Location: index.php', true, 301);
         }
     }
 
