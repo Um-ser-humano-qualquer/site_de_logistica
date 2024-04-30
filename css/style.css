@@ -28,7 +28,7 @@
     left: 30%;
     transform: translate(-50% , -50%);
     position:fixed;
-    padding: 60px 20px;
+    padding: 72px 20px;
     background-color: #237deb;
     border-radius:100px;
     box-shadow: 15px 17px 20px 0px #0000007f;
@@ -58,32 +58,31 @@
     cursor: pointer;
     }
 
-.linkL{
-    position: absolute;
-    left: 20%;
-    top: 90%;
-    color: #fff;
-}
-
-.linkR{
-    position: absolute;
+.link{
+    position: fixed;
     left: 24%;
-    top: 90%;
+    top: 69%;
     color: #fff;
 }
-
 .divLogin{
     height: auto;
     top: 50%;
     right: 6%;
     transform: translate(-50% , -50%);
     position: fixed;
-    padding: 60px 20px;
+    padding: 72px 20px;
     background-color: #1cabd6;
     border-radius:100px;
     box-shadow: 15px 17px 20px 0px #0000007f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
+    }
+
+.linkR{
+    position: fixed;
+    left: 65%;
+    top: 69%;
+    color: #fff;
     }
 
 .botao{
