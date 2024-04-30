@@ -25,7 +25,7 @@
 				<br>
                 <br>
                 <button class="btn btn-1 btn-sep icon-info">acessar</button>
-                <a href="loginProf.html" class="linkL">Você é um professor? Clique aqui!</a>
+                <a href="loginProf.php" class="linkL">Você é um professor? Clique aqui!</a>
 			</form>
 			</div>
             </center>
