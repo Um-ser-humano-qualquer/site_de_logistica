@@ -2,8 +2,7 @@
     <head>
         <title>Logística Senai</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <style>
 
 .divLogin{
@@ -56,7 +55,7 @@
             <center>
             <img src="img/senai-logo.png" class="senaiLogo" alt="Image" height="420" width="420">
 			<div class="divLogin">
-			<form method="post" action="login.php" id="login" name="login">
+			<form method="post" action="php/processoLoginP.php" id="login" name="login">
 				<h1>Login de Professor:</h1>
                 <br>
 				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
