@@ -13,6 +13,31 @@
 </head>
 
 <body>
+
+ <div class="divLogin">
+
+            <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
+            <form method="post" action="pagina1Aluno.html" id="formcadastro" name="formcadastro" >
+            <br>
+            <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
+            <br>
+            <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br />
+            <br>
+            <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br />
+            <br>
+            <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br/>
+            <br>
+            <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
+            <br>
+            <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo"><br/>
+            <br>
+            <input type="text" name="Lacre" id="Lacre" size="20" class="caixaTexto" placeholder="Lacre"><br/>
+            <br>
+            <input type="submit" value="registrar" class="botao"/>
+            <p></p>
+
+        </form>
+        </div>
     <nav class="menu-lateral">
 
         <div class="btn-expandir">
@@ -45,35 +70,11 @@
                 </a>
             </li>
         </ul>
-
+    
     </nav>
 
-    <script src="js/menu.js"></script>
+    <script src="js/menu.js"></script>   
 
-    <div class="divLogin">
-
-            <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
-            <form method="post" action="pagina1Aluno.html" id="formcadastro" name="formcadastro" >
-
-            <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
-            <br>
-            <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br />
-            <br>
-            <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br />
-            <br>
-            <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br/>
-            <br>
-            <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
-            <br>
-            <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo"><br/>
-            <br>
-            <input type="text" name="Lacre" id="Lacre" size="20" class="caixaTexto" placeholder="Lacre"><br/>
-            <br>
-            <input type="submit" value="registrar" class="botao"/>
-            <p></p>
-
-        </form>
-        </div>
         </center>
 
 </body>
