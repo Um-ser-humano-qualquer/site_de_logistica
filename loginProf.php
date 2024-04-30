@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="css/stylep.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/styleDoBotao.css">
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -25,7 +25,7 @@
 				<br>
                 <br>
                 <button class="btn btn-2 btn-sep icon-info">acessar</button>
-                <a href="pagina1Aluno.html" class="linkR">Você é um aluno? Clique aqui!</a>
+                <a href="pagina1Aluno.php" class="linkR">Você é um aluno? Clique aqui!</a>
 			</form>
             </div>
             </center>

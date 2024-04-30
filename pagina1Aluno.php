@@ -18,7 +18,7 @@
 
         <ul>
             <li class="item-menu">
-                <a href="pagina2.html">
+                <a href="pagina2.php">
                     <span class="icon"><i class="bi bi-house"></i></span>
                     <span class="txt-link">Home</span>
                 </a>

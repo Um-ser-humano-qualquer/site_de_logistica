@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="css/stylep.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/styleDoBotao.css">
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
 
-    <body class="fundo" background="img/fundo_alunoLogin.png">	
+    <body class="fundo" background="img/fundo_AlunoLogin.png">
 
             <center>
             <img src="img/senai-logo.png" class="senaiLogoL" alt="Image" height="420" width="420">
