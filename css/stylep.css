@@ -1,0 +1,108 @@
+.divLogin :visited{
+    color: #000000;
+    font-weight: bolder;
+}
+
+.caixaTexto{
+    font-size: 2em;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+    
+}
+.caixaTexto2{
+    font-size: 160%;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+
+}
+
+.divLoginL{
+    height: auto;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50% , -50%);
+    position:fixed;
+    padding: 60px 20px;
+    background-color: #237deb;
+    border-radius:100px;
+    box-shadow: 15px 17px 20px 0px #0000007f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+
+    }
+.senaiLogoL{
+    position: fixed;
+    top: -11%;
+    left: 1%;
+    }
+    
+.botaoo{
+    background-color: #1b68c4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 9rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    }
+
+.linkL{
+    position: absolute;
+    left: 20%;
+    top: 90%;
+    color: #fff;
+}
+
+.linkR{
+    position: absolute;
+    left: 24%;
+    top: 90%;
+    color: #fff;
+}
+
+.divLogin{
+    height: auto;
+    top: 50%;
+    right: 6%;
+    transform: translate(-50% , -50%);
+    position: fixed;
+    padding: 60px 20px;
+    background-color: #1cabd6;
+    border-radius:100px;
+    box-shadow: 15px 17px 20px 0px #0000007f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    }
+
+.botao{
+    background-color: #1e96ba;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 9rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+.senaiLogoR{
+    position: fixed;
+    top: -11%;
+    left: 77%;
+}
