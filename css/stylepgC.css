@@ -5,8 +5,10 @@
     transform: translate(-50% , -50%);
     position: absolute;
     padding: 130px 520px;
-    background-color: #0370d6bb;
+    background-color: #217ef09a;
     border-radius:15px;
+    box-shadow: 15px 17px 20px 0px #0000007f;
+    border-radius:100px;
 }
 .caixaTexto{
     font-size: 2em;

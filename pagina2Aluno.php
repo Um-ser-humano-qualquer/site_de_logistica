@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/stylepg2.css">
+    <link rel="stylesheet" href="css/stylepgC.css">
     <link rel="stylesheet" href="css/styleDoMenu.css">
     <link rel="stylesheet" href="css/styleDoBotao.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,12 @@
 
 </head>
 
-<body>
+<body background="img/fundo_conteiner.png">
 
  <div class="divLogin">
 
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
-            <form method="post" action="pagina1Aluno.html" id="formcadastro" name="formcadastro" >
+            <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro" >
             <br>
             <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
             <br>

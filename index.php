@@ -16,12 +16,12 @@
             <img src="img/senai-logo.png" class="senaiLogoL" alt="Image" height="420" width="420">
 			<div class="divLoginL" class="text-box">
 			<form method="post" action="processoLogin.php" id="formcadastro" name="formcadastro">
-				<h1 >Login de alunos:</h1>
+				<h1>Login de alunos:</h1>
                 <br>
-				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
+				<input type="text" name="emailAluno" id="emailAluno" size="20" class="caixaTexto" placeholder="email"><br/>
 				<br>
                 <br>
-				<input type="password" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
+				<input type="password" name="senhaAluno" id="senhaAluno" size="20" class="caixaTexto" placeholder="senha"><br/>
 				<br>
                 <br>
                 <button class="btn btn-1 btn-sep icon-info">acessar</button>
