@@ -25,7 +25,7 @@
 				<br>
                 <br>
                 <button class="btn btn-2 btn-sep icon-info">acessar</button>
-                <a href="pagina2Prof.php" class="linkR">Você é um aluno? Clique aqui!</a>
+                <a href="pagina1aluno.php" class="linkR">Você é um aluno? Clique aqui!</a>
 			</form>
             </div>
             </center>
