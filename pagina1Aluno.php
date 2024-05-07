@@ -17,14 +17,14 @@
         </div>
 
         <ul>
-            <li class="item-menu">
-                <a href="pagina2Aluno.php">
+            <li class="item-menu ativo">
+                <a href="">
                     <span class="icon"><i class="bi bi-house"></i></span>
                     <span class="txt-link">Home</span>
                 </a>
             </li>
             <li class="item-menu">
-                <a href="">
+                <a href="pagina2Aluno.php">
                     <span class="icon"><i class="bi bi-columns-gap"></i></span>
                     <span class="txt-link">Armazém</span>
                 </a>

@@ -14,14 +14,14 @@
 
             <center>
             <img src="img/senai-logo.png" class="senaiLogoR" alt="Image" height="420" width="420">
-			<div class="divLogin">
-			<form method="post" action="login.php" id="login" name="login">
+			<div class="divLogin" class="text-box">
+			<form method="post" action="processoLoginProf.php" id="login" name="login">
 				<h1>Login de Professor:</h1>
                 <br>
-				<input type="text" name="email" id="email" size="20" class="caixaTexto" placeholder="email"><br/>
+				<input type="text" name="emailProf" id="emailProf" size="20" class="caixaTexto" placeholder="email"><br/>
 				<br>
                 <br>
-				<input type="password" name="senha" id="senha" size="20" class="caixaTexto" placeholder="senha"><br/>
+				<input type="password" name="senhaProf" id="senhaProf" size="20" class="caixaTexto" placeholder="senha"><br/>
 				<br>
                 <br>
                 <button class="btn btn-2 btn-sep icon-info">acessar</button>
