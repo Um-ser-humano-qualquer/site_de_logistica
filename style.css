@@ -41,17 +41,19 @@
     right: 250px;
 }
 
-.divLoginRR{
+nav.transicao{
+    transform: translate(-50% , -50%);
+    position: absolute;
     height: auto;
     top: 50%;
-    left: 63%;
-    transform: translate(-50% , -50%);
-    position:fixed;
-    padding: 324px 270px;
+    left: 62.5%;
     background-color: #ffffff;
+    padding: 324px 270px;
+    overflow: hidden;
+    transition: .5s;
     border-radius:100px;
-    color: rgb(255, 255, 255);
 }
+
 .senaiLogoL{
     position: fixed;
     top: 19%;

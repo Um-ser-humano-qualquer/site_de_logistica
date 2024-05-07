@@ -30,9 +30,11 @@
 			</form>
             </div>
 			</div>
-            <div class="divLoginRR">
-            <img src="img/senai-logo.png" class="senaiLogoL" alt="Image" height="420" width="420">
-            </div>
+            <nav class="transicao">
+                <div class="btn-expandir">
+                <img src="img/senai-logo.png" class="senaiLogoL" alt="Image" height="420" width="420">
+                </div>
+            </nav>
             </center>
             
     </body>
