@@ -25,21 +25,39 @@
 .divLoginL{
     height: auto;
     top: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50% , -50%);
     position:fixed;
-    padding: 60px 20px;
+    padding: 170px 300px;
     background-color: #237deb;
     border-radius:100px;
     box-shadow: 15px 17px 20px 0px #0000007f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-
     }
+
+.divLoginLL{
+    position: relative;
+    right: 250px;
+}
+
+nav.transicao{
+    transform: translate(-50% , -50%);
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 62.5%;
+    background-color: #ffffff;
+    padding: 324px 270px;
+    overflow: hidden;
+    transition: .5s;
+    border-radius:100px;
+}
+
 .senaiLogoL{
     position: fixed;
-    top: -11%;
-    left: 1%;
+    top: 19%;
+    left: 11.5%;
     }
     
 .botaoo{
@@ -60,8 +78,8 @@
 
 .linkL{
     position: absolute;
-    left: 20%;
-    top: 90%;
+    left: 18%;
+    top: 130%;
     color: #fff;
 }
 

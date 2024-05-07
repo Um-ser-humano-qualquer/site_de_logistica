@@ -47,13 +47,13 @@
 
         <ul>
             <li class="item-menu">
-                <a href="pagina2.html">
+                <a href="pagina1Aluno.php">
                     <span class="icon"><i class="bi bi-house"></i></span>
                     <span class="txt-link">Home</span>
                 </a>
             </li>
-            <li class="item-menu">
-                <a href="">
+            <li class="item-menu ativo">
+                <a href="pagina2.html">
                     <span class="icon"><i class="bi bi-columns-gap"></i></span>
                     <span class="txt-link">Armazém</span>
                 </a>

@@ -24,7 +24,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="pagina2Aluno.php">
+                <a href=".php">
                     <span class="icon"><i class="bi bi-columns-gap"></i></span>
                     <span class="txt-link">Armazém</span>
                 </a>
