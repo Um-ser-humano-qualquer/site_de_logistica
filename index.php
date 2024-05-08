@@ -11,7 +11,7 @@
         <div class="container">
             <div class="content first-content">
                 <div class="second-column">
-                    <h2 class="title title-second">login de Aluno</h2>
+                    <a href="pagina1Aluno.php">aqui</a>
                     <br>
                     <form action="post" action="processoLoginAluno.php" class="form">
                         <input type="email" name="emailAluno" id="emailAluno" placeholder="email">
@@ -23,20 +23,23 @@
                 </div> 
                 <div class="first-column">
                     <img src="img/senai-logo.png" class="senaiLogo">
-                    <a href="" class="linkR">Você é um professor? Clique aqui!</a>
+                    <button class="btn-link btn-link-right">Você é um professor? Clique aqui!</button>
                 </div>
             </div>
             <div class="content second-content">
-                <div class="first-column"></div>
-                    <h2 class="title">Você é um Aluno?</h2>
-                    <button class="btn">clique aqui!</button>
+                <div class="first-column">
+                    <button class="btn-link btn-link-left">Você é um Aluno? Clique aqui!</button>
                 <div class="second-column">
-                    <h2 class="title">login de Professor</h2>
-                    <form action="post" action="processoLoginProf.php">
-                        <input type="email" name="emailAluno" id="emailAluno" placeholder="email">
-                        <input type="password" name="senhaAluno" id="senhaAluno" placeholder="senha">
-                        <button class="btn">acessar</button>
+                    <h2 class="title title-second">Login de Professor</h2>
+                    <br>
+                    <form action="post" action="processoLoginProf.php" class="form">
+                        <input type="email" name="emailProf" id="emailProf" placeholder="email">
+                        <br>
+                        <input type="password" name="senhaProf" id="senhaProf" placeholder="senha">
+                        <br>
+                        <button class="btn-second btn-right">acessar</button>
                     </form>
+                    </div>
                 </div> 
             </div> 
     </body>

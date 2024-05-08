@@ -44,14 +44,20 @@ body{
     background-color: rgb(255, 255, 255);
     width: 50%;
     height: 100%;
-    left: 474px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
+
+    order: 10;
+    right: 0%;
 }
 
 .title{
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+
+.title-primary{
+    color: #000000;
+    z-index: 1;
 }
 
 .title-second{
@@ -82,6 +88,34 @@ body{
 .btn-second:hover{
     background-color: transparent;
     color: #fff;
+}
+
+.btn-link{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: rgb(0, 136, 255);;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn-link-right{
+    position: relative;
+    top: 265px;
+    right: 10px;
+}
+
+.btn-link-left{
+    position: relative;
+    top: 265px;
+    right: 50px;
+}
+
+.link{
+    color: #000000;
+    z-index: 1;
 }
 
 .first-content{
@@ -123,22 +157,15 @@ body{
     padding-inline-start: 15px;
 }
 
-.linkR{
-    position: relative;
-    top: 265px;
-    right: 10px;
-    color: rgb(0, 136, 255);
-}
-
 .second-content{
     position: absolute;
     display: none;
 }
 
 .second-content .first-column{
-    order: 2;
+    order: 0;
 }
 
 .second-column .second-content{
-    order: 1;
+    order: 0;
 }
