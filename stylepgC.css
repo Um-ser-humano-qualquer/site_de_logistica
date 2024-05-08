@@ -1,15 +1,28 @@
 .divLogin{
-    height: auto;
-    top: 68%;
-    left: 54%;
     transform: translate(-50% , -50%);
-    position: absolute;
-    padding: 130px 520px;
-    background-color: #217ef09a;
+    padding: 20px 50px;
+    background-color: #057AFF;
     border-radius:15px;
-    box-shadow: 15px 17px 20px 0px #0000007f;
-    border-radius:100px;
+    border-radius:10px;
 }
+
+.divLogin-left{
+    height: auto;
+    top: 50%;
+    left: 27%;
+    position: absolute;
+    padding: 40px 60px;
+}
+
+.divLogin-Right{
+    height: auto;
+    top: 50%;
+    right: -18%;
+    position: absolute;
+    z-index: 1;
+    padding: 46px 90px;
+}
+
 .caixaTexto{
     font-size: 2em;
     border-radius: 30px;
@@ -37,8 +50,3 @@
     cursor: pointer;
 }
 
-.texto{
-    position: fixed;
-    top: -13%;
-    left: 12%;
-}
