@@ -22,15 +22,13 @@
 }
 
 .divLoginG{
-    height: auto;
-    top: 50%;
-    left: 50%;
+    top: 52%;
+    left: 54%;
     transform: translate(-50% , -50%);
     position: absolute;
-    padding: 324.3px 504.5px;
-    background-color: #237deb;
-    border-radius:100px;
-    box-shadow: 15px 17px 20px 0px #0000007f;
+    padding: 430px 604px;
+    background-color: #004089;
+    border-radius:20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
@@ -91,7 +89,7 @@ nav.transicao{
     }
 
 .botao{
-    background-color: #1e96ba;
+    background-color: #FF6C01;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 9rem;
     height: 2rem;   
@@ -109,4 +107,15 @@ nav.transicao{
     position: fixed;
     top: -11%;
     left: 77%;
+}
+
+.fundinho{
+    background-image: url("img/lindo_fund.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+.fundinho2{
+    background-image: url("img/lirio.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
 }
