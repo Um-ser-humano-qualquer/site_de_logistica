@@ -10,8 +10,8 @@
     border-style: hidden;
     border-top-style: solid;
     padding-inline-start: 15px;
-    
 }
+
 .caixaTexto2{
     font-size: 160%;
     border-radius: 30px;
@@ -19,26 +19,46 @@
     border-style: hidden;
     border-top-style: solid;
     padding-inline-start: 15px;
-
 }
 
-.divLoginL{
+.divLoginG{
     height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    position:fixed;
-    padding: 170px 300px;
+    position: absolute;
+    padding: 324.3px 504.5px;
     background-color: #237deb;
     border-radius:100px;
     box-shadow: 15px 17px 20px 0px #0000007f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    }
+}
 
-.divLoginLL{
-    position: relative;
-    right: 250px;
+.divLoginL{
+    position: absolute;
+    right: 575px;
+    top: 140px;
+}
+
+.divLoginR{
+    position: absolute;
+    left: 575px;
+    top: 140px;
+}
+
+.linkL{
+    position: absolute;
+    left: 18%;
+    top: 100%;
+    color: #fff;
+}
+
+.linkR{
+    position: absolute;
+    left: 24%;
+    top: 100%;
+    color: #fff;
 }
 
 nav.transicao{
@@ -53,12 +73,6 @@ nav.transicao{
     transition: .5s;
     border-radius:100px;
 }
-
-.senaiLogoL{
-    position: fixed;
-    top: 19%;
-    left: 11.5%;
-    }
     
 .botaoo{
     background-color: #1b68c4;
@@ -74,34 +88,6 @@ nav.transicao{
     border-right-color: #ffffff00;
     border-top-color: #ffffff00;
     cursor: pointer;
-    }
-
-.linkL{
-    position: absolute;
-    left: 18%;
-    top: 130%;
-    color: #fff;
-}
-
-.linkR{
-    position: absolute;
-    left: 24%;
-    top: 90%;
-    color: #fff;
-}
-
-.divLogin{
-    height: auto;
-    top: 50%;
-    right: 6%;
-    transform: translate(-50% , -50%);
-    position: fixed;
-    padding: 60px 20px;
-    background-color: #1cabd6;
-    border-radius:100px;
-    box-shadow: 15px 17px 20px 0px #0000007f;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
     }
 
 .botao{
