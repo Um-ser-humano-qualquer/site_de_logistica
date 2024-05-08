@@ -27,11 +27,6 @@
                 </div>
             </div>
             <div class="content second-content">
-                <div class="first-column">
-                    <button class="btn-link btn-link-left">Você é um Aluno? Clique aqui!</button>
-                <div class="second-column">
-                    <h2 class="title title-second">Login de Professor</h2>
-                    <br>
                     <form action="post" action="processoLoginProf.php" class="form">
                         <input type="email" name="emailProf" id="emailProf" placeholder="email">
                         <br>
@@ -39,7 +34,12 @@
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>
-                    </div>
+                <div class="first-column">
+                    <button class="btn-link btn-link-left">Você é um Aluno? Clique aqui!</button>
+                <div class="second-column">
+                    <h2 class="title title-second">Login de Professor</h2>
+                    <br>
+                </div>
                 </div> 
             </div> 
     </body>
