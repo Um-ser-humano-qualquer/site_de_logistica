@@ -31,7 +31,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="">
+                <a href="pagina3Aluno.php">
                     <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                     <span class="txt-link">Movimentação</span>
                 </a>

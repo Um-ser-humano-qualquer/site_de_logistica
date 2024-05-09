@@ -233,7 +233,7 @@ input:-webkit-autofill
 .sign-in-js .content::before {
     right: 50%;
     border-radius: 50px;
-    animation: slidein 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: slidein 1s; 
     z-index: 12;
 }
 

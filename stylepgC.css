@@ -13,6 +13,12 @@
     position: absolute;
     padding: 40px 60px;
 }
+.fundinhoA{
+    background-image: url("img/mandaraio.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+
 
 .divLogin-Right{
     height: auto;
@@ -21,6 +27,17 @@
     position: absolute;
     z-index: 1;
     padding: 46px 90px;
+}
+.divLoginD{
+    top: 52%;
+    left: 54%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 430px 604px;
+    background-color: #004089;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .caixaTexto{
@@ -49,4 +66,5 @@
     top: 1%;
     cursor: pointer;
 }
+
 
