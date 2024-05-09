@@ -9,13 +9,42 @@ body{
     background-image: url("img/fundo_login.png");  
 }
 
-.senaiLogo{
+.senaiLogo1{
     position: fixed;
     top: 29%;
-    right: 27.5%;
+    right: 27.3%;
+    width: 20%;
+    height: 40%;
+    transition: 1s;
+    }
+
+.senaiLogo2{
+    position: fixed;
+    top: 29%;
+    right: 52.5%;
     width: 20%;
     height: 40%;
     }
+
+.btn-link-right{
+    position: relative;
+    top: 265px;
+    right: 250px;
+}
+
+.btn-link-left{
+    position: relative;
+    top: 265px;
+    right: 420px;
+}
+
+.btn-link-left:hover{
+    color: rgb(2, 102, 190);
+}
+
+.btn-link-right:hover{
+    color: rgb(2, 102, 190);
+}
 
 .container{
     display: flex;
@@ -46,7 +75,6 @@ body{
     height: 100%;
     border-radius: 50px;
 
-    order: 10;
     right: 0%;
 }
 
@@ -57,7 +85,6 @@ body{
 
 .title-primary{
     color: #000000;
-    z-index: 1;
 }
 
 .title-second{
@@ -78,6 +105,7 @@ body{
 .btn-second{
     background-color: rgb(255, 255, 255);
     border: 1px solid;
+    transition: background-color .5s;
 }
 
 .btn-second:active{
@@ -101,43 +129,45 @@ body{
     z-index: 1;
 }
 
-.btn-link-right{
-    position: relative;
-    top: 265px;
-    right: 150px;
-}
-
-.btn-link-left{
-    position: relative;
-    top: 360px;
-    right: 225px;
-}
-
-.link{
-    color: #000000;
-    z-index: 1;
-}
-
 .first-content{
     display: flex;
 }
 
+.first-content .second-column{
+    z-index: 11;
+}
+
 .first-column{
     text-align: center;
-    flex: 1 0 auto;
+    width: 40%;
     z-index: 10;
+}
+
+.first-position1{
     position: relative;
     left: 210px;
-    display: flex;
+}
+
+.first-position2{
+    position: relative;
+    right: 110px;
 }
 
 .second-column{
-    flex: 2 0 auto;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.second-position1{
     position: relative;
     left: -25px;
+}
+
+.second-position2{
+    position: relative;
+    left: 430px;
 }
 
 .form{
@@ -159,15 +189,97 @@ body{
     border-top-style: solid;
     padding-inline-start: 15px;
 }
+input:-webkit-autofill 
+{    
+    -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify {
+    color: #7f8c8d;
+    padding: 0 5px;
+}
 
 .second-content{
-    display: none;
+    position: absolute;
+    display: flex;
 }
 
 .second-content .first-column{
-    order: 0;
+    order: 2;
+    z-index: -1;
 }
 
 .second-column .second-content{
-    order: 0;
+    order: 1;
+    z-index: -1;
+}
+
+.sign-in-js .first-content .first-column {
+    z-index: -1;
+}
+
+.sign-in-js .second-content .second-column {
+    z-index: 11;
+}
+.sign-in-js .second-content .first-column {
+    z-index: 13;
+}
+
+.sign-in-js .content::before {
+    right: 50%;
+    border-radius: 50px;
+    animation: slidein 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    z-index: 12;
+}
+
+.sign-up-js .content::before {
+    animation: slideout 1s; 
+    z-index: 12;
+}
+
+.sign-up-js .second-content .first-column,
+.sign-up-js .second-content .second-column{
+    z-index: -1;
+}
+
+.sign-up-js .first-content .second-column{
+    z-index: 11;
+}
+
+.sign-up-js .first-content .first-column{
+    z-index: 13;    
+}
+
+.sign-in-js .first-content .second-column{
+    position: relative;
+    z-index: -1;
+    animation: slidein 1s; 
+}
+
+@keyframes slidein {
+    
+    from{
+        right: 0%;
+    }
+
+    to{
+        right: 50%;
+    }
+}
+
+@keyframes slideout {
+    
+    from{
+        right: 50%;
+    }
+
+    to{
+        right: 0%;
+    }
 }
