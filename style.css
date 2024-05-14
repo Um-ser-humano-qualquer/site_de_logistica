@@ -181,3 +181,32 @@ input[type=checkbox]:checked:after {
     background-color: #db5d03;
     color: #fff;
 }
+
+.barra-superior{
+    width: 1879px;
+    height: 5%;
+    background-color: #237deb;
+    padding: 40px o 40px 1%;
+    position: fixed;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.perfil{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 37px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: .5%;
+    top: 10%;
+}
+
+.perfil:hover{
+    color: #e0e0e0;
+    transition: .2s;
+}

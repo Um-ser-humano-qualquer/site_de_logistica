@@ -11,6 +11,14 @@
 </head>
 <body class= "fundinho2">
 
+    <nav>
+        <div class="barra-superior">
+            <a href="profile.php">
+                <i class="bi bi-person-circle perfil"></i>
+            </a>
+        </div>
+    </nav>
+
     <nav class="menu-lateral">
 
         <div class="btn-expandir">
@@ -68,10 +76,6 @@
             </li>
         </ul>
 
-    </nav>
-
-    <nav>
-        <input type="text">
     </nav>
 
     <script src="js/menu.js"></script>
