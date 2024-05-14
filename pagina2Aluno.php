@@ -19,7 +19,7 @@
     <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
-            <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro" >
+            <form method="post" action="processoAluno2pg.php" id="formcadastro" name="formcadastro" >
             <br>
             <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
             <br>
@@ -42,9 +42,9 @@
             <input type="text" name="IMO" id="IMO" size="20" class="caixaTexto" placeholder="IMO"><br/>
             <br>
             <input type="text" name="N°ONU" id="N°ONU" size="20" class="caixaTexto" placeholder="N°ONU"><br/>
-            </form>
+            
         </div>
-
+        
         <div class="divLogin divLogin-Right">
         <h2 class="texto">Assinale se tiver algum problema: </h2><br>
             <h3><input type="checkbox" name="Conteiner bem desgastado" id="Conteiner bem desgastado" class="texto">Conteiner bem desgastado</h3>
@@ -79,7 +79,7 @@
             <p></p>
         </div>
     </div>
-
+</form>
         <nav class="menu-lateral">
 
         <div class="btn-expandir">
