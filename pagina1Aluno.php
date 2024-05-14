@@ -70,6 +70,10 @@
 
     </nav>
 
+    <nav>
+        <input type="text">
+    </nav>
+
     <script src="js/menu.js"></script>
 </body>
 </html>

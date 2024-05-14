@@ -165,3 +165,19 @@ input[type=checkbox]:checked:after {
     top: 4px;
     left: 9px;
 }
+
+.botao{
+    background-color: #FF6C01;
+    border: 1px solid;
+    transition: background-color .5s;
+}
+
+.botao:active{
+    position: relative;
+    top: 2px;
+}
+
+.botao:hover{
+    background-color: #db5d03;
+    color: #fff;
+}
