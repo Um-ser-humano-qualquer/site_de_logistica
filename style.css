@@ -183,7 +183,7 @@ input[type=checkbox]:checked:after {
 }
 
 .barra-superior{
-    width: 1879px;
+    width: 1920px;
     height: 5%;
     background-color: #237deb;
     padding: 40px o 40px 1%;
@@ -203,7 +203,7 @@ input[type=checkbox]:checked:after {
     cursor: pointer;
     position: absolute;
     right: .5%;
-    top: 10%;
+    top: 16%;
 }
 
 .perfil:hover{

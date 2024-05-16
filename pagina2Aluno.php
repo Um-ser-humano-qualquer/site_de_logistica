@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styleDoMenu.css">
+    <link rel="stylesheet" href="Menu.css">
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylepgC.css">
