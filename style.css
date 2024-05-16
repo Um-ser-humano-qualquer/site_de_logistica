@@ -203,7 +203,7 @@ input[type=checkbox]:checked:after {
     cursor: pointer;
     position: absolute;
     right: .5%;
-    top: 16%;
+    top: 12%;
 }
 
 .perfil:hover{
