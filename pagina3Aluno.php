@@ -42,20 +42,6 @@
             <center><input type="submit" value="registrar" class="botao"/></center>
                 <p></p>
             </div>
-            <div class="divLogin divLogin-Right">
-                <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo"><br/>
-                <br>
-                <input type="text" name="Lacre" id="Lacre" size="20" class="caixaTexto" placeholder="Lacre"><br/>
-                <br>
-                <input type="text" name="LacreSIF" id="LacreSIF" size="20" class="caixaTexto" placeholder="Lacre SIF"><br/>
-                <br>
-                <input type="text" name="Temperatura" id="Temperatura" size="20" class="caixaTexto" placeholder="Temperatura"><br/>
-                <br>
-                <input type="text" name="IMO" id="IMO" size="20" class="caixaTexto" placeholder="IMO"><br/>
-                <br>
-                <input type="text" name="N°ONU" id="N°ONU" size="20" class="caixaTexto" placeholder="N°ONU"><br/>
-                <center><input type="submit" value="registrar" class="botao"/></center>
-                <p></p>
             </div>
         </div>
 
