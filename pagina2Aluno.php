@@ -24,7 +24,7 @@
         </div>
     </nav>
 
-    <div class="divGeral">
+    <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
             <form method="POST0" action="processoAlunopg2.php" >
