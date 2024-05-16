@@ -134,8 +134,8 @@ input[type=checkbox]:before {
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 0;
-    left: 0;
+    top: -8.5px;
+    left: -8.5px;
     background-color:#e9e9e9;
     border-radius: 20%;
 }
@@ -145,8 +145,6 @@ input[type=checkbox]:checked:before {
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 0;
-    right: 0;
     background-color:#FF6C01;
     border-radius: 20%;
     border: 1px solid #fff;
@@ -162,8 +160,8 @@ input[type=checkbox]:checked:after {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     position: absolute;
-    top: 4px;
-    left: 9px;
+    top: -3px;
+    left: 2px;
 }
 
 .botao{
@@ -209,4 +207,9 @@ input[type=checkbox]:checked:after {
 .perfil:hover{
     color: #e0e0e0;
     transition: .2s;
+}
+
+.texto{
+    position: relative;
+    top: 0px;
 }
