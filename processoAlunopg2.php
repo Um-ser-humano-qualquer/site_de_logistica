@@ -13,8 +13,7 @@ if ($connect -> connect_errno) {
  exit();
  } else {
  
-   $placa_caminhao = $connect->real_escape_string($_POST['placa_caminhao']);
-
+ $placa_caminhao = $connect-> real_escape_string($_POST['placa_caminhao']);
  $nome_motorista = $connect -> real_escape_string($_POST['nome_motorista']);
  $container = $connect -> real_escape_string($_POST['container']);
  $navio = $connect -> real_escape_string($_POST['navio']);

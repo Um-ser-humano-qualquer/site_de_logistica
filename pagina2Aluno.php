@@ -24,10 +24,10 @@
         </div>
     </nav>
 
-    <div class="divLoginG">
+    <div class="divGeral">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
-            <form method="POST0" action="processoAluno2pg.php" >
+            <form method="POST0" action="processoAlunopg2.php" >
             <br>
             <input type="text" name="placa_caminhao" id="placa_caminhao" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
             <br>
