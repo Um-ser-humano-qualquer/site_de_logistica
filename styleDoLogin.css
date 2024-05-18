@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url("img/fundo_login.png");  
+    background-image: url("fundo_login.png");  
 }
 
 .senaiLogo1{
@@ -70,11 +70,9 @@ body{
 .content::before{
     content: "";
     position: absolute;
-    background-color: rgb(255, 255, 255);
     width: 50%;
     height: 100%;
     border-radius: 50px;
-
     right: 0%;
 }
 
@@ -158,6 +156,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .second-position1{
@@ -188,6 +187,7 @@ body{
     border-style: hidden;
     border-top-style: solid;
     padding-inline-start: 15px;
+
 }
 input:-webkit-autofill 
 {    
@@ -200,6 +200,7 @@ input:-webkit-autofill
     align-items: center;
     margin: 8px;
 }
+
 .icon-modify {
     color: #7f8c8d;
     padding: 0 5px;
@@ -227,6 +228,7 @@ input:-webkit-autofill
 .sign-in-js .second-content .second-column {
     z-index: 11;
 }
+
 .sign-in-js .second-content .first-column {
     z-index: 13;
 }
@@ -234,7 +236,7 @@ input:-webkit-autofill
 .sign-in-js .content::before {
     right: 50%;
     border-radius: 50px;
-    animation: slidein 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: slidein 1s; 
     z-index: 12;
 }
 
@@ -256,19 +258,17 @@ input:-webkit-autofill
     z-index: 13;    
 }
 
-.sign-in-js .first-content .second-column{
+.sign-in-js .first-content .second-column {
     position: relative;
+    right: 50%;
     z-index: -1;
-    animation: slidein 1s; 
 }
 
 @keyframes slidein {
-    
-    from{
+    from {
         right: 0%;
     }
-
-    to{
+    to {
         right: 50%;
     }
 }
