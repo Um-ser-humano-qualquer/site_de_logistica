@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styleDoMenu.css">
+    <link rel="stylesheet" href="Menu.css">
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylepgC.css">
@@ -16,35 +16,43 @@
 
 <body class="fundinho">
 
+    <nav>
+        <div class="barra-superior">
+            <a href="profile.php">
+                <i class="bi bi-person-circle perfil"></i>
+            </a>
+        </div>
+    </nav>
+
     <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
-            <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro" >
+            <form method="POST0" action="processoAlunopg2.php" >
             <br>
-            <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
+            <input type="text" name="placa_caminhao" id="placa_caminhao" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
             <br>
-            <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br />
+            <input type="text" name="nome_motorista" id="nome_motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br />
             <br>
-            <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br />
+            <input type="text" name="container" id="container" size="20" class="caixaTexto" placeholder="Container"><br />
             <br>
-            <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br/>
+            <input type="text" name="navio" id="navio" size="20" class="caixaTexto" placeholder="Navio"><br/>
             <br>
-            <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
+            <input type="text" name="cliente" id="cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
             <br>
-            <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo"><br/>
+            <input type="text" name="tipo" id="tipo" size="20" class="caixaTexto" placeholder="Tipo"><br/>
             <br>
-            <input type="text" name="Lacre" id="Lacre" size="20" class="caixaTexto" placeholder="Lacre"><br/>
+            <input type="text" name="lacre" id="lacre" size="20" class="caixaTexto" placeholder="Lacre"><br/>
             <br>
-            <input type="text" name="LacreSIF" id="LacreSIF" size="20" class="caixaTexto" placeholder="Lacre SIF"><br/>
+            <input type="text" name="lacre_sif" id="lacre_sif" size="20" class="caixaTexto" placeholder="Lacre SIF"><br/>
             <br>
-            <input type="text" name="Temperatura" id="Temperatura" size="20" class="caixaTexto" placeholder="Temperatura"><br/>
+            <input type="text" name="temperatura" id="tmperatura" size="20" class="caixaTexto" placeholder="Temperatura"><br/>
             <br>
             <input type="text" name="IMO" id="IMO" size="20" class="caixaTexto" placeholder="IMO"><br/>
             <br>
-            <input type="text" name="N°ONU" id="N°ONU" size="20" class="caixaTexto" placeholder="N°ONU"><br/>
-            </form>
+            <input type="text" name="n_onu" id="n_onu" size="20" class="caixaTexto" placeholder="N°ONU"><br/>
+            
         </div>
-
+        
         <div class="divLogin divLogin-Right">
         <h2 class="texto">Assinale se tiver algum problema: </h2><br>
             <h3><input type="checkbox" name="Conteiner bem desgastado" id="Conteiner bem desgastado" class="texto">Conteiner bem desgastado</h3>
@@ -79,7 +87,7 @@
             <p></p>
         </div>
     </div>
-
+</form>
         <nav class="menu-lateral">
 
         <div class="btn-expandir">
@@ -100,7 +108,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="">
+                <a href="pagina3aluno.php">
                     <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                     <span class="txt-link">Movimentação</span>
                 </a>
