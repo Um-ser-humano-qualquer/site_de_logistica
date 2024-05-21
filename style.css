@@ -33,17 +33,6 @@
     color: rgb(255, 255, 255);
 }
 
-.divLoginL{
-    position: absolute;
-    right: 575px;
-    top: 140px;
-}
-
-.divLoginR{
-    position: absolute;
-    left: 575px;
-    top: 140px;
-}
 
 .linkL{
     position: absolute;
