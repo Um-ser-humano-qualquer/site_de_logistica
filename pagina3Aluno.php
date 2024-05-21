@@ -46,8 +46,7 @@
                 <p></p>
         <div>
 
-            <center><input type="submit" value="registrar" class="botao"/></center>
-                <p></p>
+           
             </div>
             </div>
         </div>
