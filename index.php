@@ -9,6 +9,8 @@
             integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
+    </head>
+
     <body class="sign-up-js">
         <div class="container">
             <div class="content first-content">
@@ -24,7 +26,6 @@
                     </form>
                 </div> <!-- second-column -->
                 <div class="first-column first-position1">
-                    <img src="img/senai-logo.png" class="senaiLogo1">
                     <button id="signin" class="btn-link btn-link-right">Você é um professor? Clique aqui!</button>
                 </div> <!-- first-column -->
             </div> <!-- content first-content -->
@@ -41,7 +42,6 @@
                     </form>
                 </div> <!-- second-column -->
                 <div class="first-column first-position2">
-                    <img src="img/senai-logo.png" class="senaiLogo2">
                     <button id="signup"class="btn-link btn-link-left">Você é um Aluno? Clique aqui!</button>
                 </div> <!-- first-column -->
             </div> <!-- content second-content -->
