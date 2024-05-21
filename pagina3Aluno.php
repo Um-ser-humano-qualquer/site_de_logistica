@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
 
 <meta charset="UTF-8">
 
     <meta charset="UTF-8">
-=======
 <meta charset="UTF-8">
->>>>>>> d0a0d873e16455f7abd8cf6567d1f865cb1f503c
+
     <link rel="stylesheet" href="styleDoMenu.css">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Menu.css">
@@ -23,21 +21,18 @@
 </head>
 
 <body class="fundinhoA">
-<<<<<<< HEAD
 
-    <nav> <!-- barra superior -->
-=======
+ <nav> <!-- barra superior -->
     <nav>
->>>>>>> d0a0d873e16455f7abd8cf6567d1f865cb1f503c
+
         <div class="barra-superior">
             <a href="profile.php">
                 <i class="bi bi-person-circle perfil"></i>
             </a>
         </div>
     </nav>
-<<<<<<< HEAD
     
-    <div class="divLognV"> <!-- tabela 1 -->
+<div class="divLognV"> <!-- tabela 1 -->
         <div class="divLogin divLogin-lefts">  
         <center><h2 class="texto">Operação em Aberto</h2></center> 
         <br>
@@ -63,36 +58,6 @@
                     </tr>
             </table>
             <br>
-=======
-
-    <div class="divLoginD">
-            <div class="divLogin divLogin-left">
-                <h2 class="texto">Produto</h2>
-    <div class="divLoginD">
-            <div class="divLogin divLogin-left">
-                <h2 class="texto">Produto</h2>
-                <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro" >
-                <br>
-                <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
-                <br>
-                <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br />
-                <br>
-                <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br />
-                <br>
-                <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br/>
-                <br>
-                <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
-                </form>
-                <br>
-                <center><input type="submit" value="registrar" class="botao"/></center>
-                <p></p>
-        <div>
-
->>>>>>> d0a0d873e16455f7abd8cf6567d1f865cb1f503c
-            <center><input type="submit" value="registrar" class="botao"/></center>
-                <p></p>
-            </div>
-        </div>
 
   <div class="divLogin divLogin-Rights"> <!-- tabela 2 -->
         <center><h2 class="texto">UN</h2></center> 
@@ -118,9 +83,8 @@
                         <td><input type="text" name="o" size="1" class="caixaText2" placeholder="RL"><br/></td>
                     </tr>
             </table>
-            </div>
         </div>
-<<<<<<< HEAD
+    </div>
  
  <div class="divLogin divLogin-Righ"> <!-- tabela 3 -->
         <center><h2 class="texto">QTD</h2></center> 
@@ -177,28 +141,6 @@
         </div>
     
  <div class="divLogin divLogin-let"> <!-- tabela 5 -->  
-=======
-            <center><input type="submit" value="registrar" class="botao"/></center>
-                <p></p>
-            </div>
-            <div class="divLogin divLogin-Right">
-                <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo"><br/>
-                <br>
-                <input type="text" name="Lacre" id="Lacre" size="20" class="caixaTexto" placeholder="Lacre"><br/>
-                <br>
-                <input type="text" name="LacreSIF" id="LacreSIF" size="20" class="caixaTexto" placeholder="Lacre SIF"><br/>
-                <br>
-                <input type="text" name="Temperatura" id="Temperatura" size="20" class="caixaTexto" placeholder="Temperatura"><br/>
-                <br>
-                <input type="text" name="IMO" id="IMO" size="20" class="caixaTexto" placeholder="IMO"><br/>
-                <br>
-                <input type="text" name="N°ONU" id="N°ONU" size="20" class="caixaTexto" placeholder="N°ONU"><br/>
-                <center><input type="submit" value="registrar" class="botao"/></center>
-                <p></p>
-            </div>
-        </div>
-        <nav class="menu-lateral">
->>>>>>> d0a0d873e16455f7abd8cf6567d1f865cb1f503c
 
                     <br><center><input type="submit" value="enviar" class="botao"/></center><p></p>
                     <br><center><input type="submit" value="enviar" class="botao"/></center><p></p>
