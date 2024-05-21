@@ -109,3 +109,97 @@ nav.transicao{
     background-position:absolute; 
 }
 
+
+input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+      right: 22px;
+      bottom: 9px;
+      border-radius: 20%;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -8.5px;
+    left: -8.5px;
+    background-color:#1b68c4;
+    border-radius: 20%;
+    border: white;
+}
+input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color:#FF6C01;
+    border-radius: 20%;
+    border: 1px solid #fff;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -3px;
+    left: 2px;
+}
+
+.botao{
+    background-color: #FF6C01;
+    border: 1px solid;
+    transition: background-color .5s;
+}
+
+.botao:active{
+    position: relative;
+    top: 2px;
+}
+
+.botao:hover{
+    background-color: #db5d03;
+    color: #fff;
+}
+
+.barra-superior{
+    width: 1920px;
+    height: 5%;
+    background-color: #165fb8;
+    padding: 40px o 40px 1%;
+    position: fixed;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.perfil{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 37px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: .5%;
+    top: 12%;
+}
+
+.perfil:hover{
+    color: #e0e0e0;
+    transition: .2s;
+}
+
+.texto{
+    position: relative;
+    top: 0px;
+}

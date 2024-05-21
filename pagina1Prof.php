@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="styleDoMenu.css">
+    <link rel="stylesheet" href="Menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
 </head>
 <body>
+
+    <nav>
+        <div class="barra-superior">
+            <a href="profile.php">
+                <i class="bi bi-person-circle perfil"></i>
+            </a>
+        </div>
+    </nav>
 
     <nav class="menu-lateral">
 
@@ -33,6 +41,7 @@
                 <a href="">
                     <span class="icon"><i class="bi bi-clipboard-data-fill"></i></span>
                     <span class="txt-link">Agenda</span>
+                    
                 </a>
             </li>
             <li class="item-menu">

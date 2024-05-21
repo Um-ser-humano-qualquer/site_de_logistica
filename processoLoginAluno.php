@@ -11,12 +11,14 @@
     if ($connect->connect_errno) {
         echo "Falha ao conectar ao MySQL: " . $connect->connect_error;
         exit();
-    } else {
-        if(isset($_POST['emailAluno']) && isset($_POST['senhaAluno'])) {
+    } else 
+        if(isset($_POST['emailAluno']) && isset($_POST['senhaAluno'])) 
             $emailAluno = $connect->real_escape_string($_POST['emailAluno']);
             $senhaAluno = $connect->real_escape_string($_POST['senhaAluno']);
 
-            $SQL = "SELECT `idAluno`, `emailAluno` FROM `alunos` WHERE `emailAluno` = ? AND `senhaAluno` = ? AND `ativo` = 's';";
+            $SQL = "SELECT `idAluno`, `emailAluno` 
+            FROM `alunos` 
+            WHERE `emailAluno` = ? AND `senhaAluno` = ? AND `ativo` = 's';";
 
             if($stmt = $connect->prepare($SQL)) {
                 $stmt->bind_param("ss", $emailAluno, $senhaAluno);
@@ -35,11 +37,6 @@
                     $connect->close();
                     header('Location: index.php', true, 301);
                 }
-            } else {
-                echo "Erro ao preparar a declaração: " . $connect->error;
-            }
-        } else {
-            echo "Os campos de email e senha devem ser preenchidos.";
-        }
-    }
+            } 
+        
 ?>
