@@ -88,13 +88,21 @@
         </div>
     </div>
 </form>
-        <nav class="menu-lateral">
+<nav>
+        <div class="barra-superior">
+            <a href="profile.php">
+                <i class="bi bi-person-circle perfil"></i>
+            </a>
+        </div>
+    </nav>
+
+    <nav class="menu-lateral">
 
         <div class="btn-expandir">
-            <i class="bi bi-list" >
+            <i class="bi bi-list" id="btn-exp"></i>
         </div>
 
-        <ul> <!-- menu -->
+        <ul>
             <li class="item-menu">
                 <a href="pagina1Aluno.php">
                     <span class="icon"><i class="bi bi-house"></i></span>
@@ -108,7 +116,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="pagina3aluno.php">
+                <a href="pagina3Aluno.php">
                     <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                     <span class="txt-link">Movimentação</span>
                 </a>
@@ -145,9 +153,7 @@
             </li>
         </ul>
 
-        </nav>
-
-        <script src="js/menu.js"></script> 
+    </nav>
 
         </center>
 
