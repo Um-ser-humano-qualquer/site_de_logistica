@@ -6,7 +6,7 @@
         <title>Logística Senai</title>
         <link rel="stylesheet" href="styleDoLogin.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
     <body class="sign-up-js">
@@ -28,7 +28,7 @@
                     <button id="signin" class="btn-link btn-link-right">Você é um professor? Clique aqui!</button>
                 </div> <!-- first-column -->
             </div> <!-- content first-content -->
-            <div class="content second-content" background="img/senai-logo.png">
+            <div class="content second-content">
                 <div class="second-column second-position2">
                     <h2 class="title title-second">Login de Professor</h2>
                     <br>
