@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6f65a005d730b9135a1f221b22bbab8b4b717c8a
 
 <meta charset="UTF-8">
-=======
+
     <meta charset="UTF-8">
->>>>>>> parent of f13cf2b (commit desnecessário)
     <link rel="stylesheet" href="styleDoMenu.css">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Menu.css">
@@ -25,11 +19,6 @@
 
 <body class="fundinhoA">
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6f65a005d730b9135a1f221b22bbab8b4b717c8a
             <div>
             <center><h2 class="texto">Produto</h2></center>
     <nav>
@@ -43,15 +32,9 @@
     <div class="divLoginD">
             <div class="divLogin divLogin-left">
                 <h2 class="texto">Produto</h2>
-<<<<<<< HEAD
-=======
->>>>>>> 7ebe3c70ca4ddf545974666f00a725d09be4c055
-=======
     <div class="divLoginD">
             <div class="divLogin divLogin-left">
                 <h2 class="texto">Produto</h2>
->>>>>>> parent of f13cf2b (commit desnecessário)
->>>>>>> 6f65a005d730b9135a1f221b22bbab8b4b717c8a
                 <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro" >
                 <br>
                 <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
@@ -65,11 +48,6 @@
                 <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
                 </form>
                 <br>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6f65a005d730b9135a1f221b22bbab8b4b717c8a
                 <center><input type="submit" value="registrar" class="botao"/></center>
                 <p></p>
         <div>
@@ -79,11 +57,6 @@
             </div>
             </div>
         </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 7ebe3c70ca4ddf545974666f00a725d09be4c055
-=======
 
             <center><input type="submit" value="registrar" class="botao"/></center>
                 <p></p>
@@ -104,8 +77,6 @@
                 <p></p>
             </div>
         </div>
->>>>>>> parent of f13cf2b (commit desnecessário)
->>>>>>> 6f65a005d730b9135a1f221b22bbab8b4b717c8a
 
         <nav class="menu-lateral">
 
