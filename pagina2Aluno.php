@@ -114,7 +114,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="">
+                <a href="pagina4Aluno.php">
                     <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
                     <span class="txt-link">Estoque</span>
                 </a>
