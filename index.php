@@ -28,7 +28,7 @@
                     <button id="signin" class="btn-link btn-link-right">Você é um professor? Clique aqui!</button>
                 </div> <!-- first-column -->
             </div> <!-- content first-content -->
-            <div class="content second-content" background="img/senai-logo.png">
+            <div class="content second-content">
                 <div class="second-column second-position2">
                     <h2 class="title title-second">Login de Professor</h2>
                     <br>
