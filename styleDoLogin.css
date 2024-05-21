@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0
@@ -236,11 +235,15 @@ input:-webkit-autofill
     border-radius: 50px;
     animation: slidein 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
     z-index: 12;
+    background-image: url("img/senai-logo-fundo.jpeg");  
+
 }
 
 .sign-up-js .content::before {
     animation: slideout 1s; 
     z-index: 12;
+    background-image: url("img/senai-logo-fundo.jpeg");  
+    
 }
 
 .sign-up-js .second-content .first-column,
