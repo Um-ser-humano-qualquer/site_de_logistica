@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
+
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="styleDoMenu.css">
+=======
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Menu.css">
+>>>>>>> 7ebe3c70ca4ddf545974666f00a725d09be4c055
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
+    <link rel="stylesheet" href="stylepg3.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylepgC.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>Movimentação</title>
 </head>
 
-<body class="fundinhoA">
+<body class="fundinho1">
 
+<<<<<<< HEAD
+            <div>
+            <center><h2 class="texto">Produto</h2></center>
+=======
     <nav>
         <div class="barra-superior">
             <a href="profile.php">
@@ -25,25 +35,32 @@
     <div class="divLoginD">
             <div class="divLogin divLogin-left">
                 <h2 class="texto">Produto</h2>
+>>>>>>> 7ebe3c70ca4ddf545974666f00a725d09be4c055
                 <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro" >
                 <br>
-                <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
+                <center><input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br /></center>
                 <br>
-                <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br />
+                <center><input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br /></center>
                 <br>
-                <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br />
+                <center><input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br /></center>
                 <br>
-                <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br/>
+                <center><input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br/></center>
                 <br>
-                <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/>
+                <center><input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br/></center>
                 </form>
                 <br>
+<<<<<<< HEAD
+                <center><input type="submit" value="registrar" class="botao"/></center>
+                <p></p>
+        <div>
+=======
 
             <center><input type="submit" value="registrar" class="botao"/></center>
                 <p></p>
             </div>
             </div>
         </div>
+>>>>>>> 7ebe3c70ca4ddf545974666f00a725d09be4c055
 
         <nav class="menu-lateral">
 
