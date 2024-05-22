@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="styleMenu.css">
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylepgC.css">
@@ -21,14 +21,12 @@
             <a href="profile.php">
                 <i class="bi bi-person-circle perfil"></i>
             </a>
-            
         </div>
     </nav>
 
     <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
-            <a href="vistoriaCarga.php">Carga</a>
             <form method="POST0" action="processoAlunopg2.php" >
             <br>
             <input type="text" name="placa_caminhao" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
@@ -90,73 +88,10 @@
         </div>
     </div>
 </form>
-<nav>
-        <div class="barra-superior">
-            <a href="profile.php">
-                <i class="bi bi-person-circle perfil"></i>
-            </a>
-        </div>
-    </nav>
 
-    <nav class="menu-lateral">
-
-        <div class="btn-expandir">
-            <i class="bi bi-list" id="btn-exp"></i>
-        </div>
-
-        <ul>
-            <li class="item-menu">
-                <a href="pagina1Aluno.php">
-                    <span class="icon"><i class="bi bi-house"></i></span>
-                    <span class="txt-link">Home</span>
-                </a>
-            </li>
-            <li class="item-menu ativo">
-                <a href="pagina2Aluno.php">
-                    <span class="icon"><i class="bi bi-columns-gap"></i></span>
-                    <span class="txt-link">Recebimento</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="pagina3Aluno.php">
-                    <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
-                    <span class="txt-link">Movimentação</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="pagina4Aluno.php">
-                    <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
-                    <span class="txt-link">Estoque</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="">
-                    <span class="icon"><i class="bi bi-clipboard-data-fill"></i></span>
-                    <span class="txt-link">Picking</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="">
-                    <span class="icon"><i class="bi bi-clipboard-data-fill"></i></span>
-                    <span class="txt-link">Expedição</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="">
-                    <span class="icon"><i class="bi bi-file-earmark-text-fill"></i></span>
-                    <span class="txt-link">Relatórios</span>
-                </a>
-            </li>
-            <li class="item-menu">
-                <a href="">
-                    <span class="icon"><i class="bi bi-pin-map-fill"></i></span>
-                    <span class="txt-link">Controle</span>
-                </a>
-            </li>
-        </ul>
-
-    </nav>
-
+<?php
+        include 'menu.php'
+    ?>
         </center>
 
 </body>

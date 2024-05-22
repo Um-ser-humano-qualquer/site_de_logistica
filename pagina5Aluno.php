@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
+
+<meta charset="UTF-8">
+
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styleMenu.css">
+    <link rel="stylesheet" href="styleDoMenu.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Menu.css">
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylepgC.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <title>Movimentação</title>
+    <title>Estoque</title>
 </head>
 
 <body class="fundinhoA">
+
+            <div>
+            <center><h2 class="texto">Produto</h2></center>
     <nav>
         <div class="barra-superior">
             <a href="profile.php">
@@ -21,9 +29,6 @@
         </div>
     </nav>
 
-    <div class="divLoginD">
-            <div class="divLogin divLogin-left">
-                <h2 class="texto">Produto</h2>
     <div class="divLoginD">
             <div class="divLogin divLogin-left">
                 <h2 class="texto">Produto</h2>
@@ -49,6 +54,7 @@
             </div>
             </div>
         </div>
+
             <center><input type="submit" value="registrar" class="botao"/></center>
                 <p></p>
             </div>
@@ -68,6 +74,7 @@
                 <p></p>
             </div>
         </div>
+
         
     <?php
         include 'menu.php'
