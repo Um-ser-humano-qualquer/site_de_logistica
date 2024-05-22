@@ -52,15 +52,30 @@ ul li.item-menu{
     transition: .5s;
 }
 
+ul li.item-menuu{
+    transition: .5s;
+}
+
 ul li.ativo{
     background-color: #165fb8;
+    width: 100%;
 }
 
 ul li.item-menu:hover{
     background: #165fb8;
+    width: 200%;
 }
 
 ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+}
+
+ul li.item-menuu{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -75,7 +90,18 @@ ul li.item-menu a .txt-link{
     opacity: 0;
 }
 
+ul li.item-menuu .txt-linke{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
 nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+nav.menu-lateral.expandir .txt-linke{
     margin-left: 40px;
     opacity: 1;
 }
@@ -85,3 +111,30 @@ ul li.item-menu a .icon > i{
     margin-left: 10px;
 }
 
+ul li.item-menuu .icone > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+summary {
+  display: flex;
+}
+
+summary::after {
+  margin-left: 1ch;
+  display: inline-block;
+  content: '▶';
+  color: #fff;
+}
+
+details{
+    cursor: pointer;
+}
+
+details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.post{
+    width: 50%;
+}

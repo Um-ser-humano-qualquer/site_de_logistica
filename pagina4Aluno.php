@@ -1,19 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-<meta charset="UTF-8">
-
+<html lang="en"><head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styleDoMenu.css">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="styleMenu.css">
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="stylepgA.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+=======
+    <link rel="stylesheet" href="stylepgC.css">
+    <link rel="stylesheet" href="stylepgV.css">
+    <meta name="viewport" content="w1.0">
+>>>>>>> 5e297a1007160861cbcaa8c39d2cd8d346588597
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <title>Conteiner</title>
 
+
+<<<<<<< HEAD
     <title>Carga</title>
 </head>
 
@@ -26,9 +29,30 @@
             <a href="profile.php">
                 <i class="bi bi-person-circle perfil"></i>
             </a>
-        </div>
-    </nav>
+=======
+</head>
 
+<body class="fundinho">
+    
+    <div class="divMain">
+        <div class="divLogin divLogin-left">
+            <h2 class="texto">Vistoria e Conferência - Carga </h2>    
+            <form method="POST0" action="processoAlunopg2.php">
+                <br>
+                <input type="text" name="nota" size="20" class="caixaTexto" placeholder="Nota fiscal"><br>
+                <br>
+                <input type="text" name="pedido" size="20" class="caixaTexto" placeholder="Pedido de compra">
+                <br>
+                <br>
+                <input type="text" name="doca" size="20" class="caixaTexto" placeholder="Doca"><br>
+                <br>
+                <input type="submit" class="botao">
+            </form>
+>>>>>>> 5e297a1007160861cbcaa8c39d2cd8d346588597
+        </div>
+    </div>
+
+<<<<<<< HEAD
     <div class="divLoginE"> <!-- tela 1 fundo-->
      <div class="divlogin divLogin-mit"> <!-- tela 2 fundo-->
 
@@ -146,4 +170,10 @@
 </center>
 
 </body>
+=======
+    <?php
+        include 'menu.php'
+    ?>
+    </body>
+>>>>>>> 5e297a1007160861cbcaa8c39d2cd8d346588597
 </html>
