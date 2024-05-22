@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleDoMenu.css">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Menu.css">
-    <link rel="stylesheet" href="styleDoBotaoGeral.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylepgC.css">
+    <link rel="stylesheet" href="css/Menu.css">
+    <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylepgC.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
