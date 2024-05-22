@@ -18,7 +18,7 @@
 }
 .divLogin-lefts{
     height: auto;
-    top: 48%;
+    top: 46%;
     left: 18%;
     position: absolute;
     padding: 20px 54px;
@@ -51,9 +51,9 @@
     background-position:absolute; 
 }
 .caixaText{
-    font-size: 2em;
+    font-size: 3em;
     border-radius: 1px;
-    border-color: #0000007d;
+    border-color: #0000004a;
     border-style: hidden;
     border-top-style: solid;
     padding-inline-start: 3px;

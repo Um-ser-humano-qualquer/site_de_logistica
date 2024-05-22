@@ -213,4 +213,5 @@ input[type=checkbox]:checked:after {
 .texto{
     position: relative;
     top: 0px;
+    background-color: #ffffff;
 }
