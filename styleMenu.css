@@ -125,6 +125,7 @@ summary::after {
   display: inline-block;
   content: '▶';
   color: #fff;
+  transition: .1s;
 }
 
 details{
