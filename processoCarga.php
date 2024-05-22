@@ -1,9 +1,9 @@
 <html lang="en"><head>
 <meta charset="UTF-8">
-    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="styleMenu.css">
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylepgC.css">
+    <link rel="stylesheet" href="style/..stylepgC.css">
     <link rel="stylesheet" href="stylepgV.css">
     <meta name="viewport" content="w1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
