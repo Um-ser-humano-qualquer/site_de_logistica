@@ -19,7 +19,9 @@
     <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
+
             <a href="pagina2.1.php">Carga</a>
+
             <form method="POST0" action="processoAlunopg2.php" >
             <br>
             <input type="text" name="placa_caminhao" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
