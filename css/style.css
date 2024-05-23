@@ -213,5 +213,8 @@ input[type=checkbox]:checked:after {
 .texto{
     position: relative;
     top: 0px;
-    background-color: #ffffff;
+<<<<<<< Updated upstream:style.css
+=======
+    color: #ffffff;
+>>>>>>> Stashed changes:css/style.css
 }
