@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/Menu.css">
-=======
 <html>
     <link rel="stylesheet" href="css/styleMenu.css">
->>>>>>> 8489fa180678f0a6bc1713695e0dfea1b5e78785
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylepgC.css">
