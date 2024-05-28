@@ -110,12 +110,12 @@ nav.transicao{
 }
 
 .fundinho{
-    background-image: url("img/lindo_fundo.png");
+    background-image: url("../img/lindo_fundo.png");
     background-repeat:no-repeat;
     background-position:absolute; 
 }
 .fundinho2{
-    background-image: url("img/lirio.png");
+    background-image: url("../img/lirio.png");
     background-repeat:no-repeat;
     background-position:absolute; 
 }
