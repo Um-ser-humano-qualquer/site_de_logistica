@@ -110,7 +110,7 @@ nav.transicao{
 }
 
 .fundinho{
-    background-image: url("img/lindo_fund.png");
+    background-image: url("img/lindo_fundo.png");
     background-repeat:no-repeat;
     background-position:absolute; 
 }
@@ -213,8 +213,5 @@ input[type=checkbox]:checked:after {
 .texto{
     position: relative;
     top: 0px;
-<<<<<<< Updated upstream:style.css
-=======
     color: #ffffff;
->>>>>>> Stashed changes:css/style.css
 }

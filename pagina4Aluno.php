@@ -1,6 +1,5 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylepgA.css">
@@ -14,7 +13,6 @@
 <body class="fundinhoB">
 
         <div>
-
     <nav> <!--barra superior-->
         <div class="barra-superior">
             <a href="profile.php">
@@ -79,19 +77,11 @@
 <script src="js/menu.js"></script> 
 
 </center>
-=======
-<<<<<<< Updated upstream
-    <link rel="stylesheet" href="styleDoBotaoGeral.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylepgC.css">
-    <link rel="stylesheet" href="stylepgV.css">
-=======
     <link rel="stylesheet" href="css/styleMenu.css">
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylepgC.css">
     <link rel="stylesheet" href="css/stylepgV.css">
->>>>>>> Stashed changes
     <meta name="viewport" content="w1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
@@ -118,7 +108,6 @@
             </form>
         </div>
     </div>
->>>>>>> 5de319eb7295965beb3b9f0385f1ec4307a0eb42
 
     <?php
         include 'menu.php'
