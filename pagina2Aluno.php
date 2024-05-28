@@ -14,7 +14,7 @@
 
 </head>
 
-<body class="fundinho">
+<body class="fundo">
 
     <nav>
         <div class="barra-superior">

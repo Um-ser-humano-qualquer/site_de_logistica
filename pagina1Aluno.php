@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     
 </head>
-<body class= "fundinho2">
+<body class= "fundo2">
     <?php
         include 'menu.php'
     ?>

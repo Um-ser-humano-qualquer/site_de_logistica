@@ -1,6 +1,6 @@
 <html lang="en"><head>
 <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/Menu.css">
+    <link rel="stylesheet" href="css/styleMenu.css">
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylepgC.css">
@@ -11,7 +11,7 @@
     <title>Document</title>
 
     </head>
-<body class="fundinho">
+<body class="fundo">
 
     <div class="divMain2">
         <div class="divLogin divLogin-pedido">
