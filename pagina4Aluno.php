@@ -1,6 +1,5 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/Menu.css">
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylepgC.css">
@@ -15,33 +14,23 @@
 
 <body class="fundinho">
 
-    <nav>
-        <div class="barra-superior">
-            <a href="profile.php">
-                <i class="bi bi-person-circle perfil"></i>
-            </a>
-            
-        </div>
-    </nav>
-
     <div class="divMain">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Carga </h2>
-            
             <form method="POST0" action="processoCarga.php">
-            <br>
-            <input type="text" name="nota" size="20" class="caixaTexto" placeholder="Nota fiscal"><br>
-            <br>
-            <input type="text" name="pedido" size="20" class="caixaTexto" placeholder="Pedido de compra">
-            <br>
-            <br>
-            <input type="text" name="doca" size="20" class="caixaTexto" placeholder="Doca"><br>
-            <br><input type="submit" class="botao">
-</form>
-<a href="pagina4.1Aluno.php">Não tenho um pedido.</a>
-</div>        
-</div>
-
+                <br>
+                <input type="text" name="nota" size="20" class="caixaTexto" placeholder="Nota fiscal"><br>
+                <br>
+                <input type="text" name="pedido" size="20" class="caixaTexto" placeholder="Pedido de compra">
+                <br>
+                <br>
+                <input type="text" name="doca" size="20" class="caixaTexto" placeholder="Doca"><br>
+                <br>
+                <input type="submit" class="botao">
+            </form>
+            <a href="pagina4.1Aluno.php">Não tenho um pedido.</a>
+        </div>        
+    </div>
 <script src="js/popup.js"></script>
 <?php
         include 'menu.php'
