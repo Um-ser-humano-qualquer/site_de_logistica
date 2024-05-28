@@ -2,6 +2,18 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
+<meta charset="UTF-8"> <!-- style's css-->
+
+    <link rel="stylesheet" href="styleDoMenu.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="styleMenu.css">
+    <link rel="stylesheet" href="styleDoBotaoGeral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylepgC.css">
+=======
+>>>>>>> 45f2f6817c56ed496deb58be77ccf9e89abe423f
     <link rel="stylesheet" href="css/styleMenu.css">
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
