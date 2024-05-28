@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="fundinho">
+<body class="fundo">
 
     <div class="divMain">
         <div class="divLogin divLogin-left">
