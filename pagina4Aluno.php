@@ -38,7 +38,7 @@
             <input type="text" name="doca" size="20" class="caixaTexto" placeholder="Doca"><br>
             <br><input type="submit" class="botao">
 </form>
-<a href="processoCarga.php">Não tenho um pedido.</a>
+<a href="pagina4.1Aluno.php">Não tenho um pedido.</a>
 </div>        
 </div>
 
