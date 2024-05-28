@@ -1,5 +1,5 @@
-<html lang="en"><head>
-    <meta charset="UTF-8">
+<html>
+    <link rel="stylesheet" href="css/styleMenu.css">
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylepgC.css">
