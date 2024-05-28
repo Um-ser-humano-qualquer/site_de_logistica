@@ -16,6 +16,14 @@
 
 <body class="fundinho">
 
+    <nav>
+        <div class="barra-superior">
+            <a href="profile.php">
+                <i class="bi bi-person-circle perfil"></i>
+            </a>
+        </div>
+    </nav>
+
     <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
