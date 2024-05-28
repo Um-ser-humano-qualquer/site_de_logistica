@@ -3,11 +3,10 @@
 
 <meta charset="UTF-8">
 
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styleMenu.css">
+    
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylepgC.css">
+    <link rel="stylesheet" href="css/stylepgE.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -18,48 +17,68 @@
 
       <div>
        
-    <div class="divLoginD">
-            <div class="divLogin divLogin-left">
-                <h2 class="texto">Produto</h2>
-                <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro">
+    <div class="divMain">
+         <form method="post" action="pagina1Aluno.php" id="formcadastro" name="formcadastro">
+            <div class="divLogin-left">
+                <h2 class="texto">Produtos nas docas</h2>       
                 <br>
-                <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br>
+                <input type="text" name="Pedido1" id="Pedido 1" size="15" class="caixaTexto" placeholder="Pedido 1"><br>
+                <input type="text" name="Pedido2" id="Pedido 2" size="15" class="caixaTexto" placeholder="Pedido 2"><br>
+                <input type="text" name="Pedido3" id="Pedido 3" size="15" class="caixaTexto" placeholder="Pedido 3"><br>
+                <input type="text" name="Pedido4" id="Pedido 4" size="15" class="caixaTexto" placeholder="Pedido 4"><br>
+                <input type="text" name="Pedido5" id="Pedido 5" size="15" class="caixaTexto" placeholder="Pedido 5"><br>
+                <input type="text" name="Pedido6" id="Pedido 6" size="15" class="caixaTexto" placeholder="Pedido 6"><br>
+                <input type="text" name="Pedido7" id="Pedido 7" size="15" class="caixaTexto" placeholder="Pedido 7"><br>
+                <input type="text" name="Pedido8" id="Pedido 8" size="15" class="caixaTexto" placeholder="Pedido 8"><br>
+                <input type="text" name="Pedido9" id="Pedido 9" size="15" class="caixaTexto" placeholder="Pedido 9"><br>
+                <input type="text" name="Pedido10" id="Pedido 10" size="15" class="caixaTexto" placeholder="Pedido 10"><br>
+            
+            
+            
+            <div class="divLogin-mid"> 
+                <h2>Docas</h2>
                 <br>
-                <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br>
                 <br>
-                <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br>
+                <span class="Disp">disponivel</span>
                 <br>
-                <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br>
                 <br>
-                <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br>
-                </form>
+                <span class="Disp">disponivel</span>
                 <br>
-                <center><input type="submit" value="registrar" class="botao"></center>
-                <p></p>
-        <div>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
+                <span class="Disp">disponivel</span>
+                <br>
+                <br>
 
-            <center><input type="submit" value="registrar" class="botao"></center>
-              
             </div>
+
+            </form>
+                <br>
+        
             </div>
         </div>
            
-            </div>
-            <div class="divLogin divLogin-Right">
-                <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo"><br>
-                <br>
-                <input type="text" name="Lacre" id="Lacre" size="20" class="caixaTexto" placeholder="Lacre"><br>
-                <br>
-                <input type="text" name="LacreSIF" id="LacreSIF" size="20" class="caixaTexto" placeholder="Lacre SIF"><br>
-                <br>
-                <input type="text" name="Temperatura" id="Temperatura" size="20" class="caixaTexto" placeholder="Temperatura"><br>
-                <br>
-                <input type="text" name="IMO" id="IMO" size="20" class="caixaTexto" placeholder="IMO"><br>
-                <br>
-                <input type="text" name="N°ONU" id="N°ONU" size="20" class="caixaTexto" placeholder="N°ONU"><br>
-                <center><input type="submit" value="registrar" class="botao"></center>
-                <p></p>
-            </div>
+            
         
     <?php
         include 'menu.php'
