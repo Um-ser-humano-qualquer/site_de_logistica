@@ -28,7 +28,7 @@
                 <br>
                 <input type="submit" class="botao">
             </form>
-            <a href="pagina4.1Aluno.php">Não tenho um pedido.</a>
+            <a href="pagina6Aluno.php">Não tenho um pedido.</a>
         </div>        
     </div>
 <script src="js/popup.js"></script>
