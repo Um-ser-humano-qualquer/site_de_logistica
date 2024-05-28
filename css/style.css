@@ -215,3 +215,25 @@ input[type=checkbox]:checked:after {
     top: 0px;
     color: #ffffff;
 }
+
+.avariado{
+    position: relative;
+}
+
+.faltando{
+    position: relative;
+    margin-right: 40%;
+    margin-left: 6%;
+}
+
+.posicao{
+    position: absolute;
+    margin-right: 40%;
+    right: 55%;
+    bottom: 0%;
+    box-sizing: border-box;
+}
+
+.sla{
+    display: flex;
+}
