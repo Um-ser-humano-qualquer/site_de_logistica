@@ -1,6 +1,5 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
     <link rel="stylesheet" href="styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylepgA.css">
@@ -79,9 +78,6 @@
 
 </center>
     <link rel="stylesheet" href="css/styleMenu.css">
-=======
-    <link rel="stylesheet" href="css/Menu.css">
->>>>>>> 45f2f6817c56ed496deb58be77ccf9e89abe423f
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylepgC.css">
