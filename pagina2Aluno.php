@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styleMenu.css">
-    <link rel="stylesheet" href="styleDoBotaoGeral.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylepgC.css">
+    <link rel="stylesheet" href="css/styleMenu.css">
+    <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylepgC.css">
     <meta name="viewport" content="w1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
@@ -27,7 +27,10 @@
     <div class="divLoginG">
         <div class="divLogin divLogin-left">
             <h2 class="texto">Vistoria e Conferência - Conteiner </h2>
+<<<<<<< HEAD
             <a href="pagina2.1.php">Carga</a>
+=======
+>>>>>>> 02f4d931a830c687c1ebd1cff870583f839d8dc1
             <form method="POST0" action="processoAlunopg2.php" >
             <br>
             <input type="text" name="placa_caminhao" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br />
