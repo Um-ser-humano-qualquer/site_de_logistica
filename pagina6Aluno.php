@@ -10,7 +10,7 @@
         <title>Document</title>
     </head>
     
-    <body class="fundinho">
+    <body class="fundo">
         <div class="divMain2">
             <div class="divMain3"></div>
             <div class="divLogin divLogin-pedido posicao-pedidoL">
