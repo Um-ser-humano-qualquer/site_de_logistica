@@ -4,6 +4,9 @@
     background-color: #057AFF;
     border-radius:15px;
     border-radius:10px;
+    border-color: white;
+    position: absolute;
+    left: 74%;
 }
 
 .divLogin-left{
