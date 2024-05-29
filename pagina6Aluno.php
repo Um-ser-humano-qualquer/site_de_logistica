@@ -19,7 +19,7 @@
                     <input type="text" name="nota" size="28" class="caixaTexto" placeholder="Produto faltando">
                     <br>
                     <br>
-                    <table>
+                    <table class="texto">
                         <tr>
                             <th>&nbsp;</th>
                             <th>QTD</th>
@@ -27,10 +27,18 @@
                             <th>R$ TOTAL</th>
                         </tr>
                         <tr>
-                            <td>UN</td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
-                            <td><input type="text"></td>
+                            <th>UN</th>
+                            <div class="posicaoTabela">
+                                <td>    
+                                    <input type="text" class="tableL">
+                                </td>
+                                <td>
+                                    <input type="text" class="tableC">
+                                </td>
+                                <td>
+                                    <input type="text" class="tableR">
+                                </td>
+                            </div> 
                         </tr>
                     </table>
                     <br>
