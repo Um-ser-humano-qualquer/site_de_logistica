@@ -14,25 +14,25 @@
     top: 10%;
     left: 5%;
     position: absolute;
-    padding: 105px 50px;
+    padding: 33px 50px;
     background-color: #057AFF;
     border-radius: 10px
     }
 .divLogin-mid {
     height: auto;
-    top: 0%;
-    left: 105%;
+    top: 10%;
+    left: 38%;
     position: absolute;
-    padding: 96px 52px;
+    padding: 23px 52px;
     background-color: #057AFF;
-    border-radius: 5px;
+    border-radius: 10px;
     }
-.divlogin-right {
+.divLogin-right {
     height: auto;
     top: 10%;
-    left: 5%;
+    right: 15%;
     position: absolute;
-    padding: 105px 50px;
+    padding: 25px 50px;
     background-color: #057AFF;
     border-radius: 10px
     }
@@ -48,7 +48,7 @@
 }
 .divLogin-pedido{
 height: auto;
-    top: 50%;
+    top: 50%; 
     left: 27%;
     position: absolute;
     padding: 200px -1px;}
@@ -64,11 +64,13 @@ height: auto;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(255, 255, 255);
     }
-span.Disp{
-    font-size: 1.23em;
+.docas{
+    font-size: 2em;
     border-color: #ffffff;
     border-style: solid;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: #FF8C15;
+    padding-inline-start: 10px;
+    
 }
 
