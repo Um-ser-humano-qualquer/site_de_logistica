@@ -55,7 +55,7 @@
                 </a>
             </li>
             <li class="item-menu post">
-                <a href="">
+                <a href="pagina7Aluno.php">
                     <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
                     <span class="txt-link">Estoque</span>
                 </a>
