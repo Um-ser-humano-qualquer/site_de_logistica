@@ -11,41 +11,32 @@
         <title>Movimentação</title>
     </head>
 
-    <title>Movimentação</title>
-</head>
-
-<body class="fundo">
-    <nav>
-        <div class="barra-superior">
-            <a href="profile.php">
-                <i class="bi bi-person-circle perfil"></i>
-            </a>
-        </div>
-    </nav>
-
-    <div class="divLoginD">
+    <body class="fundo">
+        <div class="divLoginD">
             <div class="divLogin divLogin-left">
                 <h2 class="texto">Produto</h2>
                 <form method="post" action="paginaAluno.php" id="formcadastro" name="formcadastro">
                     <br>
-                    <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão"><br>
+                    <input type="text" name="Placa do caminhão" id="Placa do caminhão" size="20" class="caixaTexto" placeholder="Placa do caminhão">
                     <br>
-                    <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista"><br>
                     <br>
-                    <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container"><br>
+                    <input type="text" name="Nome do motorista" id="Nome do motorista" size="20" class="caixaTexto" placeholder="Nome do motorista">
                     <br>
-                    <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio"><br>
                     <br>
-                    <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente"><br>
+                    <input type="text" name="Container" id="Container" size="20" class="caixaTexto" placeholder="Container">
+                    <br>
+                    <br>
+                    <input type="text" name="Navio" id="Navio" size="20" class="caixaTexto" placeholder="Navio">
+                    <br>
+                    <br>
+                    <input type="text" name="Cliente" id="Cliente" size="20" class="caixaTexto" placeholder="Cliente">
+                    <br>
                 </form>
                 <br>
                 <center>
                     <input type="submit" value="registrar" class="botao">
-                </center>
-                <p></p>        
+                </center>      
             </div>
-                       
-            
             <div class="divLogin divLogin-Right">
                 <input type="text" name="Tipo" id="Tipo" size="20" class="caixaTexto" placeholder="Tipo">
                 <br>
@@ -70,7 +61,6 @@
                 </center>     
             </div>
         </div>
-   
         <?php
             include 'menu.php'
         ?>

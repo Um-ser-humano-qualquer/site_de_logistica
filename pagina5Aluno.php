@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylepgE.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>Estoque</title>
+    </head>
 
-<head>
-
-    <meta charset="UTF-8">
-
-
-    <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylepgE.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <title>Estoque</title>
-</head>
-
-<body class="fundo">
-
-    <div>
-
-        <div class="divMain">
-
+    <body class="fundo">
+        <div>
+            <div class="divMain">
             <form method="post" action="pagina7Aluno.php" id="confirmarDocas" name="confirmarDocas">
                 <div class="divLogin-left">
                     <h2 class="texto">Produtos nas docas</h2>
