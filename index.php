@@ -16,9 +16,9 @@
                     <h2 class="title title-second">Login de Aluno</h2>
                     <br>
                     <form method="post" action="processoLoginAluno.php" class="form">
-                        <input type="email" name="emailAluno" id="emailAluno" placeholder="email">
+                        <input type="text" name="username" id="emailAluno" placeholder="Usuário">
                         <br>
-                        <input type="password" name="senhaAluno" id="senhaAluno" placeholder="senha">
+                        <input type="password" name="password" id="senhaAluno" placeholder="senha">
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>
@@ -32,7 +32,7 @@
                     <h2 class="title title-second">Login de Professor</h2>
                     <br>
                     <form method="post" action="processoLoginProf.php" class="form">
-                        <input type="email" name="emailProf" id="emailProf" placeholder="email">
+                        <input type="text" name="emailProf" id="emailProf" placeholder="email">
                         <br>
                         <input type="password" name="senhaProf" id="senhaProf" placeholder="senha">
                         <br>
