@@ -31,9 +31,8 @@
             </div>
         </div>
     </form>
-
-    <?php
-            include 'menu.php'
+        <?php
+            include 'menuAluno.php'
         ?>   
-</body>
+    </body>
 </html>

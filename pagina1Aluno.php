@@ -10,7 +10,7 @@
     
     <body class="fundoHome">
         <?php
-            include 'menu.php'
+            include 'menuAluno.php'
         ?>
     </body>
 </html>

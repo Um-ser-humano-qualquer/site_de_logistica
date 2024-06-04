@@ -90,7 +90,7 @@
     </div>
 
     <?php
-    include 'menu.php'
+    include 'menuAluno.php'
         ?>
 
 </body>

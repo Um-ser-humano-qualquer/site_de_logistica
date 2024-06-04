@@ -15,7 +15,7 @@
         <script src="js/popup.js"></script> <!-- Faço a menor ideia (pergumtar mais tarde)-->
 
         <?php 
-            include 'menu.php'
+            include 'menuAluno.php'
         ?>
 
     </body>

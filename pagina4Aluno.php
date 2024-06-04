@@ -33,7 +33,7 @@
         </div>
         <script src="js/popup.js"></script>
         <?php
-            include 'menu.php'
+            include 'menuAluno.php'
         ?>
     </body>
 </html>
