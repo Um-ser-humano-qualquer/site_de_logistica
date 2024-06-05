@@ -6,6 +6,7 @@
         <title>Página Inicial</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/StylepgC.css">
+        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
     </head>
     
     <body class="fundoHome">

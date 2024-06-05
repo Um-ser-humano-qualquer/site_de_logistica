@@ -8,6 +8,7 @@
         <meta name="viewport" content="w1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>Vistoria-Conferência</title>
+        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
     </head>
     
     <body class="fundo">
