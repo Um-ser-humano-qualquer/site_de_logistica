@@ -10,7 +10,7 @@
         
     <body class="fundo">
         <?php
-            include 'menu.php'
+            include 'menuProf.php'
         ?>
     </body>
 </html>

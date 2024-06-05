@@ -15,12 +15,12 @@
         <div class="divLoginG">
         <form method="POST0" action="processoAlunopg2.php">
             <div class="divLogin divLogin-left">
-                <h2 class="texto">Vistoria e Conferência - Conteiner</h2>
+                <h2 class="texto">Vistoria e Conferência - Container</h2>
                     <br>
-                        <input type="text" name="placa_caminhao" size="20" class="caixaTexto" placeholder="Placa do caminhão">
+                        <input type="text" name="cliente" size="20" class="caixaTexto" placeholder="Cliente">
                     <br/>
                     <br>
-                        <input type="text" name="nome_motorista" size="20" class="caixaTexto" placeholder="Nome do motorista">
+                        <input type="text" name="placa" size="20" class="caixaTexto" placeholder="Placa do caminhão">
                     <br/>
                     <br>
                         <input type="text" name="container" size="20" class="caixaTexto" placeholder="Container">
@@ -29,7 +29,7 @@
                         <input type="text" name="navio" size="20" class="caixaTexto" placeholder="Navio">
                     <br/>
                     <br>
-                        <input type="text" name="cliente" size="20" class="caixaTexto" placeholder="Cliente">
+                        <input type="text" name="nome_motorista" size="20" class="caixaTexto" placeholder="Nome do motorista">
                     <br/>
                     <br>
                         <input type="text" name="tipo" size="20" class="caixaTexto" placeholder="Tipo">
@@ -53,7 +53,7 @@
             <div class="divLogin divLogin-Right">
                 <h2 class="texto">Assinale se tiver algum problema:</h2>
                 <br>
-                <h3><input type="checkbox" name="Conteiner bem desgastado" class="texto">Conteiner bem desgastado</h3>
+                <h3><input type="checkbox" name="Container bem desgastado" class="texto">Container bem desgastado</h3>
                 <br>
                 <h3><input type="checkbox" name="Avaria na lateral direita" class="texto">Avaria na lateral direita</h3>
                 <br>
@@ -77,7 +77,7 @@
                 <br>
                 <h3><input type="checkbox" name="Painel Avariado" class="texto">Painel Avariado</h3>
                 <br>
-                <h3><input type="checkbox" name="Sem cabo de energia" class="texto">Painel Avariado</h3>
+                <h3><input type="checkbox" name="Sem cabo de energia" class="texto">Sem cabo de energia</h3>
                 <br>
                 <h3><input type="checkbox" name="Sem lona" class="texto">Sem lona</h3>
                 <br>

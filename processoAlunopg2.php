@@ -3,8 +3,8 @@ session_start();
 
 $hostname = "127.0.0.1";
 $user = "root";
-$password = "root";
-$database = "sa_logistica";
+$password = "";
+$database = "logistica";
 
 $connect = new mysqli($hostname, $user, $password,$database);
 
@@ -37,4 +37,3 @@ if ($connect -> connect_errno) {
     header('location: pagina2Aluno.php', true, 301);                
  exit();
  }
-?>
