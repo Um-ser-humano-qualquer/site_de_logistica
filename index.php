@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Logística Senai</title>
         <link rel="stylesheet" href="css/styleDoLogin.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+        <title>Logística Senai</title>
     </head>
 
     <body class="sign-up-js">
@@ -18,7 +19,7 @@
                     <form method="post" action="processoLoginAluno.php" class="form">
                         <input type="text" name="username" id="emailAluno" placeholder="Usuário">
                         <br>
-                        <input type="password" name="password" id="senhaAluno" placeholder="senha">
+                        <input type="password" name="password" id="senhaAluno" placeholder="Senha">
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>
@@ -32,9 +33,9 @@
                     <h2 class="title title-second">Login de Professor</h2>
                     <br>
                     <form method="post" action="processoLoginProf.php" class="form">
-                        <input type="text" name="emailProf" id="emailProf" placeholder="email">
+                        <input type="text" name="emailProf" id="emailProf" placeholder="Usuário">
                         <br>
-                        <input type="password" name="senhaProf" id="senhaProf" placeholder="senha">
+                        <input type="password" name="senhaProf" id="senhaProf" placeholder="Senha">
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>

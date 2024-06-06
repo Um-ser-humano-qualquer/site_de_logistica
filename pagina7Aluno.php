@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="css/StylepgC.css">
         <link rel="stylesheet" href="css/stylepgV.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <title>Movimentação2</title>
+        <title>Estoque</title>
+        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
     </head>
     
     <body class="fundinhoA">
