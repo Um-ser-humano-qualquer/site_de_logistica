@@ -11,9 +11,6 @@
         
     <body class="fundo">
 
-    <div class="divMain">
-        <h2>hi :)</h2>
-    </div>
         <?php
             include 'menuProf.php'
         ?>
