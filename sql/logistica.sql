@@ -179,7 +179,6 @@ CREATE TABLE `docas` (
   `id_carga` int(11) NOT NULL,
   `id_aluno` int(11) NOT NULL,
   `id_turma` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 

@@ -33,9 +33,9 @@
                     <h2 class="title title-second">Login de Professor</h2>
                     <br>
                     <form method="post" action="processoLoginProf.php" class="form">
-                        <input type="text" name="emailProf" id="emailProf" placeholder="Usuário">
+                        <input type="text" name="username" id="emailProf" placeholder="Usuário">
                         <br>
-                        <input type="password" name="senhaProf" id="senhaProf" placeholder="Senha">
+                        <input type="password" name="password" id="senhaProf" placeholder="Senha">
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>

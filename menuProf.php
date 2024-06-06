@@ -21,7 +21,7 @@
             </div>
             <ul> <!-- lista de ícones para acessar outras páginas -->
                 <li class="item-menu post"> <!-- ícone home -->
-                    <a href="pagina1Aluno.php">
+                    <a href="pagina1Prof.php">
                         <span class="icon"><i class="bi bi-house-fill"></i></span>
                         <span class="txt-link">Home</span>
                     </a>
