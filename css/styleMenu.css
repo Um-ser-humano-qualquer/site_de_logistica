@@ -18,7 +18,7 @@ body{
 nav.menu-lateral{
     width: 70px;
     height: 100%;
-    background-color: #202020;
+    background-color: #0b0c25;
     padding: 40px o 40px 1%;
     box-shadow: 8px 0 0 #165fb8;
     position: fixed;
@@ -108,12 +108,12 @@ nav.menu-lateral.expandir .txt-linke{
 
 ul li.item-menu a .icon > i{
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 ul li.item-menuu .icone > i{
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 summary {
@@ -138,4 +138,9 @@ details[open] > summary::after {
 
 .post{
     width: 50%;
+}
+
+.position{
+    position: relative;
+    left: 10%;
 }

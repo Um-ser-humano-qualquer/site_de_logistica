@@ -32,13 +32,13 @@
                             <span class="icone"><i class="bi bi-grid-3x3-gap-fill"></i></span>
                             <span class="txt-linke">Recebimento</span>
                         </summary>
-                        <li class="item-menu post"> <!-- sub classe do item recebimento -->
+                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
                             <a href="pagina2Aluno.php">
                                 <span class="icone"><i class="bi bi-box"></i></span>
                                 <span class="txt-linke">Container</span>
                             </a>
                         </li>
-                        <li class="item-menu post"> <!-- sub classe do item recebimento -->
+                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
                             <a href="pagina4Aluno.php">
                                 <span class="icone"><i class="bi bi-boxes"></i></span>
                                 <span class="txt-linke">Carga</span>
@@ -82,13 +82,13 @@
                             <span class="icone"><i class="bi bi-pin-map-fill"></i></span>
                             <span class="txt-linke">Controle</span>
                         </summary>
-                        <li class="item-menu post"> <!-- sub classe do item controle -->
+                        <li class="item-menu post position"> <!-- sub classe do item controle -->
                             <a href="">
                                 <span class="icone"><i class="bi bi-dpad-fill"></i></span>
                                 <span class="txt-linke">Doca</span>
                             </a>
                         </li>
-                        <li class="item-menu post"> <!-- sub classe do item controle -->
+                        <li class="item-menu post position"> <!-- sub classe do item controle -->
                             <a href="">
                                 <span class="icone"><i class="bi bi-box2-fill"></i></span>
                                 <span class="txt-linke">Estoque</span>

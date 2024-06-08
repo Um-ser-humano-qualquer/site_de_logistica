@@ -41,7 +41,7 @@
                     </form>
                 </div> <!-- second-column -->
                 <div class="first-column first-position2">
-                    <button id="signup"class="btn-link btn-link-left">Você é um Aluno? Clique aqui!</button>
+                    <button id="signup"class="btn-link btn-link-left">Você é um aluno? Clique aqui!</button>
                 </div> <!-- first-column -->
             </div> <!-- content second-content -->
         </div> <!-- container -->
