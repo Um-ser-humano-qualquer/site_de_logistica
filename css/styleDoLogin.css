@@ -8,23 +8,6 @@ body{
     background-image: url("/../site_de_logistica/img/fundo_login.png");  
 }
 
-.senaiLogo1{
-    position: fixed;
-    top: 29%;
-    right: 27.3%;
-    width: 20%;
-    height: 40%;
-    transition: 1s;
-    }
-
-.senaiLogo2{
-    position: fixed;
-    top: 29%;
-    right: 52.5%;
-    width: 20%;
-    height: 40%;
-    }
-
 .btn-link-right{
     position: relative;
     top: 265px;
