@@ -49,6 +49,7 @@
                             </div> 
                         </tr>
                     </table>
+                </form>
             </div>   
 
      <div class="linhaB"></div> <!-- Importante não deletar (barra lateral)-->

@@ -26,34 +26,14 @@
                         <span class="txt-link">Home</span>
                     </a>
                 </li>
-                <li class="item-menuu"> <!-- item recebimento e suas sub classes -->
-                    <details class="item-menuu"> <!-- serve para criar sub itens -->
-                        <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
-                            <span class="icone"><i class="bi bi-grid-3x3-gap-fill"></i></span>
-                            <span class="txt-linke">Recebimento</span>
-                        </summary>
-                        <li class="item-menu post"> <!-- sub classe do item recebimento -->
-                            <a href="pagina2Aluno.php">
-                                <span class="icone"><i class="bi bi-box"></i></span>
-                                <span class="txt-linke">Container</span>
-                            </a>
-                        </li>
-                        <li class="item-menu post"> <!-- sub classe do item recebimento -->
-                            <a href="pagina4Aluno.php">
-                                <span class="icone"><i class="bi bi-boxes"></i></span>
-                                <span class="txt-linke">Carga</span>
-                            </a>
-                        </li>
-                    </details>
-                </li>
                 <li class="item-menu post">
-                    <a href="pagina3Aluno.php">
+                    <a href="pagina2Prof.php">
                         <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                         <span class="txt-link">Movimentação</span>
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina7Aluno.php">
+                    <a href="">
                         <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
                         <span class="txt-link">Estoque</span>
                     </a>

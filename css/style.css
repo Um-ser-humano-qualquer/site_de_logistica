@@ -103,12 +103,12 @@ nav.transicao{
     border-top-color: #ffffff00;
     cursor: pointer;
 }
+
 .senaiLogoR{
     position: fixed;
     top: -11%;
     left: 77%;
 }
-
 
 .fundo{
     background-image: url("../img/lindo_fundo.png");
@@ -117,6 +117,12 @@ nav.transicao{
 }
 .fundo2{
     background-image: url("../img/lirio.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+
+.fundoP2{
+    background-image: url("../img/fundoProf2.jpg");
     background-repeat:no-repeat;
     background-position:absolute; 
 }
@@ -164,12 +170,6 @@ input[type=checkbox]:checked:after {
     position: absolute;
     top: -3px;
     left: 2px;
-}
-
-.botao{
-    background-color: #FF6C01;
-    border: 1px solid;
-    transition: background-color .5s;
 }
 
 .botao:active{
@@ -298,4 +298,120 @@ input[type=checkbox]:checked:after {
 table{
     position: relative;
     right: 5%;
+}
+
+.divProf2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 43px 60px;
+    background-color: #004089;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.produto{
+    padding-inline-start: 15px;
+    position: relative;
+    padding: 0px 30px;
+    background-color: #057AFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.produtoPosition{
+    margin-bottom: 5%;
+}
+
+.produtoPositionUp{
+    margin-top: 3%;
+}
+
+.UNQTD{
+    position: relative;
+    padding: 0px 0px;
+    font-size: 100%;
+    border-radius: 7%;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 15px;
+    background-color:  #057AFF;
+    width: 100%;
+    text-align: center;
+}
+
+.caixaTextoUNQTD{
+    background-color: #ff8a36;
+    font-size: 2em;
+    color: white;
+    border-radius: 30px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 40%;
+}
+
+.divMensagem{
+    position: relative;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 60px 60px;
+    background-color: #057AFF;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: -4%;
+}
+
+.mensagem{
+    position: absolute;
+    width: 98.3%;
+    height: 85%;
+    bottom: 0%;
+    left: 0%;
+    font-size: 150%;
+    border-radius: 10px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.posicaoP2{
+    display: flex;
+}
+
+.posicaoBotao{
+    position: relative;
+    margin-bottom: -1%; 
+    top: 50%;
+    left: 83%;
+}
+
+.inline{
+    display: flex;
+}
+
+.UNPosition{
+    margin-right: 35%;
+    margin-left: 13%;
+}
+
+.UNQTDPosition{
+    position: relative;
+    bottom: 10%;
+}
+
+.UNQTDPositionInput{
+    position: relative;
+    bottom: 3%;
+}
+
+.QTDPosition{
+    position: relative;
+    left: 13%;
 }
