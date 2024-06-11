@@ -47,7 +47,7 @@
                     </details>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina5Aluno.php">
+                    <a href="pagina6Aluno.php">
                         <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                         <span class="txt-link">Movimentação</span>
                     </a>
