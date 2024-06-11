@@ -10,56 +10,97 @@
     </head>
     
     <body class="fundinhoA">
-        <div class="divMain2">
-            <div class="divMain3"></div>
-            <div class="divLogin divLogin-pedido posicao-pedidoR"><!--Primeira tabela-->       
-                <form method="POST0" action="processoCarga.php">
-                    <br>
-                    <input type="text" name="nota" size="28" class="caixaTexto" placeholder="">
-                    <br>
-                    <br>
-                    <table class="texto">
-                        <tr>
-                            <th></th>
-                            <th class="QTD">
-                                <h3>QTD</h3>
-                            </th>
-                            <th class="UNIT">
-                                <h3>R$/UNIT</h3>
-                            </th>
-                            <th class="TOTAL">
-                                <h3>R$ TOTAL</h3>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th>
-                                <h3 class="UN">UN</h3>
-                            </th>
-                            <div class="Btable"></div>
-                            <div class="posicaoTabela">
-                                <td>    
-                                    <input type="text" class="tableL texto">
-                                </td>
-                                <td>
-                                    <input type="text" class="tableC texto">
-                                </td>
-                                <td>
-                                    <input type="text" class="tableR texto">
-                                </td>
-                            </div> 
-                        </tr>
-                    </table>
-                </form>
-            </div>   
-
-     <div class="linhaB"></div> <!-- Importante não deletar (barra lateral)-->
-        </div>
-
-        <script src="js/popup.js"></script> <!-- Faço a menor ideia (pergumtar mais tarde)-->
 
         <?php 
             include 'menuAluno.php'
         ?>
 
+        <div class="divEstoque">
+            <div class="inline margin-bottom">
+                <h1 class="margin-right">Filtros</h1>
+                <h1>Posições</h1>
+            </div>
+            <div class="inline">
+                <div class="divEstoque1">
+                    <input type="text" name="Produtos" size="20" class="posicaoEstoque" placeholder="Produtos">
+                    <br>
+                    <input type="text" name="UN" size="20" class="posicaoEstoque" placeholder="UN">
+                    <br>
+                    <input type="text" name="QTD" size="20" class="posicaoEstoque" placeholder="QTD">
+                </div>
+                <table class="divEstoque2">
+                    <tr>
+                        <th class="">
+                            <input type="submit" value="A1" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="A2" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="A3" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="A4" class="btn-estoque">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="">
+                            <input type="submit" value="B1" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="B2" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="B3" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="B4" class="btn-estoque">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="">
+                            <input type="submit" value="C1" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="C2" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="C3" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="C4" class="btn-estoque">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="">
+                            <input type="submit" value="D1" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="D2" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="D3" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="D4" class="btn-estoque">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="">
+                            <input type="submit" value="E1" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="E2" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="E3" class="btn-estoque">
+                        </th>
+                        <th class="">
+                            <input type="submit" value="E4" class="btn-estoque">
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </body>
 </html>
