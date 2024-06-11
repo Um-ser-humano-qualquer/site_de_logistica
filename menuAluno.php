@@ -83,7 +83,7 @@
                             <span class="txt-linke">Controle</span>
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="">
+                            <a href="pagina14Aluno.php">
                                 <span class="icone"><i class="bi bi-dpad-fill"></i></span>
                                 <span class="txt-linke">Doca</span>
                             </a>

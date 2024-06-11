@@ -334,7 +334,7 @@ table{
     position: relative;
     padding: 0px 0px;
     font-size: 100%;
-    border-radius: 7%;
+    border-radius: 20px;
     border-color: #ffffff;
     border-style: hidden;
     padding-inline-start: 15px;
@@ -486,4 +486,80 @@ table{
 
 .margin-right{
     margin-right: 43%;
+}
+
+.OK{
+    position: relative;
+    left: 260%;
+    top: 0%;
+    padding: 10px 10px;
+    background-color: #FF9F3D;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.btn-OK{
+    margin-bottom: 5%;
+}
+
+.divMain {
+    top: 53%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 240px 600px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.divLogin-left {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 33px 50px;
+    background-color: #057AFF;
+    border-radius: 10px;
+    margin-left: 3.5%;
+    margin-top: 3%;
+}
+
+.divLogin-mid {
+    height: auto;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    padding: 23px 52px;
+    background-color: #057AFF;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.divLogin-mid span {
+    background-color: #db5d03;
+}
+
+.divlogin-NAO{
+    position: absolute;
+    padding: 0px 50px;
+    background-color: #057AFF;
+    border-radius: 10px;
+    margin-right: 0%;
+}
+
+.divLoginnn{
+    transform: translate(-50% , -50%);
+    padding: 20px 50px;
+    background-color: #057AFF;
+    border-radius:15px;
+    border-radius:10px;
+    border-color: white;
+    position: absolute;
+}
+
+.textoPosicao{
+    margin-bottom: 3%;
 }

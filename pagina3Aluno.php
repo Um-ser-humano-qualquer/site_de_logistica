@@ -14,7 +14,7 @@
 
     <body class="fundo">
         <div class="divMain">
-            <div class="divLogin divLogin-left">
+            <div class="divLoginnn">
                 <h2 class="texto">Vistoria e Conferência - Carga</h2>
                 <form method="POST0" action="processoCarga.php">
                     <br>
