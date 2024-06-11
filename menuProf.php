@@ -19,7 +19,7 @@
             <div class="btn-expandir"> <!-- botão para abrir o menu -->
                 <i class="bi bi-list" id="btn-exp"></i>
             </div>
-            <ul> <!-- lista de ícones para acessar outras páginas -->
+            <ul> <!-- lista de ícones para acessar outras págias -->
                 <li class="item-menu post"> <!-- ícone home -->
                     <a href="pagina1Prof.php">
                         <span class="icon"><i class="bi bi-house-fill"></i></span>
