@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/stylepgC.css">
-        <link rel="stylesheet" href="css/stylepgV.css">
+        <link rel="stylesheet" href="css/stylepgF.css">
         <meta name="viewport" content="w1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
@@ -32,8 +32,10 @@
                 <a href="pagina4Aluno.php">Não tenho um pedido.</a>
             </div>        
         </div>
-        <script src="js/popup.js"></script>
-        <?php
+
+        <script src="js/popup.js"></script> 
+
+        <?php 
             include 'menuAluno.php'
         ?>
     </body>
