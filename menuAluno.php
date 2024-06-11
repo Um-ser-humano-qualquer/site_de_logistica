@@ -39,7 +39,7 @@
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina4Aluno.php">
+                            <a href="pagina3Aluno.php">
                                 <span class="icone"><i class="bi bi-boxes"></i></span>
                                 <span class="txt-linke">Carga</span>
                             </a>
@@ -47,13 +47,13 @@
                     </details>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina3Aluno.php">
+                    <a href="pagina5Aluno.php">
                         <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                         <span class="txt-link">Movimentação</span>
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina7Aluno.php">
+                    <a href="pagina8Aluno.php">
                         <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
                         <span class="txt-link">Estoque</span>
                     </a>
