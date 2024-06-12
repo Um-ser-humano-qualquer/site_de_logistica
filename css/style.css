@@ -531,15 +531,26 @@ table{
     top: 0%;
     left: 0%;
     position: absolute;
-    padding: 23px 52px;
+    padding: 23px 100px;
     background-color: #057AFF;
     border-radius: 10px;
     margin-left: 40%;
     margin-top: 3%;
 }
 
-.divLogin-mid span {
-    background-color: #db5d03;
+.divLogin-mid div{
+    background-color: #FF8C15;
+    position: relative;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    width: 50%;
+    border-radius: 40px;
+    border-color: white;
+}
+
+.posicao-div-top{
+    position: relative;
+    margin-top: 5%;
 }
 
 .divlogin-NAO{
@@ -561,5 +572,6 @@ table{
 }
 
 .textoPosicao{
-    margin-bottom: 3%;
+    margin-bottom: 8%;
+    margin-top: -4%;
 }
