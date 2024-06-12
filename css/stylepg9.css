@@ -1,0 +1,98 @@
+.divMain {
+    top: 52%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 240px 438px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.benes{
+    padding: 100px;
+    background-color: coral;
+}
+.divLogin-left {
+    height: auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    padding: 40px 60px;
+}
+.btn-link{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: rgb(0, 0, 0);;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.posicao-pedidoL{
+    position: absolute;
+    top: 25%;
+    left: 23.5%;
+}
+
+.posicao-pedidoR{
+    position: absolute;
+    top: 25%;
+    left: 74.5%;
+}
+
+.posicao-pedidoBL{
+    position: absolute;
+    top: 75%;
+    left: 23.5%;
+}
+
+.posicao-pedidoBR{
+    position: absolute;
+    top: 75%;
+    left: 74.5%;
+}
+
+.divLogin-pedido{
+    width: 48%;
+    height: auto;
+    padding: 200px -1px;
+}
+    
+.divMain2 {
+    top: 52%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 400px 700px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    }
+
+.divMain3 {
+    top: 50.2%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 400px 730px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    } 
+
+.divLogin-ped{
+    top: 52%;
+    left: 54%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 430px 604px;
+    background-color: #004089;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
