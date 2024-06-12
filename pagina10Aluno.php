@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="css/stylepgD.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
-    <title>Movimentação1</title>
+    <title>Pincking2</title>
 </head>
 
 <body class="fundinhoA">
-<div class="divMainX">
-            <div class="divLogin-meu">
-                <h2 class="texto">Operação em aberto</h2>
+<div class="divMainZ">
+            <div class="divLogin-pcd">
+                    <br>
+                        <input type="text" name="" size="20" class="caixaTexto" placeholder="Pedido n°">
+                    <br/>
+            </div>
+            <div class="divLogin-mpb">
+                <h2 class="texto">Produtos do Picking</h2>
                     <br>
                         <input type="text" name="" size="20" class="caixaTexto" placeholder="">
                     <br/>
@@ -37,7 +42,7 @@
                     <br/>
             </div>
 
-            <div class="divLogin-mc">
+            <div class="divLogin-clt">
             <center><h2 class="texto">UN</h2></center>
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
@@ -62,7 +67,7 @@
                     <br/>
             </div>
 
-            <div class="divLogin-mt">
+            <div class="divLogin-tcc">
                 <center><h2 class="texto">QTD</h2></center>
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
@@ -87,7 +92,7 @@
                     <br/>
             </div>
 
-            <div class="divLogin-mv">
+            <div class="divLogin-sn">
                 <center><h2 class="texto">POSIÇÃO</h2></center>
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
@@ -112,7 +117,7 @@
                     <br/>
             </div>
 
-            <div class="divLogin-bt">
+            <div class="divLogin-pt">
                 <br>
                 <input type="submit" value="pegar" class="botao">
                 <br>
@@ -132,9 +137,9 @@
                 <input type="submit" value="pegar" class="botao">
             </div>
           
-            <form action="pagina7Aluno.php" method="POST0">
+            <form action="" method="POST0">
             <div class="divLogin-bo">
-                <input type="submit" value="OdM" class="botao">
+                <input type="submit" value="Final Pincking" class="botao">
             </div>
             </form>
          </div>
