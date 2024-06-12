@@ -12,11 +12,8 @@
     <body class="fundinX">  
      <div class="linhaB"></div> 
         </div>
-        <script src="js/popup.js"></script> 
-
         <?php 
             include 'menuAluno.php'
         ?>
-
     </body>
 </html>
