@@ -13,12 +13,12 @@
 </head>
 
 <body class="fundo">
-    <div class="divMain2">
-        <div class="divLogin-mid">
+    <div class="divMain ">
+        <div class="divLogin-mid inline">
             <div class="texto">
-                <input type="text" size="20">
+                <input type="text" size="15">
                 <br><br>
-                <input type="text" size="20">
+                <input type="text" size="15">
             </div>
             <div class="tabela">
                 <table>
@@ -35,6 +35,9 @@
                         </th>
                     </tr>
                 </table>
+            </div>
+            <div class="divLogin-ok">
+
             </div>
         </div>
     </div>
