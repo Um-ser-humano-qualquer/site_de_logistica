@@ -41,16 +41,16 @@
                 </div>
                 <div class="divLogin-mid">
                     <h2>Docas</h2>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <div class="divLogin-mid posicao-div posicao-div-top"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
+                    <div class="divLogin-mid posicao-div"></div>
                 </div>   
                 <div class="OK">
                     <input type="submit" class="botao btn-OK" value="OK"></input>
