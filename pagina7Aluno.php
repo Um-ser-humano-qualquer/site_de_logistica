@@ -14,7 +14,7 @@
 
 <body class="fundo">
     <div class="divMain ">
-        <div class="divLogin-mid inline">
+        <div class="divLogin-mid">
             <div class="texto">
                 <input type="text" size="15">
                 <br><br>
