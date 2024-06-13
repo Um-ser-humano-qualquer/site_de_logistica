@@ -495,6 +495,7 @@ table{
     padding: 10px 10px;
     background-color: #FF9F3D;
     border-radius: 20px;
+    border-style: solid;
     border-color: white;
 }
 
@@ -546,6 +547,9 @@ table{
     width: 50%;
     border-radius: 40px;
     border-color: white;
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 150px;
 }
 
 .posicao-div-top{
