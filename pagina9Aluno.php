@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
+    
         <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/stylepg9.css">
@@ -11,12 +13,14 @@
     <title>Picking</title>
     
 </head>
+
 <body>
     <div class="divMain">
         <div class="benes">
-
+     
         </div>
-        <div class="">
+        <div class="benis">
+       
 
         </div>
     </div>

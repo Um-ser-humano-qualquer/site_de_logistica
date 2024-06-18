@@ -3,16 +3,36 @@
     left: 54%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 240px 438px;
+    padding: 200px 500px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
+
+.benis{
+    position: relative  ;
+    height: 60%;
+    left: 60%;
+    padding: 200px 100px;
+    background-color: #FF9528;
+    top: 100%;
+    margin-left: 200%;
+    margin-right: 54%;
+    border-radius: 20px;
+    }
+
 .benes{
-    padding: 100px;
-    background-color: coral;
+   position: relative;
+    padding: 200px 180px;
+        background-color: #057AFF ;
+        margin-left: 4%;
+        margin-right: 600%;
+        border-radius: 20px;
+        position: absolute;
+        
 }
+
 .divLogin-left {
     height: auto;
     top: 50%;
@@ -96,3 +116,5 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
+
+
