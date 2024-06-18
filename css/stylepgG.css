@@ -3,12 +3,15 @@
   background-position: absolute;
 }
 input {
-  font-size: 2em;
+  font-size: 1.5em;
   border-radius: 20px;
   border-color: #0000007d;
   border-style: hidden;
   border-top-style: solid;
   padding-inline-start: 3px;
+}
+::placeholder {
+  color: #ffffff;
 }
 .texto {
   left: 0%;
@@ -16,24 +19,7 @@ input {
   padding: 0px;
   margin: 0px;
 }
-.tabela {
-  height: auto;
-  position: absolute;
-  padding: 0px 0px;
-  margin: 0px 0px;
-}
-
-.divLogin-ok {
-  position: absolute;
-  width: 15%;
-  height: 40%;
-  padding: 0px 0px;
-  background-color: #ff8c15;
-  right: 5%;
-  border-radius: 20px;
-  border-style: solid;
-}
-.divMain {
+.divMain2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -41,19 +27,110 @@ input {
   padding: 18em 34em;
   background-color: #004089;
   border-radius: 40px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
 
-.divLogin-mid {
+.div-mid {
   display: flex;
   height: 34em;
   width: 66em;
-  top: -3%;
-  left: -39%;
+  top: 3%;
+  left: 20;
   position: absolute;
   padding: 0px 0px;
   background-color: #057aff;
   border-radius: 24px;
   align-items: center;
+}
+.div-ok {
+  position: absolute;
+  width: 16%;
+  height: 40%;
+  padding: 0px 0px;
+  background-color: #ff8c15;
+  right: 5%;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.tabela {
+  height: 4em;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  width: 20em;
+}
+.tableL {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-color: #ffffff;
+  border-style: hidden;
+  padding-inline-start: 15px;
+  background-color: #ff8a36;
+  width: 40%;
+  position: relative;
+  left: 17%;
+  border: white;
+  text-align: center;
+  bottom: 56px;
+  font-size: 2em;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.tableC {
+  border-color: #ffffff;
+  border-style: hidden;
+  padding-inline-start: 15px;
+  background-color: #ff8a36;
+  width: 38%;
+  position: relative;
+  left: 18%;
+  text-align: center;
+  border-radius: revert-layer;
+  bottom: 56px;
+}
+
+.tableR {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-color: #ffffff;
+  border-style: hidden;
+  padding-inline-start: 15px;
+  background-color: #ff8a36;
+  width: 40%;
+  left: 100%;
+  text-align: center;
+  bottom: 95px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.Btable {
+  position: fixed;
+  background-color: white;
+  top: 44%;
+  right: 27%;
+  height: 12%;
+  width: 25em;
+  border-radius: 30px;
+}
+
+th.QTD {
+  position: relative;
+  right: 20%;
+}
+th.UNIT {
+  position: relative;
+  right: 20%;
+}
+th.POSI {
+  position: relative;
+  right: 20%;
+}
+
+table {
+  position: relative;
+  right: 5%;
 }
