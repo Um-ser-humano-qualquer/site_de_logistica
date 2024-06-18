@@ -1,35 +1,38 @@
 .fundo {
   background-image: url("../img/Movi_doc.png");
-  background-repeat: no-repeat;
   background-position: absolute;
 }
-
+input {
+  font-size: 2em;
+  border-radius: 20px;
+  border-color: #0000007d;
+  border-style: hidden;
+  border-top-style: solid;
+  padding-inline-start: 3px;
+}
 .texto {
-  left: -93%;
+  left: 0%;
   position: relative;
   padding: 0px;
   margin: 0px;
 }
 .tabela {
-  right: 40%;
   height: auto;
   position: absolute;
-  padding: 33px 7px;
+  padding: 0px 0px;
   margin: 0px 0px;
 }
 
 .divLogin-ok {
   position: absolute;
   width: 15%;
-  height: 45%;
+  height: 40%;
   padding: 0px 0px;
   background-color: #ff8c15;
-  right: 11%;
+  right: 5%;
   border-radius: 20px;
-  bottom: 28%;
   border-style: solid;
 }
-
 .divMain {
   top: 50%;
   left: 50%;
@@ -43,19 +46,14 @@
 }
 
 .divLogin-mid {
-  height: auto;
-  top: 6%;
-  left: 2%;
+  display: flex;
+  height: 34em;
+  width: 66em;
+  top: -3%;
+  left: -39%;
   position: absolute;
-  padding: 13em 22em;
+  padding: 0px 0px;
   background-color: #057aff;
   border-radius: 24px;
-}
-input {
-  font-size: 2em;
-  border-radius: 20px;
-  border-color: #0000007d;
-  border-style: hidden;
-  border-top-style: solid;
-  padding-inline-start: 3px;
+  align-items: center;
 }
