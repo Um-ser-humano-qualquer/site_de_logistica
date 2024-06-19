@@ -1,9 +1,9 @@
 .divMain {
-    top: 52%;
+    top: 50%;
     left: 54%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 200px 500px;
+    padding: 100px 400px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,25 +11,26 @@
 }
 
 .benis{
-    position: relative  ;
+    position: relative;
     height: 60%;
-    left: 60%;
-    padding: 200px 100px;
+    left: 0%;
+    padding: 100px 100px;
     background-color: #FF9528;
-    top: 100%;
-    margin-left: 200%;
+    top: 80%;
+    margin-left: 120%;
     margin-right: 54%;
     border-radius: 20px;
     }
 
 .benes{
    position: relative;
-    padding: 200px 180px;
-        background-color: #057AFF ;
-        margin-left: 4%;
-        margin-right: 600%;
-        border-radius: 20px;
-        position: absolute;
+   padding: 35px 60px;
+   background-color: #057AFF;
+   left: 10%;
+   margin-left: 4%;
+   margin-right: 600%;
+   border-radius: 20px;
+   position: absolute;
         
 }
 
