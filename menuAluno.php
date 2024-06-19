@@ -94,6 +94,12 @@
                                 <span class="txt-linke">Estoque</span>
                             </a>
                         </li>
+                        <li class="item-menu post position"> <!-- sub classe do item controle -->
+                            <a href="">
+                                <span class="icone"><i class="bi bi-book-fill"></i></span>
+                                <span class="txt-linke">Solicitações</span>
+                            </a>
+                        </li>
                     </details>
                 </li>
             </ul>
