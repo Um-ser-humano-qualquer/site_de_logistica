@@ -114,27 +114,26 @@
 
             <div class="divLogin-bt">
                 <br>
-                <input type="submit" value="pegar" class="botao">
                 <br>
                 <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="botuo">
                 <br>
+                <input type="submit" value="pegar" class="botuo">
                 <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="botuo">
                 <br>
+                <input type="submit" value="pegar" class="botuo">
                 <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="botuo">
                 <br>
+                <input type="submit" value="pegar" class="botuo">
                 <br>
-                <input type="submit" value="pegar" class="botao">
-                <br>
-                <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="botuo">
             </div>
           
             <form action="pagina7Aluno.php" method="POST0">
             <div class="divLogin-bo">
-                <input type="submit" value="OdM" class="botao">
+                <input type="submit" value="Operação de Movimentação" class="batu">
             </div>
             </form>
          </div>

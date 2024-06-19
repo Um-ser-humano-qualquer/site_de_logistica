@@ -96,16 +96,16 @@ height: auto;
     top: 12.2%;
     left: 81%;
     position: absolute;
-    padding: 36px 25px;
+    padding: 8px 25px;
     background-color: #FF9528;
     border-radius: 8px;
 }
 .divLogin-bo{
     height: auto;
-    top: 88%;
-    left: 81.2%;
+    top: 90%;
+    left: 79%;
     position: absolute;
-    padding: 16px 20px;
+    padding: 14px 18px;
     background-color: #004089;
     border-radius: 8px;
 }
@@ -182,10 +182,10 @@ height: auto;
 }
 .divLogin-pt{
     height: auto;
-    top: 20.2%;
+    top: 20%;
     left: 81%;
     position: absolute;
-    padding: 36px 25px;
+    padding: 24.5px 25px;
     background-color: #FF9528;
     border-radius: 8px;
 }
