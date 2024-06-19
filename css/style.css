@@ -640,3 +640,83 @@ table{
 .posicaoPedido1{
     margin-top: 8%;
 }
+
+.fundoExpedicao{
+    background-image: url("../img/fundo_produto.png");
+    background-repeat: no-repeat;
+    background-position: absolute;
+}
+
+.divExpedicao{
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 50px 100px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.divExpedicao1{
+    height: auto;
+    background-color: #057AFF;
+    position: relative;
+    top: 0%;
+    right: 4.5%;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 2% 2%;
+}
+
+.divExpedicao2{
+    height: auto;
+    background-color: #057AFF;
+    position: relative;
+    top: 0%;
+    right: 4.5%;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 2% 2%;
+}
+
+.divExpedicao3{
+    height: auto;
+    background-color: #FF9528;
+    position: relative;
+    top: 0%;
+    right: 4.5%;
+    border-radius: 20px;
+    padding: 1% 1%;
+}
+
+.caixaTextoExpedicao{
+    font-size: 2em;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+    margin-bottom: 20px;
+}
+
+.botaoExpedicao{    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 5rem;
+    height: 2.5rem;   
+    border-radius: 30px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    margin-bottom: 22px;
+}
+
+.botaoExpedicaoSuperior{
+    margin-top: 10px;
+}
