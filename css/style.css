@@ -182,16 +182,6 @@ input[type=checkbox]:checked:after {
     color: #fff;
 }
 
-.barra-superior{
-    width: 1920px;
-    height: 5%;
-    background-color: #165fb8;
-    padding: 40px o 40px 1%;
-    position: fixed;
-    overflow: hidden;
-    transition: .5s;
-}
-
 .perfil{
     color: #ffffff;
     text-decoration: none;

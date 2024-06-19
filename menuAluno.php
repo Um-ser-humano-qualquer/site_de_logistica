@@ -89,7 +89,7 @@
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="">
+                            <a href="pagina15Aluno.php">
                                 <span class="icone"><i class="bi bi-box2-fill"></i></span>
                                 <span class="txt-linke">Estoque</span>
                             </a>
