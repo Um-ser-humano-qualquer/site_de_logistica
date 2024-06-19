@@ -119,27 +119,25 @@
 
             <div class="divLogin-pt">
                 <br>
-                <input type="submit" value="pegar" class="botao">
                 <br>
+                <input type="submit" value="pegar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="votuo">
                 <br>
+                <input type="submit" value="pegar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="votuo">
                 <br>
+                <input type="submit" value="pegar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="votuo">
                 <br>
-                <br>
-                <input type="submit" value="pegar" class="botao">
-                <br>
-                <br>
-                <input type="submit" value="pegar" class="botao">
+                <input type="submit" value="pegar" class="votuo">
             </div>
           
             <form action="" method="POST0">
             <div class="divLogin-bo">
-                <input type="submit" value="Final Pincking" class="botao">
+                <input type="submit" value="Final Pincking" class="batu">
             </div>
             </form>
          </div>
