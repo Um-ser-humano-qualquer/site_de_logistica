@@ -47,7 +47,7 @@
                     </details>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina5Aluno.php">
+                    <a href="pagina6Aluno.php">
                         <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
                         <span class="txt-link">Movimentação</span>
                     </a>
@@ -59,13 +59,13 @@
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina9Aluno.php">
+                    <a href="pagina10Aluno.php">
                         <span class="icon"><i class="bi bi-geo-alt-fill"></i></span>
                         <span class="txt-link">Picking</span>
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="">
+                    <a href="pagina11Aluno.php">
                         <span class="icon"><i class="bi bi-globe2"></i></span>
                         <span class="txt-link">Expedição</span>
                     </a>
@@ -83,7 +83,7 @@
                             <span class="txt-linke">Controle</span>
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="">
+                            <a href="pagina14Aluno.php">
                                 <span class="icone"><i class="bi bi-dpad-fill"></i></span>
                                 <span class="txt-linke">Doca</span>
                             </a>
