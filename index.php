@@ -19,7 +19,7 @@
                     <form method="post" action="processoLoginAluno.php" class="form">
                         <input type="text" name="username" id="emailAluno" placeholder="Usuário">
                         <br>
-                        <input type="password" name="password" id="senhaAluno" placeholder="Senha">
+                        <input type="password" name="password" id="senhaAluno" placeholder="Senha" required>
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>
@@ -35,7 +35,7 @@
                     <form method="post" action="processoLoginProf.php" class="form">
                         <input type="text" name="username" id="emailProf" placeholder="Usuário">
                         <br>
-                        <input type="password" name="password" id="senhaProf" placeholder="Senha">
+                        <input type="password" name="password" id="senhaProf" placeholder="Senha" required>
                         <br>
                         <button class="btn-second btn-right">acessar</button>
                     </form>

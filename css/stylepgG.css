@@ -2,40 +2,61 @@
   background-image: url("../img/Movi_doc.png");
   background-position: absolute;
 }
+
 input {
-  font-size: 1.5em;
+  font-size: 2em;
   border-radius: 20px;
   border-color: #0000007d;
   border-style: hidden;
   border-top-style: solid;
-  padding-inline-start: 3px;
+  padding-inline-start: 15px;
+}
+.botao{
+  text-align: center;
+  background-color: #FF6C01;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 30px;
+  color: white;
+  border-block-color: revert;
+  border-block-start-width: initial;
+  border-block-end: none;
+  border-left-color: #ffffff00;
+  border-right-color: #ffffff00;
+  border-top-color: #ffffff00;
+  cursor: pointer;
 }
 ::placeholder {
   color: #ffffff;
 }
-.texto {
-  left: 0%;
+div.texto {
   position: relative;
-  padding: 0px;
-  margin: 0px;
+  padding: 1px;
+  margin: 10px;
 }
+
 .divMain2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 34em;
+  width: 80em;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  padding: 18em 34em;
+  padding: 1px;
   background-color: #004089;
   border-radius: 40px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
 
 .div-mid {
   display: flex;
-  height: 34em;
-  width: 66em;
+  height: 32em;
+  width: 77em;
   top: 3%;
   left: 20;
   position: absolute;
@@ -45,78 +66,82 @@ input {
   align-items: center;
 }
 .div-ok {
+  display: flex;
+  align-items: center;
   position: absolute;
-  width: 16%;
-  height: 40%;
-  padding: 0px 0px;
+  width: 15%;
+  height: 35%;
+  padding: 1px;
   background-color: #ff8c15;
-  right: 5%;
+  right: 7%;
   border-radius: 20px;
   border-style: solid;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tabela {
   height: 4em;
-  padding: 0px 0px;
-  margin: 0px 0px;
-  width: 20em;
+  padding: 1px;
+  margin: 1px;
+  width: 28em;
+}
+.Btable {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 41%;
+  height: 8%;
+  width: 28em;
+  border-radius: 30px;
 }
 .tableL {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-color: #ffffff;
-  border-style: hidden;
-  padding-inline-start: 15px;
-  background-color: #ff8a36;
-  width: 40%;
-  position: relative;
-  left: 17%;
-  border: white;
-  text-align: center;
-  bottom: 56px;
-  font-size: 2em;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
-}
-
-.tableC {
   border-color: #ffffff;
   border-style: hidden;
-  padding-inline-start: 15px;
   background-color: #ff8a36;
-  width: 38%;
+  width: 32%;
   position: relative;
-  left: 18%;
+  left: -1%;
+  border: white;
   text-align: center;
-  border-radius: revert-layer;
-  bottom: 56px;
+  font-size: 2em;
 }
-
-.tableR {
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+.tableC {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
   border-color: #ffffff;
   border-style: hidden;
-  padding-inline-start: 15px;
+  padding-inline-start: 5px;
   background-color: #ff8a36;
-  width: 40%;
-  left: 100%;
+  width: 31%;
+  position: relative;
+  left: 0;
+  border: white;
   text-align: center;
-  bottom: 95px;
-  border-bottom-left-radius: 0px;
+  font-size: 2em;
+}
+.tableR {
   border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-color: #ffffff;
+  border-style: hidden;
+  padding-inline-start: 5px;
+  background-color: #ff8a36;
+  width: 37%;
+  position: relative;
+  left: 1%;
+  border: white;
+  text-align: center;
+  font-size: 2em;
 }
-
-.Btable {
-  position: fixed;
-  background-color: white;
-  top: 44%;
-  right: 27%;
-  height: 12%;
-  width: 25em;
-  border-radius: 30px;
-}
-
 th.QTD {
   position: relative;
   right: 20%;
@@ -129,8 +154,30 @@ th.POSI {
   position: relative;
   right: 20%;
 }
-
 table {
   position: relative;
   right: 5%;
+}
+.posicaoTabela {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  flex-direction: row;
+  align-items: center;
+}
+.Btable2 {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  top: 52%;
+  height: 8%;
+  width: 28em;
+  border-radius: 30px;
+}
+.posicaoTabela2 {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  flex-direction: row;
+  align-items: center;
 }
