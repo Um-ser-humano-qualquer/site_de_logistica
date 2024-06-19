@@ -129,13 +129,10 @@ height: auto;
 
 .bot:hover{
     background-color: #db5d03;
-    color: #fff;
 }
 
-.bot:before{
-    display: block;
-    position: absolute;
-    top: -8.5px;
+.bot:active{
+    top: 4px;
 }
 .divMainZ {
     top: 54%;
