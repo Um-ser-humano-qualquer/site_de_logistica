@@ -109,11 +109,11 @@ height: auto;
     background-color: #004089;
     border-radius: 8px;
 }
-
 .bot{
     background-color: #FF6C01;
+    position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 14rem;
+    width: 10rem;
     height: 2rem;   
     border-radius: 15px;
     color: white;
@@ -124,6 +124,18 @@ height: auto;
     border-right-color: #ffffff00;
     border-top-color: #ffffff00;
     cursor: pointer;
+    margin-bottom: 7%;
+}
+
+.bot:hover{
+    background-color: #db5d03;
+    color: #fff;
+}
+
+.bot:before{
+    display: block;
+    position: absolute;
+    top: -8.5px;
 }
 .divMainZ {
     top: 54%;
@@ -189,4 +201,42 @@ height: auto;
     padding: 36px 25px;
     background-color: #004089;
     border-radius: 8px;
+}
+.divLogin-nada{
+    height: auto;
+    top: 16%;
+    left: 10%;
+    position: absolute;
+    padding: 30px 32px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+.divLogin-pobi{
+    height: auto;
+    top: 10%;
+    left:6%;
+    position: absolute;
+    padding: 250px 420px;
+    background-color: #057AFF;
+    border-radius: 9px;
+}
+.divLogin-puts{
+    height: auto;
+    top: 16%;
+    left: 64%;
+    position: absolute;
+    padding: 36px 25px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+.divMainY {
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 310px 480px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
 }

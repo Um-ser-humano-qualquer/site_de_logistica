@@ -65,7 +65,7 @@
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="">
+                    <a href="pagina11Aluno.php">
                         <span class="icon"><i class="bi bi-globe2"></i></span>
                         <span class="txt-link">Expedição</span>
                     </a>
