@@ -16,8 +16,9 @@
 
 <body>
     <div class="divMain">
+        <h2 class="texto">Escolha de Picking</h2> 
     <div class="divLogin divLogin-left">
-    <h2 class="texto">Escolha de Picking</h2>         
+       
                      
 
             </div>
@@ -45,19 +46,23 @@
       
         </div>
         <div class="benis">
-    <input type="submit" size="50" class="botao">
+    <input type="submit" class="botaob" placeholder="abrir">
     <br>
     <br>
-    <input type="submit" class="botao">
+    <br>
+    <input type="submit" class="botaob" placeholder="abrir">
     <br>
     <br>
-    <input type="submit" class="botao">
+    <br>
+    <input type="submit" class="botaob" placeholder="abrir">
     <br>
     <br>
-    <input type="submit" class="botao">
+    <br>
+    <input type="submit" class="botaob" placeholder="abrir">
     <br>
     <br>
-    <input type="submit" class="botao">
+    <br>
+    <input type="submit" class="botaob" placeholder="abrir">
         
 
         </div>

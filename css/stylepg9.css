@@ -14,10 +14,10 @@
     position: relative;
     height: 60%;
     left: 0%;
-    padding: 100px 100px;
+    padding: 40px 100px;
     background-color: #FF9528;
     top: 80%;
-    margin-left: 120%;
+    margin-left: 90%;
     margin-right: 54%;
     border-radius: 20px;
     }
@@ -32,6 +32,23 @@
    border-radius: 20px;
    position: absolute;
         
+}
+.botaob{
+    position: relative;
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    right: 66px;
 }
 
 .divLogin-left {
