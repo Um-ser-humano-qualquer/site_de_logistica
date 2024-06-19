@@ -41,11 +41,11 @@
 
 .divLogin-Right{
     height: auto;
-    top: 50%;
+    top: 49.2%;
     right: -18%;
     position: absolute;
     z-index: 1;
-    padding: 38px 90px;
+    padding: 31px 90px;
 }
 .divLoginD{
     top: 52%;
