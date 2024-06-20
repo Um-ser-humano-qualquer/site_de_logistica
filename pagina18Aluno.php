@@ -2,16 +2,16 @@
 <html lang="pt-br">
     <head>
         <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
+        <link rel="stylesheet" href="css/stylepgF.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/stylepgE.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title> Solicitações </title>
     </head>
 
-    <body class="fundo">
-        <div class="divMain inline">
-            <div class="divLogin-left">
+    <body class="fando">
+        <div class="divMainT inlove">
+            <div class="divLogin-lego">
                 <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido nº1">
                 <br>
                 <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº2">
@@ -34,7 +34,7 @@
                 <br>
             </div>
          
-            <div class="OK">
+            <div class="over">
                 <input type="submit" class="btn-OK" value="OK"></input>
                 <br>
                 <input type="submit" class="btn-OK" value="OK"></input>
