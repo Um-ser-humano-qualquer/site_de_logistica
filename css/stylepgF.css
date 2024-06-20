@@ -80,4 +80,45 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
     } 
+.divMainT {
+    top: 53%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 40px 360px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.divLogin-lego {
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    padding: 14px 50px;
+    background-color: #057AFF;
+    border-radius: 30px;
+    margin-left: 3.5%;
+    margin-top: 3%;
+}
+.over{
+    position: relative;
+    left:-118%;
+    bottom: 0%;
+    padding: 18px 10px;
+    background-color: #FF9F3D;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    margin-left: 220%;
+    margin-top: 16%;
+    width: 100%;
+}
+.fando {
+    background-image: url("../img/cry.river.png");
+    background-position: absolute;
+  }
+  .inlove{
+    display: flex;
+}
 
