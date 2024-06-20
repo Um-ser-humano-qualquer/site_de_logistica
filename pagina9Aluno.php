@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     
     <meta charset="UTF-8">
@@ -19,8 +19,7 @@
     <div class="divMain">
         <h2 class="texto">Escolha de Picking</h2> 
         
-        
-    <div class="whiteLine">
+    <div class="divLogin divLogin-left">
        
                      
 

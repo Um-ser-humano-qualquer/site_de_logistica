@@ -15,8 +15,8 @@ input {
   text-align: center;
   background-color: #FF6C01;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  width: 10rem;
-  height: 3rem;
+  width: 8rem;
+  height: 5rem;
   border-radius: 30px;
   color: white;
   border-block-color: revert;
@@ -55,12 +55,12 @@ div.texto {
 
 .div-mid {
   display: flex;
-  height: 32em;
-  width: 77em;
-  top: 3%;
-  left: 20;
+  height: 25em;
+  width: 75em;
+  top: 14%;
+  left: 40;
   position: absolute;
-  padding: 0px 0px;
+  padding: 100px 0px;
   background-color: #057aff;
   border-radius: 24px;
   align-items: center;
@@ -74,6 +74,7 @@ div.texto {
   padding: 1px;
   background-color: #ff8c15;
   right: 7%;
+  top:30%;
   border-radius: 20px;
   border-style: solid;
   flex-direction: column;
