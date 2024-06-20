@@ -58,12 +58,19 @@
         </div>
 
         <div class="div-ok">
+        <br>
+        <br>
             <h3>Finalizar</h3>
             <br>
             <input type="submit" value="OK" class="botao">
             <br>
-            <br>
             <input type="submit" value="OK" class="botao">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="voltar" class="botao">
         </div>
 
     </div>
