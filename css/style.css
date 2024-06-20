@@ -756,3 +756,115 @@ table{
 .botaoExpedicaoSuperior{
     margin-top: 10px;
 }
+
+.div-expedicao{
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 50px 100px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.div-expedicao1{
+    background-color: #057AFF;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    height: 50%;
+    width: 55%;
+    border-radius: 20px;
+    padding: 3% 5%;
+}
+
+.tableLE{
+    font-size: 200%;
+    width: 100%;
+    position: relative;
+    left: 2%;
+    border: white;
+    text-align: center;
+    width: 160%;
+}
+
+.tableLET{
+    border-top-left-radius: 15px;
+}
+
+.tableLEB{
+    border-bottom-left-radius: 15px;
+}
+
+.tableCE{
+    font-size: 200%;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 15px;
+    width: 100%;
+    position: relative;
+    left: 23%;
+    text-align: center;
+    width: 40%;
+    margin-left: 87%;
+}
+
+.tableRE{
+    font-size: 200%;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 15px;
+    width: 100%;
+    position: relative;
+    left: 21%;
+    text-align: center;
+    margin-left: 8.5%;
+    width: 50%;
+    margin-left: 37%;
+}
+
+.tableRET{
+    border-top-right-radius: 15px;
+}
+
+.tableREB{
+    border-bottom-right-radius: 15px;
+}
+
+.PRODUTOE{
+    position: relative;
+    right: 5%;
+}
+
+.UNITE{
+    position: relative;
+    right: -21.5%;
+}
+
+.QTDE{
+    position: relative;
+    right: -11%;
+}
+
+.posicaoExpedicao{
+    position: relative;
+    margin-bottom: 20%;
+}
+
+.div-expedicao2{
+    background-color: #057AFF;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    height: 0%;
+    width: 0%;
+    border-radius: 20px;
+    padding: 15% 7%;
+    margin-left: 3.5%;
+}
+
+.UNEL{
+    
+}
