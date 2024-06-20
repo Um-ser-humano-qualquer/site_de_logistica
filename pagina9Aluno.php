@@ -14,9 +14,11 @@
     
 </head>
 
-<body>
+<body class="fundolegal">
+
     <div class="divMain">
         <h2 class="texto">Escolha de Picking</h2> 
+        
     <div class="divLogin divLogin-left">
        
                      
