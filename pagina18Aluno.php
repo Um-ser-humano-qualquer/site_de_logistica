@@ -35,25 +35,25 @@
             </div>
          
             <div class="over">
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
             </div>
         </div>

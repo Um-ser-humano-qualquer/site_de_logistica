@@ -49,24 +49,33 @@
       
         </div>
         <div class="OrangeBlock">
-    <input type="submit" class="botaob" placeholder="abrir">
-    <br>
-    <br>
-    <br>
-    <input type="submit" class="botaob" placeholder="abrir">
-    <br>
-    <br>
-    <br>
-    <input type="submit" class="botaob" placeholder="abrir">
-    <br>
-    <br>
-    <br>
-    <input type="submit" class="botaob" placeholder="abrir">
-    <br>
-    <br>
-    <br>
-    <input type="submit" class="botaob" placeholder="abrir">
-        
+            <form action="pagina10Aluno.php" method="POST0">
+            <input type="submit" class="botaob" placeholder="abrir">
+            <br>
+            <br>
+            <br>
+            </form> 
+            <form action="pagina10Aluno.php" method="POST0">
+            <input type="submit" class="botaob" placeholder="abrir">
+            <br>
+            <br>
+            <br>
+            </form> 
+            <form action="pagina10Aluno.php" method="POST0">
+            <input type="submit" class="botaob" placeholder="abrir">
+            <br>
+            <br>
+            <br>
+            </form> 
+            <form action="pagina10Aluno.php" method="POST0">
+            <input type="submit" class="botaob" placeholder="abrir">
+            <br>
+            <br>
+            <br>
+            </form> 
+            <form action="pagina10Aluno.php" method="POST0">
+            <input type="submit" class="botaob" placeholder="abrir">
+            </form>   
 
         </div>
     </div>

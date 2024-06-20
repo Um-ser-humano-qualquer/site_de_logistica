@@ -121,4 +121,26 @@
   .inlove{
     display: flex;
 }
+.sbt-OK{
+    margin-bottom: 8.5%;
+    left: 0%;
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 12em;
+    height: 2.9em;   
+    border-radius: 30px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 70%;
+}
+.sbt-OK:hover{
+    background-color: #db5d03;
+}
 

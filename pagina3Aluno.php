@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/stylepgC.css">
         <link rel="stylesheet" href="css/stylepgF.css">
-        <meta name="viewport" content="w1.0">
+        <link rel="stylesheet" href="css/stylepgA.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title>Recebimento</title>
     </head>
 
-    <body class="fundo">
+    <body class="fundinhoB">
         <div class="divMain">
             <div class="divLoginnn">
                 <h2 class="texto">Vistoria e Conferência - Carga</h2>
