@@ -19,14 +19,15 @@
     <div class="divMain">
         <h2 class="texto">Escolha de Picking</h2> 
         
-    <div class="divLogin divLogin-left">
+        
+    <div class="whiteLine">
        
                      
 
             </div>
     <br>
     <br>
-        <div class="benes">
+        <div class="BlueBlock">
        
     <br>
         <input type="text" name="solicitação nº" size="10" class="caixaTexto" placeholder="solicitação nº">
@@ -47,7 +48,7 @@
             
       
         </div>
-        <div class="benis">
+        <div class="OrangeBlock">
     <input type="submit" class="botaob" placeholder="abrir">
     <br>
     <br>

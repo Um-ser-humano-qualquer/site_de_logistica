@@ -3,7 +3,7 @@
     left: 54%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 200px 300px;
+    padding: 50px 300px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,25 +14,25 @@
 
 
 
-.divLogin-left {
+.WhiteLine {
     position: relative;
-    height: 60%;
-    left: 0%;
-    padding: 0px 1000px;
+    height: 300%;
+    left: 300%;
+    padding: 300px 1000px;
     background-color: #ffffff;
-    top: 80%;
-    margin-left: 90%;
-    margin-right: 54%;
-    border-radius: 20px;
+    top: 300%;
+    margin-left: 300%;
+    margin-right:300%;
+    border-radius: 300px;
 
 }
 
-
-.benis{
+.OrangeBlock{
     position: relative;
+    border-style: solid;
     height: 60%;
     left: 0%;
-    padding: 40px 100px;
+    padding: 40px 90px;
     background-color: #FF9528;
     top: 80%;
     margin-left: 90%;
@@ -40,7 +40,7 @@
     border-radius: 20px;
     }
 
-.benes{
+.BlueBlock{
    position: relative;
    padding: 35px 60px;
    background-color: #057AFF;
