@@ -64,11 +64,25 @@
                         <span class="txt-link">Picking</span>
                     </a>
                 </li>
-                <li class="item-menu post">
-                    <a href="pagina11Aluno.php">
-                        <span class="icon"><i class="bi bi-globe2"></i></span>
-                        <span class="txt-link">Expedição</span>
-                    </a>
+                <li class="item-menuu"> <!-- item recebimento e suas sub classes -->
+                    <details class="item-menuu"> <!-- serve para criar sub itens -->
+                        <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
+                            <span class="icone"><i class="bi bi-globe2"></i></span>
+                            <span class="txt-linke">Expedição</span>
+                        </summary>
+                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
+                            <a href="pagina11Aluno.php">
+                                <span class="icone"><i class="bi bi-arrow-right-square"></i></span>
+                                <span class="txt-linke">Solicitação</span>
+                            </a>
+                        </li>
+                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
+                            <a href="pagina12Aluno.php">
+                                <span class="icone"><i class="bi bi-boxes"></i></span>
+                                <span class="txt-linke">Carga</span>
+                            </a>
+                        </li>
+                    </details>
                 </li>
                 <li class="item-menu post">
                     <a href="">
