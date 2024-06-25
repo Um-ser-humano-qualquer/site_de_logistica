@@ -12,7 +12,7 @@
         <title>Container</title>
     </head>
 
-    <body class="fundo">
+    <body class="fando">
         <div class="divLoginG">
         <form method="POST0" action="processoAlunopg2.php">
             <div class="divLogin divLogin-left">

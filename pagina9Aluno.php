@@ -19,14 +19,6 @@
     <div class="divMain">
         <center><h2 class="texto">Escolha de Picking</h2></center> 
         
-<<<<<<< HEAD
-=======
-    <div class="Line">
-       
-                     
-
-            </div>
->>>>>>> 53b35c013be8c67a9f87ce142a137159b5432d21
     <br>
     <br>
         <div class="BlueBlock">

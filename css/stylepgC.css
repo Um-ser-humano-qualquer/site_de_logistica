@@ -85,3 +85,15 @@
     top: 1%;
     cursor: pointer;
 }
+.fundolegal{
+    background-image: url("../img/Pincking1.jpg");
+    background-position: absolute fixed;
+}
+.fando {
+    background-image: url("../img/cry.river.png");
+    background-position: absolute fixed;
+}
+.findo {
+background-image: url("../img/Movi_doc.png");
+background-position: absolute fixed;
+}
