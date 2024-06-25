@@ -3,7 +3,7 @@
     left: 54%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 50px 300px;
+    padding: 50px 200px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,18 +14,19 @@
 
 
 
-.WhiteLine {
+.Line {
     position: relative;
-    height: 300%;
-    left: 300%;
-    padding: 300px 1000px;
+    height: 10%;
+    left: 0%;
+    padding: 3px 300px;
     background-color: #ffffff;
-    top: 300%;
-    margin-left: 300%;
-    margin-right:300%;
-    border-radius: 300px;
+    top: 0%;
+    margin-left: 0;
+    margin-right: 40%;
+    border-radius: 20px;
+    }
 
-}
+
 
 .OrangeBlock{
     position: relative;
@@ -35,8 +36,8 @@
     padding: 40px 90px;
     background-color: #FF9528;
     top: 80%;
-    margin-left: 90%;
-    margin-right: 54%;
+    margin-left: 70%;
+    margin-right: 60%;
     border-radius: 20px;
     }
 
