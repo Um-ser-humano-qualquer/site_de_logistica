@@ -135,7 +135,7 @@
                 <input type="submit" value="pegar" class="votuo">
             </div>
           
-            <form action="" method="POST0">
+            <form action="pagina9Aluno.php" method="POST0">
             <div class="divLogin-bo">
                 <input type="submit" value="Final Pincking" class="batu">
             </div>

@@ -77,7 +77,7 @@
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina12Aluno.php">
+                            <a href="pagina13Aluno.php">
                                 <span class="icone"><i class="bi bi-boxes"></i></span>
                                 <span class="txt-linke">Carga</span>
                             </a>
@@ -103,7 +103,7 @@
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="pagina15Aluno.php">
+                            <a href="pagina16Aluno.php">
                                 <span class="icone"><i class="bi bi-box2-fill"></i></span>
                                 <span class="txt-linke">Estoque</span>
                             </a>

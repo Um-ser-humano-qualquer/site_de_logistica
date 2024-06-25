@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
     </head>
     
-    <body class="findo">
+    <body class="fundinhoA">
 
         <?php 
             include 'menuAluno.php'

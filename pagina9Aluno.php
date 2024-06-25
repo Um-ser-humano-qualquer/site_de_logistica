@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     
     <meta charset="UTF-8">
@@ -17,13 +17,8 @@
 <body class="fundolegal">
 
     <div class="divMain">
-        <h2 class="texto">Escolha de Picking</h2> 
+        <center><h2 class="texto">Escolha de Picking</h2></center> 
         
-    <div class="Line">
-       
-                     
-
-            </div>
     <br>
     <br>
         <div class="BlueBlock">
