@@ -73,7 +73,7 @@
                 <br>
             </div>
         </form>
-        <form method="post" action="" id="" name="">
+        <form method="POST" action="pagina15Aluno.php" id="" name="">
             <div class="confirmado">
                 <input type="submit" class="btn-confirmado" value="confirmação"></input>
             </div>
