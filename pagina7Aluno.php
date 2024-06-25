@@ -62,6 +62,8 @@
         <br>
             <h3>Finalizar</h3>
             <br>
+            <br>
+            <br>
             <input type="submit" value="OK" class="botao">
             <br>
             <input type="submit" value="OK" class="botao">
