@@ -19,6 +19,20 @@ input.submit {
   border-top-style: solid;
   padding-inline-start: 15px;
 }
+
+.Line {
+  position: relative;
+  height: 10%;
+  left: 0%;
+  right: 10%;
+  padding: 2px 400px;
+  background-color: #ffffff;
+  top: 0%;
+  bottom: 60%;
+  margin-left: 0;
+  margin-right: 60%;
+  border-radius: 20px;
+  }
 .botao{
   text-align: center;
   background-color: #FF6C01;

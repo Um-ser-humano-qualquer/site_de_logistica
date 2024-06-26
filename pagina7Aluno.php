@@ -17,7 +17,7 @@
                 <br><br>
                 <input type="text" size="20">
             </div>
-
+           
             <div class="tabela">
                 <tr>
                     <div class="Btable">
@@ -36,6 +36,10 @@
                 </tr>
 
                 <tr>
+    <div class="Line">
+       
+                    
+       </div>
                     <div class="Btable2">
                         <div class="posicaoTabela2">
                             <td>

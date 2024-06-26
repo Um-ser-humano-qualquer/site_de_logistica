@@ -17,7 +17,13 @@
 <body class="fundolegal">
 
     <div class="divMain">
+        
         <center><h2 class="texto">Escolha de Picking</h2></center> 
+        <div class="Line">
+       
+                     
+
+       </div>
         
     <br>
     <br>
