@@ -16,7 +16,7 @@
                 <div class="second-column second-position1">
                     <h2 class="title title-second">Login de Aluno</h2>
                     <br>
-                    <form method="post" action="/php/processoLoginAluno.php" class="form">
+                    <form method="post" action="php/processoLoginAluno.php" class="form">
                         <input type="text" name="username" id="emailAluno" placeholder="Usuário">
                         <br>
                         <input type="password" name="password" id="senhaAluno" placeholder="Senha" required>
