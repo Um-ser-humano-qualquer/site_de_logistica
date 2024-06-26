@@ -73,9 +73,12 @@
                     </div>
                 </div>
                 <br>
+                <form method="POST" action="pagina3Aluno.php" id="" name="">
                 <input type="submit" class="botao">
+                </form>
             </form>
         </div>
+
         <div class="divLogin divLogin-pedido posicao-pedidoR">
             <h1 class="texto">Produto</h1>
             <form method="POST0" action="processoCarga.php">
@@ -134,9 +137,13 @@
                     </div>
                 </div>
                 <br>
+                <form method="POST" action="pagina3Aluno.php" id="" name="">
                 <input type="submit" class="botao">
+                </form>
+
             </form>
         </div>
+
         <div class="divLogin divLogin-pedido posicao-pedidoBL">
             <h1 class="texto">Produto</h1>
             <form method="POST0" action="processoCarga.php">
@@ -195,9 +202,12 @@
                     </div>
                 </div>
                 <br>
+                <form method="POST" action="pagina3Aluno.php" id="" name="">
                 <input type="submit" class="botao">
+                </form>
             </form>
         </div>
+
         <div class="divLogin divLogin-pedido posicao-pedidoBR">
             <h1 class="texto">Produto</h1>
             <form method="POST0" action="processoCarga.php">
@@ -256,7 +266,9 @@
                     </div>
                 </div>
                 <br>
+                <form method="POST" action="pagina3Aluno.php" id="" name="">
                 <input type="submit" class="botao">
+                </form>
             </form>
         </div>
         <div class="linhaB"></div>
