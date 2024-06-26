@@ -31,7 +31,7 @@ if ($stmt = $connect->prepare($SQL)) {
         $_SESSION['username'] = $row['username'];
         $connect->close();
 
-        header('Location: pagina1Aluno.php', true, 301);
+        header('Location: ../pagina1Aluno.php', true, 301);
         exit();
     } else {
         $connect->close();
