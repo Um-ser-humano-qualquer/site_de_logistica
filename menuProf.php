@@ -33,9 +33,9 @@
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="">
-                        <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
-                        <span class="txt-link">Estoque</span>
+                    <a href="pagina3Prof.php">
+                        <span class="icon"><i class="bi bi-unlock-fill"></i></span>
+                        <span class="txt-link">Senhas</span>
                     </a>
                 </li>
                 <li class="item-menu post">
