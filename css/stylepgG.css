@@ -20,16 +20,15 @@ input.submit {
   padding-inline-start: 15px;
 }
 .Line {
-  position: relative;
-  height: 10%;
+  position: absolute;
+  height: 2%;
   left: 0%;
   right: 10%;
   padding: 2px 400px;
   background-color: #ffffff;
-  top: 0%;
-  bottom: 60%;
+  top: 16%;
   margin-left: 0;
-  margin-right: 60%;
+  margin-right: 25%;
   border-radius: 20px;
   }
 .botao{
