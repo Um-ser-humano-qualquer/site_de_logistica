@@ -26,13 +26,13 @@ if ($connect->connect_errno) {
    $IMO = $connect->real_escape_string($_POST['IMO']);
 
    $sql = "INSERT INTO `container`
- (`placa`, `nome_motorista`, `container`, `navio`, `cliente`, `tipo`, `lacre`, `lacre Sif`, `NOnu`, `temperatura`, `IMO`, `turma_id`)
- VALUES
- ('" . $placa . "', '" . $nome_motorista . "', '" . $container . "', '" . $navio . "',  '" . $cliente . "', '" . $tipo . "', '" . $lacre . "', '" . $lacreSif . "', '" . $NOnu . "', '" . $temperatura . "', '" . $IMO . "', '1')";
+      (`placa`, `nome_motorista`, `container`, `navio`, `cliente`, `tipo`, `lacre`, `lacre Sif`, `NOnu`, `temperatura`, `IMO`, `turma_id`)
+      VALUES
+ ('" . $placa . "', '" . $nome_motorista . "', '" . $container . "', '" . $navio . "',  '" . $cliente . "', '" . $tipo . "', '" . $lacre . "', 
+ '" . $lacreSif . "', '" . $NOnu . "', '" . $temperatura . "', '" . $IMO . "', '1')";
 
    $resultado = $connect->query($sql);
-
-
+   
    $connect->close();
    header('location: ../pagina2Aluno.php', true, 301);
    exit();
