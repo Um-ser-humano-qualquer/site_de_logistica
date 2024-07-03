@@ -113,6 +113,9 @@ nav.transicao{
     cursor: pointer;
     margin-bottom: 22%;
 }
+.botuo:hover{
+    background-color: #db5d03;
+}
 
 .votuo{
     background-color: #FF6C01;
@@ -130,7 +133,33 @@ nav.transicao{
     cursor: pointer;
     margin-bottom: 21%;
 }
+.votuo:hover{
+    background-color: #db5d03;
+}
 
+<<<<<<< HEAD
+=======
+.batu{
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 14rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+.batu:hover{
+    background-color: #db5d03;
+}
+
+
+>>>>>>> 607157aee5816d95e4d0c0b88a2108a7d587fb2b
 .senaiLogoR{
     position: fixed;
     top: -11%;
@@ -495,6 +524,9 @@ table{
     font-size: 1em;
     margin-right: 70%;
 }
+.btn-OK:hover{
+    background-color:#FF4D00;
+}
 
 .confirmado{
     position: absolute;
@@ -683,6 +715,10 @@ table{
 
 .botaoExpedicaoSuperior{
     margin-top: 10px;
+}
+
+.botaoExpedicao:hover{
+    background-color: #db5d03;
 }
 
 .div-expedicao{
