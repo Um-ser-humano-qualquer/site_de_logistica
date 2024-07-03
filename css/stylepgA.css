@@ -16,11 +16,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
-.fundinhoB{
-    background-image: url("../img/lirio.png");
-    background-repeat:no-repeat;
-    background-position:absolute; 
-}
+
 .divLogin-mith{
         height: auto;
         top: 48%;
