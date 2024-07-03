@@ -77,9 +77,7 @@
         <?php
                 include 'menuAluno.php'
             ?>
-<<<<<<< HEAD
-=======
-=======
+
 <html lang="pt-br"><head>
     <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
     <link rel="stylesheet" href="style.css">
@@ -115,7 +113,11 @@
                     </div>
                 
 
-                
+                    <h3>Finalizar</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
     <div class="Line">
        
                     
@@ -144,11 +146,25 @@
             <input type="submit" value="Ok" class="botao">
             </div>
             <br>
+
             <div class="divLoginMy">
             <input type="submit" value="Ok" class="botu">
             </div>
 
             <form method="POST0" action="pagina6Aluno.php">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="OK" class="botao">
+            <br>
+            <input type="submit" value="OK" class="botao">
+            <br>
+            <br>
+            <br>
+            <br>
+
             <input type="submit" value="voltar" class="botao">
             </form>
         </div>
@@ -159,7 +175,6 @@
             include 'menuAluno.php'
     ?>
 
->>>>>>> 607157aee5816d95e4d0c0b88a2108a7d587fb2b
->>>>>>> 0d17a9fe908f2b94f00251ae415f35c50dbbdfb0
+
     </body>
 </html>
