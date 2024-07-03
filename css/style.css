@@ -131,22 +131,6 @@ nav.transicao{
     margin-bottom: 21%;
 }
 
-.batu{
-    background-color: #FF6C01;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 14rem;
-    height: 2rem;   
-    border-radius: 15px;
-    color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
-}
-
 .senaiLogoR{
     position: fixed;
     top: -11%;
