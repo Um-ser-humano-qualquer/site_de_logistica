@@ -56,34 +56,35 @@
             <div class="divLogin divLogin-Right">
                 <h2 class="texto">Assinale se tiver algum problema:</h2>
                 <br>
-                <h3><input type="checkbox" name="Container bem desgastado" class="texto">Container bem desgastado</h3>
+                <h3><input type="checkbox" name="sem lona" class="texto">Sem lona</h3>
                 <br>
-                <h3><input type="checkbox" name="Avaria na lateral direita" class="texto">Avaria na lateral direita</h3>
+                <h3><input type="checkbox" name="container_desgastado" class="texto">Container bem desgastado</h3>
                 <br>
-                <h3><input type="checkbox" name="Avaria na lateral esquerda" class="texto">Avaria na lateral esquerda</h3>
+                <h3><input type="checkbox" name="avaria_lateral_direita" class="texto">Avaria na lateral direita</h3>
                 <br>
-                <h3><input type="checkbox" name="Avaria no teto" class="texto">Avaria no teto</h3>
+                <h3><input type="checkbox" name="avaria_lateral_esquerda" class="texto">Avaria na lateral esquerda</h3>
                 <br>
-                <h3><input type="checkbox" name="Avaria na frente" class="texto">Avaria na frente</h3>
+                <h3><input type="checkbox" name="avaria_teto" class="texto">Avaria no teto</h3>
                 <br>
-                <h3><input type="checkbox" name="Sem lacre" class="texto">Sem lacre</h3>
+                <h3><input type="checkbox" name="avaria_frente" class="texto">Avaria na frente</h3>
                 <br>
-                <h3><input type="checkbox" name="Adesivos avariados" class="texto">Adesivos avariados</h3>
+                <h3><input type="checkbox" name="sem_lacre" class="texto">Sem lacre</h3>
                 <br>
-                <h3><input type="checkbox" name="Excesso de altura" class="texto">Excesso de altura</h3>
+                <h3><input type="checkbox" name="adesivos_avariados" class="texto">Adesivos avariados</h3>
                 <br>
-                <h3><input type="checkbox" name="Excesso na direita" class="texto">Excesso na direita</h3>
+                <h3><input type="checkbox" name="excesso_altura" class="texto">Excesso de altura</h3>
                 <br>
-                <h3><input type="checkbox" name="Excesso na esquerda" class="texto">Excesso na esquerda</h3>
+                <h3><input type="checkbox" name="excesso_direita" class="texto">Excesso na direita</h3>
                 <br>
-                <h3><input type="checkbox" name="Excesso frontal" class="texto">Excesso frontal</h3>
+                <h3><input type="checkbox" name="excesso_na_esquerda" class="texto">Excesso na esquerda</h3>
                 <br>
-                <h3><input type="checkbox" name="Painel Avariado" class="texto">Painel Avariado</h3>
+                <h3><input type="checkbox" name="excesso_frontal" class="texto">Excesso frontal</h3>
                 <br>
-                <h3><input type="checkbox" name="Sem cabo de energia" class="texto">Sem cabo de energia</h3>
+                <h3><input type="checkbox" name="painel_avariado" class="texto">Painel Avariado</h3>
                 <br>
-                <h3><input type="checkbox" name="Sem lona" class="texto">Sem lona</h3>
+                <h3><input type="checkbox" name="sem_cabo_energia" class="texto">Sem cabo de energia</h3>
                 <br>
+                
                 <center><input type="submit" value="registrar" class="botao"></center>
             </div>
         </form>
