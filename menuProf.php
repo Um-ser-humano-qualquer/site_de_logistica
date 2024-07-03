@@ -28,8 +28,8 @@
                 </li>
                 <li class="item-menu post">
                     <a href="pagina2Prof.php">
-                        <span class="icon"><i class="bi bi-signpost-2-fill"></i></span>
-                        <span class="txt-link">Movimentação</span>
+                        <span class="icon"><i class="bi bi-vector-pen"></i></span>
+                        <span class="txt-link">Informação</span>
                     </a>
                 </li>
                 <li class="item-menu post">
@@ -40,8 +40,8 @@
                 </li>
                 <li class="item-menu post">
                     <a href="">
-                        <span class="icon"><i class="bi bi-geo-alt-fill"></i></span>
-                        <span class="txt-link">Picking</span>
+                        <span class="icon"><i class="bi bi-backpack2"></i></span>
+                        <span class="txt-link">Estudantes</span>
                     </a>
                 </li>
                 <li class="item-menu post">
@@ -59,8 +59,8 @@
                 <li class="item-menuu"> <!-- item controle e suas sub classes -->
                     <details class="item-menuu"> <!-- serve para criar sub itens -->
                         <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
-                            <span class="icone"><i class="bi bi-pin-map-fill"></i></span>
-                            <span class="txt-linke">Controle</span>
+                            <span class="icone"><i class="bi bi-trash-fill"></i></i></span>
+                            <span class="txt-linke">Descarte</span>
                         </summary>
                         <li class="item-menu post"> <!-- sub classe do item controle -->
                             <a href="">
