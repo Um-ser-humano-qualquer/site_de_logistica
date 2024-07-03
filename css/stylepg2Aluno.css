@@ -1,0 +1,44 @@
+.divLoginG{
+    top: 52%;
+    left: 54%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 430px 604px;
+    background-color: #004089;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.divLogin :visited{
+    color: #000000;
+    font-weight: bolder;
+}
+
+.divLogin{
+    transform: translate(-50% , -50%);
+    padding: 20px 50px;
+    background-color: #057AFF;
+    border-radius:15px;
+    border-radius:10px;
+    border-color: white;
+    position: absolute;
+    left: 74%;
+}
+
+.divLogin-left{
+    height: auto;
+    top: 45.1%;
+    left: 24%;
+    position: absolute;
+    padding: 40px 60px;
+}
+
+.divLogin-Right{
+    height: auto;
+    top: 49.2%;
+    right: -18%;
+    position: absolute;
+    z-index: 1;
+    padding: 31px 90px;
+}

@@ -1,0 +1,34 @@
+.fundinhoA{
+    background-image: url("../img/Movi_dic.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+
+.fundo{
+    background-image: url("../img/vist_Cont.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+.fundinX{
+    background-image: url("../img/Movi_doc.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+
+.fundoHome{
+    background-image: url("../img/fundo_Home.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+
+.fundinho{
+    background-image: url("../img/fundoProf2.jpg");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
+
+.fundinhoB{
+    background-image: url("../img/lirio.png");
+    background-repeat:no-repeat;
+    background-position:absolute; 
+}
