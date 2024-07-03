@@ -35,8 +35,8 @@ input.submit {
   text-align: center;
   background-color: #FF6C01;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height:3rem;
   border-radius: 30px;
   color: white;
   border-block-color: revert;
@@ -46,6 +46,48 @@ input.submit {
   border-right-color: #ffffff00;
   border-top-color: #ffffff00;
   cursor: pointer;
+  margin-top: 10%;
+}
+.botu{
+  text-align: center;
+  background-color: #FF6C01;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 30px;
+  color: white;
+  border-block-color: revert;
+  border-block-start-width: initial;
+  border-block-end: none;
+  border-left-color: #ffffff00;
+  border-right-color: #ffffff00;
+  border-top-color: #ffffff00;
+  cursor: pointer;
+  margin-top: 10%;
+}
+.divLoginMygod{
+    top: 32%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #ff8c15;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+.divLoginMy{
+  top: 68%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  padding: 10px 10px;
+  background-color: #ff8c15;
+  border-radius:20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+
 }
 ::placeholder {
   color: #ffffff;

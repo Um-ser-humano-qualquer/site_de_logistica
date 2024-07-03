@@ -57,21 +57,18 @@
         </div>
 
         <div class="div-ok">
-            <br>
-            <br>
             <h3>Finalizar</h3>
+            <div class="divLoginMygod">
+            <input type="submit" value="Ok" class="botao">
+            </div>
             <br>
-            <br>
-            <br>
-            <input type="submit" value="OK" class="botao">
-            <br>
-            <input type="submit" value="OK" class="botao">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <div class="divLoginMy">
+            <input type="submit" value="Ok" class="botu">
+            </div>
+
+            <form method="POST0" action="pagina6Aluno.php">
             <input type="submit" value="voltar" class="botao">
+            </form>
         </div>
 
     </div>
