@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="css/StylepgC.css">
         <link rel="stylesheet" href="css/stylepgF.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Estoque</title>
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
     </head>
