@@ -10,9 +10,9 @@
         <title>Container</title>
     </head>
 
-    <body class="fundo">
-        <div class="divLoginG">
-            <form method="POST" action="php/processoAlunopg2.php">
+<body class="fundinhoB">
+    <div class="divLoginG">
+        <form method="POST" action="php/processoAlunopg2.php">
 
                 <div class="divLogin divLogin-left">
                     <h2 class="texto">Vistoria e Conferência - Container</h2>

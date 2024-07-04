@@ -10,7 +10,7 @@
         <title>Recebimento</title>
     </head>
 
-    <body class="fundinhoB">
+    <body class="fundo">
         <div class="divMain">
             <div class="divLoginnn">
                 <h2 class="texto">Vistoria e Conferência - Carga</h2>
