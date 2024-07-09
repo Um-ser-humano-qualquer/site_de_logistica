@@ -1,11 +1,11 @@
-<html lang="pt-br">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/stylepgG.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
-        <title>Movimentação2</title>
-    </head>
+<html lang="pt-br"><head>
+    <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/stylepgG.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+    <title>Movimentação2</title>
+</head>
 
 <body class="fundo">
     <div class="divMain2 ">
@@ -33,11 +33,7 @@
                     </div>
                 
 
-                    <h3>Finalizar</h3>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                
     <div class="Line">
        
                     
@@ -66,25 +62,11 @@
             <input type="submit" value="Ok" class="botao">
             </div>
             <br>
-
             <div class="divLoginMy">
             <input type="submit" value="Ok" class="botu">
             </div>
 
             <form method="POST0" action="pagina6Aluno.php">
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <input type="submit" value="OK" class="botao">
-            <br>
-            <input type="submit" value="OK" class="botao">
-            <br>
-            <br>
-            <br>
-            <br>
-
             <input type="submit" value="voltar" class="botao">
             </form>
         </div>
@@ -95,13 +77,5 @@
             include 'menuAluno.php'
     ?>
 
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-=======
->>>>>>> e9df01f374cb4c1a83c18ef9b2a42803f557aad6
->>>>>>> 5c0d63047fc60bf54f6f69aaa99092a5db9df19a
->>>>>>> dd9ee33c314bdcb4c0b421718e34c83a26baba81
     </body>
 </html>
