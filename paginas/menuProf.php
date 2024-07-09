@@ -56,25 +56,11 @@
                         <span class="txt-link">Relatórios</span>
                     </a>
                 </li>
-                <li class="item-menuu"> <!-- item controle e suas sub classes -->
-                    <details class="item-menuu"> <!-- serve para criar sub itens -->
-                        <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
-                            <span class="icone"><i class="bi bi-trash-fill"></i></i></span>
-                            <span class="txt-linke">Descarte</span>
-                        </summary>
-                        <li class="item-menu post"> <!-- sub classe do item controle -->
-                            <a href="">
-                                <span class="icone"><i class="bi bi-dpad-fill"></i></span>
-                                <span class="txt-linke">Doca</span>
-                            </a>
-                        </li>
-                        <li class="item-menu post"> <!-- sub classe do item controle -->
-                            <a href="">
-                                <span class="icone"><i class="bi bi-box2-fill"></i></span>
-                                <span class="txt-linke">Estoque</span>
-                            </a>
-                        </li>
-                    </details>
+                <li class="item-menu post"> <!-- sub classe do item controle -->
+                    <a href="">
+                        <span class="icon"><i class="bi bi-trash-fill"></i></span>
+                        <span class="txt-link">Descarte</span>
+                    </a>
                 </li>
             </ul>
         </nav>
