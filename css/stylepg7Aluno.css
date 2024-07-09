@@ -1,3 +1,14 @@
+.divLoginM{
+    top: 21%;
+    left: 16%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #057aff;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
 .divMain2{
     display: flex;
     flex-direction: row;
@@ -138,11 +149,11 @@
     align-items: center;
     position: absolute;
     width: 15%;
-    height: 35%;
+    height: 42%;
     padding: 2px 1px;
     background-color: #ff8c15;
     right: 7%;
-    top: 29%;
+    top: 24%;
     border-radius: 20px;
     border-style: solid;
     flex-direction: column;
@@ -150,8 +161,8 @@
 }
 
 .divLoginMygod{
-    top: 32%;
-    left: 50%;
+    top: 44%;
+    left: 48%;
     transform: translate(-50% , -50%);
     position: absolute;
     padding: 10px 10px;
@@ -160,7 +171,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
-
 .botu{
     text-align: center;
     background-color: #FF6C01;
@@ -177,6 +187,28 @@
     border-top-color: #ffffff00;
     cursor: pointer;
     margin-top: 10%;
+}
+.divLoginS{
+    top: 31%;
+    left: 85.5%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #ff8c15;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.divLoginT{
+    top: 130%;
+    left: 48%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #057aff;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 .botao{
@@ -196,10 +228,25 @@
     cursor: pointer;
     margin-top: 10%;
 }
+.boto{
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 12rem;
+    height: 2.5rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
 
 .divLoginMy{
-    top: 68%;
-    left: 50%;
+    top: 74%;
+    left: 48%;
     transform: translate(-50% , -50%);
     position: absolute;
     padding: 10px 10px;
