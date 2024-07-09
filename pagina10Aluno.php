@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylepgE.css">
-    <link rel="stylesheet" href="css/stylepgD.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
-    <title>Picking2</title>
-</head>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylepg10Aluno.css">
+        <link rel="stylesheet" href="css/styleFundo.css">
+        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+        <title>Picking2</title>
+    </head>
 
-<body class="fundinhoA">
-<div class="divMainZ">
+    <body class="fundinhoA">
+        <div class="divMainZ">
             <div class="divLogin-pcd">
                     <br>
                         <input type="text" name="" size="20" class="caixaTexto" placeholder="Pedido n°">
