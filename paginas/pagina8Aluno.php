@@ -1,8 +1,8 @@
 <html lang="pt-br">
     <head>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/stylepg16Aluno.css">
-        <link rel="stylesheet" href="css/styleFundo.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/stylepg8Aluno.css">
+        <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title>Estoque</title>
     </head>

@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="w1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/stylepg9Aluno.css">
-        <link rel="stylesheet" href="css/styleFundo.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/stylepg9Aluno.css">
+        <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title>Picking</title>
     </head>

@@ -1,9 +1,9 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/stylepg4Aluno.css">
-        <link rel="stylesheet" href="css/styleFundo.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/stylepg4Aluno.css">
+        <link rel="stylesheet" href="../css/styleFundo.css">
         <meta name="viewport" content="w1.0">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title>Vistoria-Conferência</title>

@@ -34,6 +34,6 @@ if ($connect->connect_errno) {
    $resultado = $connect->query($sql);
    
    $connect->close();
-   header('location: ../pagina2Aluno.php', true, 301);
+   header('location: ../paginas/pagina2Aluno.php', true, 301);
    exit();
 }
