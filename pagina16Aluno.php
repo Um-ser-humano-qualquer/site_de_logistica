@@ -4,12 +4,13 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/StylepgC.css">
         <link rel="stylesheet" href="css/stylepgF.css">
+        <link rel="stylesheet" href="css/styleFundo.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>Estoque</title>
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
     </head>
     
-    <body class="fundinhoA">
+    <body class="fundinX">
 
         <?php 
             include 'menuAluno.php'
@@ -100,6 +101,7 @@
                         </th>
                     </tr>
                 </table>
+                
             </div>
         </div>
     </body>

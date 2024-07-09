@@ -134,7 +134,7 @@
             </div>
           
             <form action="pagina9Aluno.php" method="POST0">
-            <div class="divLogin-bo">
+            <div class="divLogin-bot">
                 <input type="submit" value="Final Pincking" class="batu">
             </div>
             </form>
