@@ -1,20 +1,13 @@
 <html lang="pt-br">
     <head>
-        <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/StylepgC.css">
-        <link rel="stylesheet" href="css/stylepgF.css">
+        <link rel="stylesheet" href="css/stylepg16Aluno.css">
         <link rel="stylesheet" href="css/styleFundo.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <title>Estoque</title>
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+        <title>Estoque</title>
     </head>
     
-    <body class="fundinX">
-
-        <?php 
-            include 'menuAluno.php'
-        ?>
+    <body class="findo">
 
         <div class="divEstoque">
             <div class="inline margin-bottom">
@@ -101,8 +94,10 @@
                         </th>
                     </tr>
                 </table>
-                
             </div>
         </div>
+        <?php 
+            include 'menuAluno.php'
+        ?>
     </body>
 </html>

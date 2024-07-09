@@ -2,11 +2,10 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/stylepgE.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylepg14Aluno.css">
+        <link rel="stylesheet" href="css/styleFundo.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title> Doca (Controle) </title>
     </head>
@@ -39,16 +38,16 @@
             </div>
             <div class="divLogin-mid">
                 <h1 class="texto texto-posicao">Docas</h1>
-                <div class="divLogin-mid posicao-div posicao-div-top"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
-                <div class="divLogin-mid posicao-div"></div>
+                <div class="divLogin-mid posicao-div-top"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
             </div>   
             <div class="OK">
                 <input type="submit" class="btn-OK" value="OK"></input>
