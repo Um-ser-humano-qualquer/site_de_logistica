@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="">
+                    <a href="pagina4Prof.php">
                         <span class="icon"><i class="bi bi-backpack2"></i></span>
                         <span class="txt-link">Estudantes</span>
                     </a>

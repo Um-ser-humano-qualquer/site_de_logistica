@@ -71,12 +71,14 @@
             <input type="submit" value="Ok" class="botu">
             </div>
             
+            <br>
+            <br>
             <div class="divLoginT">
             <form method="POST0" action="pagina6Aluno.php">
             <input type="submit" value="Voltar" class="boto">
             </form>
             </div>
-
+           
         </div>
 
         <div class="divLoginM"><h2>Operações em Aberto</h2></div>
