@@ -32,3 +32,8 @@
     background-repeat:no-repeat;
     background-position:absolute; 
 }
+
+.fundo{
+    background-image: url("../img/Movi_doc.png");
+    background-position: absolute;
+}
