@@ -64,3 +64,8 @@
     background-repeat: no-repeat;
     background-position: absolute;
 }
+
+.fando{
+    background-image: url("../img/cry.river.png");
+    background-position: absolute;
+}

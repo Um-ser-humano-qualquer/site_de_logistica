@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
-        <link rel="stylesheet" href="css/stylepgF.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/stylepg18Aluno.css">
+        <link rel="stylesheet" href="css/styleFundo.css">
         <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
         <title> Solicitações </title>
     </head>
 
     <body class="fando">
-        <div class="divMainT inlove">
+        <div class="divMainT inline">
             <div class="divLogin-lego">
                 <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido nº1">
                 <br>

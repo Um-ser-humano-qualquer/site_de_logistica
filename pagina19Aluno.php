@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/stylepg19Aluno.css">
+        <link rel="stylesheet" href="css/styleFundo.css">
         <title>Expedição</title>
     </head>
     <body class="fundoExpedicao">
@@ -107,32 +109,32 @@
                 <table>
                     <tr>
                         <td>
-                            <input type="text" class="UNEL UNELT texto">
+                            <input type="text" class="texto">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="text" class="UNEL texto">
+                            <input type="text" class="texto">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="text" class="UNEL texto">
+                            <input type="text" class="texto">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="text" class="UNEL texto">
+                            <input type="text" class="texto">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="text" class="UNEL texto">
+                            <input type="text" class="texto">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="text" class="UNEL UNELB texto">
+                            <input type="text" class="texto">
                         </td>
                     </tr>
                 </table>
