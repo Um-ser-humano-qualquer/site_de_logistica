@@ -9,56 +9,60 @@
     </head>
 
 <body class="fundo">
-    <div class="divMain2">
-        <div class="div-mid">
-            <div class="texto">
-                <input type="text" size="20">
-                <br><br>
-                <input type="text" size="20">
-            </div>
-           
-            <div class="tabela">
+
+ <div class="divMain2">
+
+            <div class="div-mid">
                 
-                    <div class="Btable">
-                        <div class="posicaoTabela">
-                            
-                                <input type="text" class="tableL texto" placeholder="QNT">
-                            
-                            
-                                <input type="text" class="tableC texto" placeholder="R$/UNIT">
-                            
-                            
-                                <input type="text" class="tableR texto" placeholder="POSIÇÃO">
-                            
-                        </div>
+                <div class="texto">
+                    <input type="text" size="20">
+                    <br>
+                    <br>
+                    <input type="text" size="20">
+             </div>
+           
+        <div class="tabela">
+                
+                <div class="Btable"> <!-- primeira tabela -->
+                    <div class="posicaoTabela">
+                        
+                            <input type="text" class="tableL texto" placeholder="QNT">
+                        
+                        
+                            <input type="text" class="tableC texto" placeholder="R$/UNIT">
+                        
+                        
+                            <input type="text" class="tableR texto" placeholder="POSIÇÃO">
+                        
                     </div>
+                </div>
                 
 
                 
-    <div class="Line">
-       
+            <div class="Line"></div> <!-- linha -->
+
+            <div class="Btable2"><!-- segunda tabela -->
+                <div class="posicaoTabela2">
                     
-       </div>
-                    <div class="Btable2">
-                        <div class="posicaoTabela2">
-                            
-                                <input type="text" class="tableL texto" placeholder="QNT">
-                            
-                            
-                                <input type="text" class="tableC texto" placeholder="R$/UNIT">
-                            
-                            
-                                <input type="text" class="tableR texto" placeholder="POSIÇÃO">
-                            
-                        </div>
-                    </div>
+                        <input type="text" class="tableL texto" placeholder="QNT">
+                    
+                    
+                        <input type="text" class="tableC texto" placeholder="R$/UNIT">
+                    
+                    
+                        <input type="text" class="tableR texto" placeholder="POSIÇÃO">
+                    
+                </div>
+            </div>
                 
 
             </div>
         </div>
 
-        <div class="div-ok">
+        <div class="div-ok"> <!-- tabela dos Ok's -->
+
             <h3>Finalizar</h3>
+            
             <div class="divLoginMygod">
             <input type="submit" value="Ok" class="botao">
             </div>
@@ -66,11 +70,17 @@
             <div class="divLoginMy">
             <input type="submit" value="Ok" class="botu">
             </div>
-
+            
+            <div class="divLoginT">
             <form method="POST0" action="pagina6Aluno.php">
-            <input type="submit" value="voltar" class="botao">
+            <input type="submit" value="Voltar" class="boto">
             </form>
+            </div>
+
         </div>
+
+        <div class="divLoginM"><h2>Operações em Aberto</h2></div>
+        <div class="divLoginS"><h2>Finalizar</h2></div>
 
     </div>
     
