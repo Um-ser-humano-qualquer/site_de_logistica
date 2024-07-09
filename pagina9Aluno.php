@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    
-    <meta charset="UTF-8">
-    
-        <link rel="stylesheet" href="css/styleDoBotaoGeral.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="w1.0">
         <link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
         <link rel="stylesheet" href="css/stylepg9.css">
         <meta name="viewport" content="w1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -13,8 +12,15 @@
     <title>Picking</title>
     
 </head>
+=======
+        <link rel="stylesheet" href="css/stylepg9Aluno.css">
+        <link rel="stylesheet" href="css/styleFundo.css">
+        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+        <title>Picking</title>
+    </head>
+>>>>>>> c76399a2825c6f84c44032d4f9bf4c04f0157983
 
-<body class="fundolegal">
+    <body class="fundolegal">
 
     <div class="divMain">
         

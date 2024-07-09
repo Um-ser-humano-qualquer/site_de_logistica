@@ -10,11 +10,6 @@
     color: rgb(255, 255, 255);
 }
 
-.fundolegal {background-image: url("../img/Pincking1.jpg");
-}
-
-
-
 .Line {
     position: relative;
     height: 10%;
@@ -26,8 +21,6 @@
     margin-right: 40%;
     border-radius: 20px;
     }
-
-
 
 .OrangeBlock{
     position: relative;

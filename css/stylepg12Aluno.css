@@ -1,0 +1,148 @@
+.divMainW {
+    top: 54%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 400px 830px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.divLogin-one{
+    height: auto;
+    top: 16%;
+    left: 6%;
+    position: absolute;
+    padding: 30px 32px;
+    background-color: #057AFF;
+    border-radius: 9px;
+}
+
+.divLogin-two{
+    height: auto;
+    top: 16%;
+    left: 38%;
+    position: absolute;
+    padding: 30px 32px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+
+.divLogin-three{
+    height: auto;
+    top: 16%;
+    left: 52%;
+    position: absolute;
+    padding: 30px 32px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+
+.divLogin-four{
+    height: auto;
+    top: 16%;
+    left: 65.9%;
+    position: absolute;
+    padding: 30px 32px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+
+.divLogin-five{
+    height: auto;
+    top: 16.2%;
+    left: 81%;
+    position: absolute;
+    padding: 8px 25px;
+    background-color: #FF9528;
+    border-radius: 8px;
+}
+
+.divLogin-six{
+    height: auto;
+    top: 90%;
+    left: 78%;
+    position: absolute;
+    padding: 14px 20px;
+    background-color: #004089;
+    border-radius: 8px;
+}
+
+.divLogin-seven{
+    height: auto;
+    top: 4%;
+    left: 5%;
+    position: absolute;
+    padding: 14px 20px;
+    background-color: #004089;
+    border-radius: 8px;
+}
+
+.divLogin-eight{
+    height: auto;
+    top: 86%;
+    left: 32%;
+    position: absolute;
+    padding: 14px 20px;
+    background-color: #004089;
+    border-radius: 8px;
+}
+
+.divLogin-nine{
+    height: auto;
+    top: 82%;
+    left: 80.5%;
+    position: absolute;
+    padding: 12px 12px;
+    background-color: #004089;
+    border-radius: 8px;
+}
+
+.bar{
+    background-color: #FF9528;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 12rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    margin-bottom: 22%;
+}
+
+.num{
+    height: auto;
+    top: 87%;
+    left: 6%;
+    position: absolute;
+    padding: 12px 12px;
+    background-color: #004089;
+    border-radius: 8px;
+}
+
+.bidu{
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 16rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+
+.bidu:hover{
+    background-color: #db5d03;
+}
