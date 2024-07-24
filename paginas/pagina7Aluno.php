@@ -81,7 +81,7 @@
            
         </div>
 
-        <div class="divLoginM"><h2>Operações em Aberto</h2></div>
+        <div class="divLoginM"><h2>Endereçamento</h2></div>
         <div class="divLoginS"><h2>Finalizar</h2></div>
 
     </div>

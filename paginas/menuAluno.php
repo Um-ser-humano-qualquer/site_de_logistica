@@ -67,49 +67,48 @@
                 <li class="item-menuu"> <!-- item recebimento e suas sub classes -->
                     <details class="item-menuu"> <!-- serve para criar sub itens -->
                         <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
-                            <span class="icone"><i class="bi bi-globe2"></i></span>
-                            <span class="txt-linke">Expedição</span>
+                            <span class="icone"><i class="bi bi-pin-map-fill"></i></span>
+                            <span class="txt-linke">Controle</span>
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina11Aluno.php">
+                            <a href="pagina18Aluno.php">
                                 <span class="icone"><i class="bi bi-arrow-right-square"></i></span>
                                 <span class="txt-linke">Solicitação</span>
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina13Aluno.php">
-                                <span class="icone"><i class="bi bi-boxes"></i></span>
-                                <span class="txt-linke">Carga</span>
-                            </a>
-                        </li>
-                    </details>
-                </li>
-                <li class="item-menu post">
-                    <a href="">
-                        <span class="icon"><i class="bi bi-file-earmark-text-fill"></i></span>
-                        <span class="txt-link">Relatórios</span>
-                    </a>
-                </li>
-                <li class="item-menuu"> <!-- item controle e suas sub classes -->
-                    <details class="item-menuu"> <!-- serve para criar sub itens -->
-                        <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
-                            <span class="icone"><i class="bi bi-pin-map-fill"></i></span>
-                            <span class="txt-linke">Controle</span>
-                        </summary>
-                        <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="pagina14Aluno.php">
-                                <span class="icone"><i class="bi bi-dpad-fill"></i></span>
-                                <span class="txt-linke">Doca</span>
-                            </a>
-                        </li>
-                        <li class="item-menu post position"> <!-- sub classe do item controle -->
                             <a href="pagina16Aluno.php">
                                 <span class="icone"><i class="bi bi-box2-fill"></i></span>
                                 <span class="txt-linke">Estoque</span>
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="pagina18Aluno.php">
+                            <a href="pagina14Aluno.php">
+                                <span class="icone"><i class="bi bi-dpad-fill"></i></span>
+                                <span class="txt-linke">Doca</span>
+                            </a>
+                    </details>
+                </li>
+                <li class="item-menu post">
+                    <a href="">
+                        <span class="icon"><i class="bi bi-file-earmark-text-fill"></i></span>
+                        <span class="txt-link">Romaneio</span>
+                    </a>
+                </li>
+                <li class="item-menuu"> <!-- item controle e suas sub classes -->
+                    <details class="item-menuu"> <!-- serve para criar sub itens -->
+                        <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
+                            <span class="icone"><i class="bi bi-globe2"></i></span>
+                            <span class="txt-linke">Expedição</span>
+                        </summary>
+                        <li class="item-menu post position"> <!-- sub classe do item controle -->
+                            <a href="pagina13Aluno.php">
+                                <span class="icone"><i class="bi bi-boxes"></i></span>
+                                <span class="txt-linke">Carga</span>
+                            </a>
+                        </li>
+                        <li class="item-menu post position"> <!-- sub classe do item controle -->
+                            <a href="pagina11Aluno.php">
                                 <span class="icone"><i class="bi bi-book-fill"></i></span>
                                 <span class="txt-linke">Solicitações</span>
                             </a>

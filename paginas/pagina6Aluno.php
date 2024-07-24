@@ -114,19 +114,19 @@
                     <br>
                     <br>
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                     <br>
-                    <input type="submit" value="pegar" class="botuo">
+                    <input type="submit" value="Guardar" class="botuo">
                 </div>
             
                 <form action="pagina7Aluno.php" method="POST0">

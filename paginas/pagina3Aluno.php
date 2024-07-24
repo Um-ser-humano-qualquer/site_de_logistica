@@ -22,7 +22,7 @@
                     <input type="text" name="pedido" size="20" class="caixaTexto" placeholder="Pedido de compra">
                     <br>
                     <br>
-                    <input type="text" name="doca" size="20" class="caixaTexto" placeholder="Doca">
+                    <input type="text" name="doca" size="20" class="caixaTexto" placeholder="Endereçamento">
                     <br>
                     <br>
                     <input type="submit" class="botao">

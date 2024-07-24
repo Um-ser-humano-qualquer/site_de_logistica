@@ -15,7 +15,7 @@
         <form method="POST" action="php/processoAlunopg2.php">
 
                 <div class="divLogin divLogin-left">
-                    <h2 class="texto">Vistoria e Conferência - Container</h2>
+                    <h2 class="texto">Vistoria e Conferência</h2>
                     <br>
                     <input type="text" name="cliente" size="20" class="caixaTexto" placeholder="Cliente">
                     <br />
@@ -23,10 +23,7 @@
                     <input type="text" name="placa" size="20" class="caixaTexto" placeholder="Placa do caminhão">
                     <br />
                     <br>
-                    <input type="text" name="container" size="20" class="caixaTexto" placeholder="Container">
-                    <br />
-                    <br>
-                    <input type="text" name="navio" size="20" class="caixaTexto" placeholder="Navio">
+                    <input type="text" name="carga" size="20" class="caixaTexto" placeholder="Carga">
                     <br />
                     <br>
                     <input type="text" name="nome_motorista" size="20" class="caixaTexto" placeholder="Nome do motorista">
@@ -35,19 +32,19 @@
                     <input type="text" name="tipo" size="20" class="caixaTexto" placeholder="Tipo">
                     <br />
                     <br>
-                    <input type="text" name="lacre" size="20" class="caixaTexto" placeholder="Lacre">
+                    <input type="text" name="lacre" size="20" class="caixaTexto textcolor" placeholder="Lacre">
                     <br />
                     <br>
-                    <input type="text" name="lacre Sif" size="20" class="caixaTexto" placeholder="Lacre SIF">
+                    <input type="text" name="lacre Sif" size="20" class="caixaTexto textcolor" placeholder="Lacre SIF">
                     <br />
                     <br>
-                    <input type="text" name="NOnu" size="20" class="caixaTexto" placeholder="N°ONU">
+                    <input type="text" name="NOnu" size="20" class="caixaTexto textcolor" placeholder="N°ONU">
                     <br />
                     <br>
-                    <input type="text" name="temperatura" size="20" class="caixaTexto" placeholder="Temperatura">
+                    <input type="text" name="temperatura" size="20" class="caixaTexto textcolor" placeholder="Temperatura">
                     <br />
                     <br>
-                    <input type="text" name="IMO" size="20" class="caixaTexto" placeholder="IMO">
+                    <input type="text" name="IMO" size="20" class="caixaTexto textcolor" placeholder="IMO">
                     <br />
 
                 </div>
