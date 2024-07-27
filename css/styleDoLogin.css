@@ -5,7 +5,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url("/../site_de_logistica/img/fundo_login.png");  
+    background-image: url("/../site_de_logistica/img/fundo_login.png"); 
+    background-repeat:no-repeat;
+    background-position:absolute;
+    background-size: cover;  
 }
 
 .btn-link-right{
