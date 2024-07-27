@@ -9,7 +9,7 @@
         <title>Página Inicial</title>
     </head>
 
-    <body class="fundoP2">
+    <body class="fundinho">
         <?php
         include 'menuProf.php'
         ?>

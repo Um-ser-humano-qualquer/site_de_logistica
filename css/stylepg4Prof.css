@@ -1,5 +1,4 @@
-.OrangeBlockio
-{
+.OrangeBlockio{
     position: relative;
     border-style: solid;
     height: 60%;
@@ -12,13 +11,13 @@
     border-radius: 20px;
     }
     
-    .BlueBlock{
-        position: relative;
-        padding: 35px 60px;
-        background-color: #057AFF;
-        left: 10%;
-        margin-left: 4%;
-        margin-right: 600%;
-        border-radius: 20px;
-        position: absolute;
-    }
+.BlueBlock{
+    position: relative;
+    padding: 35px 60px;
+    background-color: #057AFF;
+    left: 10%;
+    margin-left: 4%;
+    margin-right: 600%;
+    border-radius: 20px;
+    position: absolute;
+}

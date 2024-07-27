@@ -1,71 +1,94 @@
 .fundinhoA{
     background-image: url("../img/Movi_dic.png");
     background-repeat:no-repeat;
-    background-position:absolute; 
+    background-position:absolute;
+    background-size: cover; 
 }
 
 .fundo{
     background-image: url("../img/vist_Cont.png");
     background-repeat:no-repeat;
     background-position:absolute; 
+    background-size: cover;
 }
 .fundinX{
     background-image: url("../img/Movi_doc.png");
     background-repeat:no-repeat;
     background-position:absolute; 
+    background-size: cover;
 }
 
 .fundoHome{
     background-image: url("../img/fundo_Home.png");
     background-repeat:no-repeat;
     background-position:absolute; 
+    background-size: cover;
 }
 
 .fundinho{
     background-image: url("../img/fundoProf2.jpg");
     background-repeat:no-repeat;
-    background-position:absolute; 
+    background-position:absolute;
+    background-size: cover;
 }
 
 .fundinhoB{
     background-image: url("../img/lirio.png");
     background-repeat:no-repeat;
-    background-position:absolute; 
+    background-position:absolute;
+    background-size: cover;
 }
 
 .fundo{
     background-image: url("../img/Movi_doc.png");
     background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .fundolegal{
     background-image: url("../img/Pincking1.jpg");
     background-position: absolute fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .fando{
     background-image: url("../img/cry.river.png");
     background-position: absolute fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .findo{
     background-image: url("../img/Movi_doc.png");
     background-position: absolute fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .fundolegal {
     background-image: url("../img/Pincking1.jpg");
     background-repeat:no-repeat;
-    background-position:absolute; 
+    background-position:absolute;
+    background-size: cover; 
 }
 
 .fundoExpedicao{
     background-image: url("../img/fundo_produto.png");
     background-repeat: no-repeat;
     background-position: absolute;
+    background-size: cover;
 }
 
 .fando{
     background-image: url("../img/cry.river.png");
     background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

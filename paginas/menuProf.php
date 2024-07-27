@@ -46,12 +46,6 @@
                 </li>
                 <li class="item-menu post">
                     <a href="">
-                        <span class="icon"><i class="bi bi-globe2"></i></span>
-                        <span class="txt-link">Expedição</span>
-                    </a>
-                </li>
-                <li class="item-menu post">
-                    <a href="">
                         <span class="icon"><i class="bi bi-file-earmark-text-fill"></i></span>
                         <span class="txt-link">Relatórios</span>
                     </a>
