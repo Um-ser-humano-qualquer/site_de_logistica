@@ -90,5 +90,11 @@
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.mando{
+    background-image: url("../img/professor1.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
