@@ -91,19 +91,19 @@
                 <br>
                 <br>
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
                 <br>
-                <input type="submit" value="pegar" class="bovuo">
+                <input type="submit" value="Finalizar" class="bovuo">
             </div>
       </div>
 
