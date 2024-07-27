@@ -34,8 +34,8 @@
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
                             <a href="pagina2Aluno.php">
-                                <span class="icone"><i class="bi bi-box"></i></span>
-                                <span class="txt-linke">Container</span>
+                                <span class="icone"><i class="bi bi-truck"></i></span>
+                                <span class="txt-linke">Transporte</span>
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
