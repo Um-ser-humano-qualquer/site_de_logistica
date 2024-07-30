@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/stylepg18Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
-        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
         <title> Solicitações </title>
     </head>
 

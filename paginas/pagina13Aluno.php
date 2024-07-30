@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/stylepg13Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
+        <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
         <title>Expedição</title>
     </head>
     <body class="fundoExpedicao">

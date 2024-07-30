@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/stylepg3Prof.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styleFundo.css">
-    <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
     <title>Senhas</title>
 </head>
 

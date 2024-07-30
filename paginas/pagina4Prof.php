@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/stylepg4Prof.css">
     <link rel="stylesheet" href="../css/styleFundo.css">
-    <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
     <title>Estudantes</title>
 </head>
 

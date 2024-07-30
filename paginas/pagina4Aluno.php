@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../css/stylepg4Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <meta name="viewport" content="w1.0">
-        <link rel="shortcut icon" href="img/icone_creati.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
         <title>Vistoria-Conferência</title>
     </head>
 
