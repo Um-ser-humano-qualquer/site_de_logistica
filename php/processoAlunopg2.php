@@ -12,11 +12,12 @@ if ($connect->connect_errno) {
    echo "Failed to connect to MySQL: " . $connect->connect_error;
    exit();
 } else {
+   if(isset($cliente, $placa, $container, $transporte, $nome_motorista, $tipo, $lacre))
 
    $cliente = $connect->real_escape_string($_POST['cliente']);
    $placa = $connect->real_escape_string($_POST['placa']);
    $container = $connect->real_escape_string($_POST['container']);
-   $navio = $connect->real_escape_string($_POST['navio']);
+   $transporte = $connect->real_escape_string($_POST['transporte']);
    $nome_motorista = $connect->real_escape_string($_POST['nome_motorista']);
    $tipo = $connect->real_escape_string($_POST['tipo']);
    $lacre = $connect->real_escape_string($_POST['lacre']);
@@ -26,9 +27,9 @@ if ($connect->connect_errno) {
    $IMO = $connect->real_escape_string($_POST['IMO']);
 
    $sql = "INSERT INTO `container`
-      (`placa`, `nome_motorista`, `container`, `navio`, `cliente`, `tipo`, `lacre`, `lacre Sif`, `NOnu`, `temperatura`, `IMO`, `turma_id`)
+      (`placa`, `nome_motorista`, `container`, `transporte`, `cliente`, `tipo`, `lacre`, `lacre Sif`, `NOnu`, `temperatura`, `IMO`, `turma_id`)
       VALUES
- ('" . $placa . "', '" . $nome_motorista . "', '" . $container . "', '" . $navio . "',  '" . $cliente . "', '" . $tipo . "', '" . $lacre . "', 
+ ('" . $placa . "', '" . $nome_motorista . "', '" . $container . "', '" . $transporte . "',  '" . $cliente . "', '" . $tipo . "', '" . $lacre . "', 
  '" . $lacreSif . "', '" . $NOnu . "', '" . $temperatura . "', '" . $IMO . "', '1')";
 
    $resultado = $connect->query($sql);
