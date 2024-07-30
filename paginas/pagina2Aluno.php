@@ -35,19 +35,19 @@
                     <input type="text" name="tipo" size="20" class="caixaTexto" placeholder="Tipo">
                     <br />
                     <br>
-                    <input type="text" name="lacre" size="20" class="caixaTexto textcolor" placeholder="Lacre">
+                    <input type="text" name="lacre" size="20" class="caixaTexto" placeholder="Lacre">
                     <br />
                     <br>
-                    <input type="text" name="lacre Sif" size="20" class="caixaTexto textcolor" placeholder="Lacre SIF">
+                    <input type="text" name="lacre Sif" size="20" class="caixaTexto0" placeholder="Lacre SIF">
                     <br />
                     <br>
-                    <input type="text" name="NOnu" size="20" class="caixaTexto textcolor" placeholder="N°ONU">
+                    <input type="text" name="NOnu" size="20" class="caixaTexto0" placeholder="N°ONU">
                     <br />
                     <br>
-                    <input type="text" name="temperatura" size="20" class="caixaTexto textcolor" placeholder="Temperatura">
+                    <input type="text" name="temperatura" size="20" class="caixaTexto0" placeholder="Temperatura">
                     <br />
                     <br>
-                    <input type="text" name="IMO" size="20" class="caixaTexto textcolor" placeholder="IMO">
+                    <input type="text" name="IMO" size="20" class="caixaTexto0" placeholder="IMO">
                     <br />
 
                 </div>

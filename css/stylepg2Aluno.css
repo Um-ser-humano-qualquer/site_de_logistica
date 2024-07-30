@@ -43,6 +43,17 @@
     padding: 31px 90px;
 }
 
-.textcolor{
+.caixaTexto0{
+    font-size: 2em;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
     background-color: #FF9742;
+    color: white;
+}
+
+.caixaTexto0::placeholder{
+    color: rgb(233, 233, 233);
 }
