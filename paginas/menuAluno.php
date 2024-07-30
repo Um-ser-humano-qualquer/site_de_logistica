@@ -83,9 +83,9 @@
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="pagina14Aluno.php">
-                                <span class="icone"><i class="bi bi-dpad-fill"></i></span>
-                                <span class="txt-linke">Doca</span>
+                            <a href="pagina11Aluno.php">
+                                <span class="icone"><i class="bi bi-book-fill"></i></span>
+                                <span class="txt-linke">Solicitações</span>
                             </a>
                     </details>
                 </li>
@@ -108,9 +108,9 @@
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item controle -->
-                            <a href="pagina11Aluno.php">
-                                <span class="icone"><i class="bi bi-book-fill"></i></span>
-                                <span class="txt-linke">Solicitações</span>
+                            <a href="pagina14Aluno.php">
+                                <span class="icone"><i class="bi bi-dpad-fill"></i></span>
+                                <span class="txt-linke">Doca</span>
                             </a>
                         </li>
                     </details>
