@@ -26,7 +26,7 @@
                     <input type="text" name="carga" size="20" class="caixaTexto" placeholder="Carga">
                     <br />
                     <br>
-                    <input type="text" name="Transporte" size="20" class="caixaTexto" placeholder="Transporte">
+                    <input type="text" name="transporte" size="20" class="caixaTexto" placeholder="Transporte">
                     <br />
                     <br>
                     <input type="text" name="nome_motorista" size="20" class="caixaTexto" placeholder="Nome do motorista">
