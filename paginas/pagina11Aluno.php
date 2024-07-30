@@ -12,22 +12,23 @@
         <div class="divMainY"><!--primeira div-->
             <div class="divLogin-pobi"><!--segunda div-->
                 <div class="divLogin-nada"> <!--terceira div-->
-                            <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                        <br/>
-                        <br>
-                            <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                        <br/>
-                        <br>
-                            <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                        <br/>
-                        <br>
-                            <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                        <br/>
-                        <br>
-                            <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                        <br/>
+                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    <br/>
+                    <br>
+                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    <br/>
+                    <br>
+                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    <br/>
+                    <br>
+                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    <br/>
+                    <br>
+                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    <br/>
                 </div>
-
+            </div>   
+            <div class="divLogin-sim">
                 <div class="divLogin-puts"> <!--botões-->
                     <form action="pagina12Aluno.php" method="POST0">
                         <input type="submit" value="Abrir" class="bot">
@@ -49,7 +50,7 @@
                         <input type="submit" value="Abrir" class="bot">
                     </form>
                 </div>
-            </div>   
+            </div>
         </div>
 
         <?php

@@ -3,41 +3,49 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 310px 480px;
+    padding: 13% 22%;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
+    border-radius: 2em;
 }
 
 .divLogin-pobi{
-    height: auto;
-    top: 10%;
-    left:6%;
+    top: 12%;
+    left: 6%;
     position: absolute;
-    padding: 250px 420px;
+    padding: 23% 29%;
     background-color: #057AFF;
-    border-radius: 9px;
+    border-radius: 2em;
 }
 
 .divLogin-nada{
-    height: auto;
-    top: 16%;
-    left: 10%;
+    top: 6%;
+    left: 6%;
     position: absolute;
-    padding: 30px 32px;
+    padding: 6% 5%;
     background-color: #057AFF;
-    border-radius: 8px;
+    border-radius: 2em;
+}
+
+.divLogin-sim{
+    top: 12%;
+    left: 70%;
+    position: absolute;
+    padding: 22.8% 12%;
+    background-color: #FF9528;
+    border-radius: 2em;
+    border-color: white;
+    border-style: solid;
 }
 
 .divLogin-puts{
-    height: auto;
-    top: 16%;
-    left: 64%;
+    top: 14%;
+    left: 10%;
     position: absolute;
-    padding: 36px 25px;
-    background-color: #057AFF;
-    border-radius: 8px;
+    padding: 0% 0%;
+    border-radius: 2em;
 }
 
 .bot{
