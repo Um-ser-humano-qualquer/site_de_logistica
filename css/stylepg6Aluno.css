@@ -85,3 +85,94 @@
     border-top-color: #ffffff00;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1440px){
+.divMainX {
+    top: 54%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 350px 670px;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.divLogin-meu{
+    height: auto;
+    top: 12%;
+    left: 2%;
+    position: absolute;
+    padding: 24px 22px;
+    background-color: #057AFF;
+    border-radius: 9px;
+}
+
+.divLogin-mc{
+    height: auto;
+    top: 12%;
+    left: 39%;
+    position: absolute;
+    padding: 24px 22px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+
+.divLogin-mt{
+    height: auto;
+    top: 12%;
+    left: 54%;
+    position: absolute;
+    padding: 24px 22px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+
+.divLogin-mv{
+    height: auto;
+    top: 12%;
+    left: 69%;
+    position: absolute;
+    padding: 24px 22px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+
+.divLogin-bt{
+    height: auto;
+    top: 12.2%;
+    left: 85%;
+    position: absolute;
+    padding: 5px 15px;
+    background-color: #FF9528;
+    border-radius: 8px;
+}
+
+.divLogin-bo{
+    height: auto;
+    top: 90%;
+    left: 80%;
+    position: absolute;
+    padding: 14px 18px;
+    background-color: #004089;
+    border-radius: 8px;
+}
+
+.batu{
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 14rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+
+}

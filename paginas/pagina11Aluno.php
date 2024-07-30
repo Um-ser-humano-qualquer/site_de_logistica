@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../css/stylepg11Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
-        <title>Expedição1</title>
+        <title> Organização </title>
     </head>
 
     <body class="fundinhoA">

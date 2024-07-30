@@ -57,3 +57,66 @@
 .caixaTexto0::placeholder{
     color: rgb(233, 233, 233);
 }
+
+@media screen and (max-width: 1440px){
+
+.divLoginG{
+    top: 52%;
+    left: 54%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 410px 540px;
+    background-color: #004089;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.divLogin :visited{
+    color: #000000;
+    font-weight: bolder;
+}
+
+.divLogin{
+    transform: translate(-50% , -50%);
+    padding: 20px 80px;
+    background-color: #057AFF;
+    border-radius:15px;
+    border-radius:10px;
+    border-color: white;
+    position: absolute;
+    left: 74%;
+}
+
+.divLogin-left{
+    height: auto;
+    top: 50%;
+    left: 28%;
+    position: absolute;
+    padding: 30px 40px;
+}
+
+.divLogin-Right{
+    height: auto;
+    top: 50%;
+    right: -13%;
+    position: absolute;
+    z-index: 1;
+    padding: 21px 80px;
+}
+
+.caixaTexto0{
+    font-size: 2em;
+    border-radius: 30px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+    background-color: #FF9742;
+    color: white;
+}
+
+.caixaTexto0::placeholder{
+    color: rgb(233, 233, 233);
+}
+}
