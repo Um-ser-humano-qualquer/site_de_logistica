@@ -7,97 +7,158 @@
         <title>Estoque</title>
     </head>
     
-    <body class="findo">
+<body class="findo">
 
-        <div class="divEstoque">
-            <div class="inline margin-bottom">
-                <h1 class="margin-right">Filtros</h1>
-                <h1>Posições</h1>
-            </div>
-            <div class="inline">
-                <div class="divEstoque1">
-                    <input type="text" name="Produtos" size="20" class="posicaoEstoque" placeholder="Produtos">
-                    <br>
-                    <input type="text" name="UN" size="20" class="posicaoEstoque" placeholder="UN">
-                    <br>
-                    <input type="text" name="QTD" size="20" class="posicaoEstoque" placeholder="QTD">
-                </div>
-                <table class="divEstoque2">
-                    <tr>
-                        <th class="">
-                            <input type="submit" value="A1" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="A2" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="A3" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="A4" class="btn-estoque">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="">
-                            <input type="submit" value="B1" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="B2" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="B3" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="B4" class="btn-estoque">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="">
-                            <input type="submit" value="C1" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="C2" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="C3" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="C4" class="btn-estoque">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="">
-                            <input type="submit" value="D1" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="D2" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="D3" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="D4" class="btn-estoque">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th class="">
-                            <input type="submit" value="E1" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="E2" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="E3" class="btn-estoque">
-                        </th>
-                        <th class="">
-                            <input type="submit" value="E4" class="btn-estoque">
-                        </th>
-                    </tr>
-                </table>
-            </div>
+<div class="divEstoque">
+    <div class="inline margin-bottom">
+        <h1 class="margin-right">Filtros</h1>
+        <h1>Posições</h1>
+    </div>
+    <div class="inline">
+        <div class="divEstoque1">
+            <input type="text" name="Produtos" size="20" class="posicaoEstoque" placeholder="Produtos">
+            <br>
+            <input type="text" name="UN" size="20" class="posicaoEstoque" placeholder="UN">
+            <br>
+            <input type="text" name="QTD" size="20" class="posicaoEstoque" placeholder="QTD">
         </div>
-        <?php 
-            include 'menuAluno.php'
-        ?>
-    </body>
+        <table class="divEstoque2">
+            <tr>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">A1</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">A2</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">A3</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">A4</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">B1</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">B2</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">B3</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">B4</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">C1</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">C2</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">C3</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">C4</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">D1</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">D2</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">D3</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">D4</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">E1</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">E2</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">E3</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+                <th>
+                    <div class="popup btn-estoque" onclick="myFunction()">
+                        <p class="botaoPosicao texto">E4</p>
+                        <span type="submit" value="A1" class="popuptext" id="myPopup">exemplo</span>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>
+<?php 
+    include 'menuAluno.php'
+?>
+<script src="../js/popup.js"></script>
+</body>
 </html>
