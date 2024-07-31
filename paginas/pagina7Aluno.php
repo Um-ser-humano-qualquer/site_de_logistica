@@ -35,7 +35,7 @@
                             <input type="text" class="tableR texto" placeholder="POSIÇÃO">
                         
                     </div>
-                </div>
+            </div>
                 
 
                 

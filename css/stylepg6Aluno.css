@@ -86,6 +86,322 @@
     cursor: pointer;
 }
 
+.Newtable{
+    height: auto;
+    top: 2%;
+    left: 130%;
+    position: absolute;
+    padding: 254px 352px;
+    background-color: #057AFF;
+    border-radius: 8px;
+}
+.divLoginM{
+    top: 21%;
+    left: 16%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #057aff;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.divMain2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 34em;
+    width: 80em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 1px;
+    background-color: #004089;
+    border-radius: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.div-mid{
+    display: flex;
+    height: 25em;
+    width: 75em;
+    top: 14%;
+    left: 40;
+    position: absolute;
+    padding: 100px 0px;
+    background-color: #057aff;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.tabela{
+    height: 4em;
+    padding: 1px;
+    margin: 1px;
+    width: 28em;
+}
+
+.Btable{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 41%;
+    height: 8%;
+    width: 28em;
+    border-radius: 30px;
+}
+.posicaoTabela{
+    display: flex;
+    padding: 5px;
+    margin: 2px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Btable2{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 52%;
+    height: 8%;
+    width: 28em;
+    border-radius: 30px;
+}
+  
+.posicaoTabela2{
+    display: flex;
+    padding: 5px;
+    margin: 2px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tableL{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: #ffffff;
+    border-style: hidden;
+    background-color: #ff8a36;
+    width: 32%;
+    position: relative;
+    left: -1%;
+    border: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.tableC{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 5px;
+    background-color: #ff8a36;
+    width: 31%;
+    position: relative;
+    left: 0;
+    border: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.tableR{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 5px;
+    background-color: #ff8a36;
+    width: 37%;
+    position: relative;
+    left: 1%;
+    border: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.Line{
+    position: absolute;
+    height: 2%;
+    left: 0%;
+    right: 10%;
+    padding: 2px 400px;
+    background-color: #ffffff;
+    top: 16%;
+    margin-left: 0;
+    margin-right: 25%;
+    border-radius: 20px;
+}
+
+.div-ok{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 15%;
+    height: 42%;
+    padding: 2px 1px;
+    background-color: #ff8c15;
+    right: 7%;
+    top: 24%;
+    border-radius: 20px;
+    border-style: solid;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.divLoginMygod{
+    top: 44%;
+    left: 48%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #ff8c15;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.botu{
+    text-align: center;
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 30px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.divLoginS{
+    top: 31%;
+    left: 85.5%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #ff8c15;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.divLoginT{
+    top: 130%;
+    left: 48%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #057aff;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.botao{
+    text-align: center;
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 6rem;
+    height:3rem;
+    border-radius: 30px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.boto{
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 12rem;
+    height: 2.5rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+
+.divLoginMy{
+    top: 74%;
+    left: 48%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 10px;
+    background-color: #ff8c15;
+    border-radius:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    font-size: 2em;
+    border-radius: 20px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+}
+
+input.submit{
+    font-size: 1em;
+    border-radius: 20px;
+    border-color: #0000007d;
+    border-style: hidden;
+    border-top-style: solid;
+    padding-inline-start: 15px;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+
+div.texto{
+    position: relative;
+    padding: 1px;
+    margin: 10px;
+}
+
+th.QTD{
+    position: relative;
+    right: 20%;
+}
+
+th.UNIT{
+    position: relative;
+    right: 20%;
+}
+
+th.POSI{
+    position: relative;
+    right: 20%;
+}
+
+table{
+    position: relative;
+    right: 5%;
+}
+
+
 @media screen and (max-width: 1440px){
 .divMainX {
     top: 54%;
