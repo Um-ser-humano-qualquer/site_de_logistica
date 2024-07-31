@@ -3,7 +3,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 13% 22%;
+    padding: 24% 42%;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -15,30 +15,26 @@
     top: 12%;
     left: 6%;
     position: absolute;
-    padding: 23% 29%;
+    padding: 19% 41%;
     background-color: #057AFF;
     border-radius: 2em;
+
 }
+
+
+
+    
 
 .divLogin-nada{
-    top: 6%;
-    left: 6%;
+    top: -20%;
+    left: 2%;
     position: absolute;
-    padding: 6% 5%;
-    background-color: #057AFF;
+    padding: -1% 3%;
+    background-color: #004089;
     border-radius: 2em;
 }
 
-.divLogin-sim{
-    top: 12%;
-    left: 70%;
-    position: absolute;
-    padding: 22.8% 12%;
-    background-color: #FF9528;
-    border-radius: 2em;
-    border-color: white;
-    border-style: solid;
-}
+
 
 .divLogin-puts{
     top: 14%;
@@ -53,8 +49,8 @@
     position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 10rem;
-    height: 2rem;   
-    border-radius: 15px;
+    height: 2rem;
+    border-radius: 19px;
     color: white;
     border-block-color: revert;
     border-block-start-width: initial;
@@ -63,7 +59,9 @@
     border-right-color: #ffffff00;
     border-top-color: #ffffff00;
     cursor: pointer;
-    margin-bottom: 7%;
+    margin-bottom: 9%;
+    top: 68%;
+    left: 449%;
 }
 
 .bot:hover{

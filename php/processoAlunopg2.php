@@ -31,7 +31,6 @@ if ($connect->connect_errno) {
  '" . $lacreSif . "', '" . $NOnu . "', '" . $temperatura . "', '" . $IMO . "', '1')";
 
    $resultado = $connect->query($sql);
-   echo $sql;
 
    $connect->close();
    header('location: ../paginas/pagina2Aluno.php', true, 301);
