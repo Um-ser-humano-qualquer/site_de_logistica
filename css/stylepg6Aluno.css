@@ -150,7 +150,7 @@
     top: 21%;
     left: 48%;
     height: 7%;
-    width: 38em;
+    width: 36em;
     border-radius: 30px;
 }
 .posicaoTabela{
@@ -193,6 +193,7 @@
     border: white;
     text-align: center;
     font-size: 2em;
+    margin: 0.5%;
 }
 
 .tableC{
@@ -210,7 +211,7 @@
     border: white;
     text-align: center;
     font-size: 2em;
-    margin: 1%;
+    margin: 0.5%;
 }
 
 .tableD{
@@ -228,7 +229,7 @@
     border: white;
     text-align: center;
     font-size: 2em;
-    margin: 1%;
+    margin: 0.5%;
 }
 
 .tableR{
@@ -240,7 +241,7 @@
     border-style: hidden;
     padding-inline-start: 5px;
     background-color: #ff8a36;
-    width: 37%;
+    width: 32%;
     position: relative;
     left: 1%;
     border: white;

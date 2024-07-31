@@ -11,7 +11,7 @@
     <body class="fundinhoA">
     <div class="divMainX">
             <div class="divLogin-meu">
-                    <h2 class="texto">Operação em aberto</h2>
+                    <h2 class="texto">Descrição do produto</h2>
                         <br>
                             <input type="text" name="" size="20" class="caixaTexto" placeholder="">
                         <br/>
@@ -44,7 +44,20 @@
 
                             <input type="text" class="tableD texto" placeholder="R$/UNIT">
                         
-                            <input type="text" class="tableR texto" placeholder="Valor Total">     
+                            <input type="text" class="tableR texto" placeholder="Total">     
+                    </div>
+            </div>
+
+            <div class="Btable"> <!-- primeira tabela -->
+                    <div class="posicaoTabela">
+                        
+                            <input type="text" class="tableL texto" placeholder="UN">
+                        
+                            <input type="text" class="tableC texto" placeholder="QNT">
+
+                            <input type="text" class="tableD texto" placeholder="R$/UNIT">
+                        
+                            <input type="text" class="tableR texto" placeholder="Total">     
                     </div>
             </div>
        </div>
