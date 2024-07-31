@@ -147,9 +147,10 @@
     display: flex;
     position: fixed;
     background-color: white;
-    top: 41%;
-    height: 8%;
-    width: 28em;
+    top: 21%;
+    left: 48%;
+    height: 7%;
+    width: 38em;
     border-radius: 30px;
 }
 .posicaoTabela{
@@ -209,6 +210,25 @@
     border: white;
     text-align: center;
     font-size: 2em;
+    margin: 1%;
+}
+
+.tableD{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 5px;
+    background-color: #ff8a36;
+    width: 40%;
+    position: relative;
+    left: 0;
+    border: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 1%;
 }
 
 .tableR{

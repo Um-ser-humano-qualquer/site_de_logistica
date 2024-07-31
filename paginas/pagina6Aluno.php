@@ -38,24 +38,20 @@
             <div class="Btable"> <!-- primeira tabela -->
                     <div class="posicaoTabela">
                         
-                            <input type="text" class="tableL texto" placeholder="QNT">
+                            <input type="text" class="tableL texto" placeholder="UN">
                         
+                            <input type="text" class="tableC texto" placeholder="QNT">
+
+                            <input type="text" class="tableD texto" placeholder="R$/UNIT">
                         
-                            <input type="text" class="tableC texto" placeholder="R$/UNIT">
-                        
-                        
-                            <input type="text" class="tableR texto" placeholder="POSIÇÃO">     
+                            <input type="text" class="tableR texto" placeholder="Valor Total">     
                     </div>
             </div>
        </div>
-       
+
         </div>
     </div>         
-                <form action="pagina7Aluno.php" method="POST0">
-                <div class="divLogin-bo">
-                    <input type="submit" value="Operação de Movimentação" class="batu">
-                </div>
-                </form>
+        
             </div>
             <?php
                 include 'menuAluno.php'
