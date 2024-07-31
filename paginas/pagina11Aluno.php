@@ -7,51 +7,33 @@
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
         <title> Organização </title>
     </head>
+    
 
     <body class="fundinhoA">
         <div class="divMainY"><!--primeira div-->
             <div class="divLogin-pobi"><!--segunda div-->
                 <div class="divLogin-nada"> <!--terceira div-->
-                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    
                     <br/>
                     <br>
-                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                    <br/>
-                    <br>
-                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                    <br/>
-                    <br>
-                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
-                    <br/>
-                    <br>
-                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Solicitação n°">
+                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Pedido de Venda n°">
                     <br/>
                 </div>
             </div>   
             <div class="divLogin-sim">
                 <div class="divLogin-puts"> <!--botões-->
-                    <form action="pagina12Aluno.php" method="POST0">
-                        <input type="submit" value="Abrir" class="bot">
-                    </form>
+                  
                     <br>
                     <form action="pagina12Aluno.php" method="POST0">
-                        <input type="submit" value="Abrir" class="bot">
-                    </form>
-                    <br>
-                    <form action="pagina12Aluno.php" method="POST0">
-                        <input type="submit" value="Abrir" class="bot">
-                    </form>
-                    <br>
-                    <form action="pagina12Aluno.php" method="POST0">
-                        <input type="submit" value="Abrir" class="bot">
-                    </form>
-                    <br>
-                    <form action="pagina12Aluno.php" method="POST0">
-                        <input type="submit" value="Abrir" class="bot">
+                        <input type="submit" value="Consultar Estoque" class="bot">
                     </form>
                 </div>
             </div>
         </div>
+        
+       
+                        
+                         
 
         <?php
             include 'menuAluno.php'
