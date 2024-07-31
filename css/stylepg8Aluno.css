@@ -88,7 +88,7 @@
   .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: #555;
+    background-color: #0656b3;
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -109,7 +109,7 @@
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: #555555 transparent transparent transparent;
   }
   
   /* Toggle this class - hide and show the popup */
