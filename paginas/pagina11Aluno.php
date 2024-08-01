@@ -6,20 +6,59 @@
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
         <title> Organização </title>
+        
     </head>
     
 
     <body class="fundinhoA">
         <div class="divMainY"><!--primeira div-->
+            <input type="text" name="" size="16" class="caixaTexto caixaTextoPosicao" placeholder="Pedido de Venda n°">
             <div class="divLogin-pobi"><!--segunda div-->
-                <div class="divLogin-nada"> <!--terceira div-->
-                    
-                    <br/>
-                    <br>
-                    <input type="text" name="" size="16" class="caixaTexto" placeholder="Pedido de Venda n°">
-                    <br/>
-                </div>
             </div>   
+            
+                    
+                    
+                    
+        <table class="sim">
+            <tr>
+                <th>
+                    <input type="text" size="16" class="tabeleL texto" placeholder="Valor Total">    
+                </th>
+                <th>  
+                    <input type="text" size="16" class="tableR texto" placeholder="Valor Unite">
+                </th> 
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" size="16" class= "tabeleL texto" placeholder="Valor Total">    
+                </th>
+                <th>  
+                    <input type="text" size="16" class="tableR texto" placeholder="Valor Unite">
+                </th> 
+            </tr>
+                <th>
+                    <input type="text" size="16" class= "tabeleL texto" placeholder="Valor Total">    
+                </th>
+                <th>  
+                    <input type="text" size="16" class="tableR texto" placeholder="Valor Unite">
+                </th> 
+            </tr>
+                <th>
+                    <input type="text" size="16" class= "tabeleL texto" placeholder="Valor Total">    
+                </th>
+                <th>  
+                    <input type="text" size="16" class="tableR texto" placeholder="Valor Unite">
+                </th> 
+            </tr>
+                <th>
+                    <input type="text" size="16" class= "tabeleL texto" placeholder="Valor Total">    
+                </th>
+                <th>  
+                    <input type="text" size="16" class="tableR texto" placeholder="Valor Unite">
+                </th> 
+            </tr>
+        </table>
+</div>
             <div class="divLogin-sim">
                 <div class="divLogin-puts"> <!--botões-->
                   
@@ -31,8 +70,7 @@
             </div>
         </div>
         
-       
-                        
+
                          
 
         <?php

@@ -1,9 +1,9 @@
 .divMainY{
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     position: absolute;
-    padding: 24% 42%;
+    top: 53%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    padding: 13% 21%;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,26 +12,43 @@
 }
 
 .divLogin-pobi{
-    top: 12%;
-    left: 6%;
+    top: 18%;
+    left: 3%;
     position: absolute;
-    padding: 19% 41%;
+    padding: 17% 43%;
     background-color: #057AFF;
     border-radius: 2em;
 
 }
 
+.tabeleL{
+    position: relative;
+    font-size: 2em;
+    border-color: #ffffff;
+    border-style: solid;
+    padding-inline-start: 15px;
+    background-color: #ff8a36;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    border-width: 30%;
+    color: white;
+}
 
+.tableR {
+    position: relative;
+    font-size: 2em;
+    border-color: #ffffff;
+    border-style: solid;
+    padding-inline-start: 15px;
+    background-color: #ff8a36;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    border-width: 30%;
+}   
 
-    
-
-.divLogin-nada{
-    top: -20%;
-    left: 2%;
-    position: absolute;
-    padding: -1% 3%;
-    background-color: #004089;
-    border-radius: 2em;
+.caixaTextoPosicao{
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -48,9 +65,9 @@
     background-color: #FF6C01;
     position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 10rem;
-    height: 2rem;
-    border-radius: 19px;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 26px;
     color: white;
     border-block-color: revert;
     border-block-start-width: initial;
@@ -59,9 +76,11 @@
     border-right-color: #ffffff00;
     border-top-color: #ffffff00;
     cursor: pointer;
-    margin-bottom: 9%;
-    top: 68%;
-    left: 449%;
+    margin-bottom: 32%;
+    top: 640px;
+    left: 480%;
+    bottom: 19%;
+    right: 458%;
 }
 
 .bot:hover{
