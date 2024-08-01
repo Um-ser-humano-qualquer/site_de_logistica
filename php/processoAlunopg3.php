@@ -20,7 +20,7 @@ if ($connect->connect_errno) {
     (`nota_fiscal`,`pedido_compra`) 
     VALUES 
     ('" . $nota_fiscal . "', '" . $pedido_compra . "')";
-    echo $sql;
+    
 
     $resultado = $connect->query($sql);
 

@@ -15,7 +15,7 @@
     <div class="divMain">
         <div class="divLoginnn">
             <h2 class="texto">Vistoria e Conferência - Carga</h2>
-            <form method="POST0" action="../php/processoAlunopg3.php">
+            <form method="POST" action="../php/processoAlunopg3.php">
                 <br>
                 <input type="text" name="nota" size="20" class="caixaTexto" placeholder="Nota fiscal">
                 <br>
