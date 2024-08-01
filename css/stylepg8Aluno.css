@@ -1,137 +1,933 @@
 .divEstoque{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    position: absolute;
-    padding: 43px 60px;
-    background-color: #004089;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-}
-
-.inline{
-    display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  padding: 43px 60px;
+  background-color: #004089;
+  border-radius: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .divEstoque1{
-    position: relative;
-    left: 0%;
-    padding: 10px 30px;
-    background-color: #057AFF;
-    border-radius: 30px;
-    margin-right: 5%;
+  position: relative;
+  left: 0%;
+  padding: 10px 30px;
+  background-color: #057AFF;
+  border-radius: 30px;
+  margin-right: 5%;
 }
 
 .divEstoque2{
-    position: relative;
-    left: 0%;
-    padding: 20px 30px;
-    background-color: #057AFF;
-    border-radius: 30px;
+  position: relative;
+  left: 0%;
+  padding: 20px 30px;
+  background-color: #057AFF;
+  border-radius: 30px;
 }
 
 .margin-bottom{
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 .margin-right{
-    margin-right: 43%;
+  margin-right: 39.1%;
 }
 
 .posicaoEstoque{
-    position: relative;
-    top: 14%;
-    width: 100%;
-    height: 20%;
-    margin-bottom: 5%;
-    font-size: 150%;
-    border-radius: 30px;
-    border-color: #0000007d;
-    border-style: hidden;
-    border-top-style: solid;
-    padding-inline-start: 15px;
+  position: relative;
+  top: 14%;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 5%;
+  font-size: 150%;
+  border-radius: 30px;
+  border-color: #0000007d;
+  border-style: hidden;
+  border-top-style: solid;
+  padding-inline-start: 15px;
 }
 
 .btn-estoque{
-    font-size: 130%;
-    background-color: #FF8C15;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 3em;
-    height: 2em;   
-    border-radius: 8px;
-    color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
+  font-size: 130%;
+  background-color: #FF8C15;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 3em;
+  height: 2.5em;   
+  border-radius: 8px;
+  color: white;
+  border-block-color: revert;
+  border-block-start-width: initial;
+  border-block-end: none;
+  border-left-color: #ffffff00;
+  border-right-color: #ffffff00;
+  border-top-color: #ffffff00;
+  cursor: pointer;
 }
 
 .btn-estoque:hover{
-    background-color: #f58915;
+  background-color: #f58915;
 }
 
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* The actual popup */
-  .popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #0656b3;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-  }
-  
-  /* Popup arrow */
-  .popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555555 transparent transparent transparent;
-  }
-  
-  /* Toggle this class - hide and show the popup */
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-  }
-  
-  /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
+.popupA1{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
-  .botaoPosicao{
-    position: relative;
-    margin-top: 15%;
-    
-  }
+.popupA2{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupA3{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupA4{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupA5{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupA1 .popuptextA1{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupA2 .popuptextA2{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupA3 .popuptextA3{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupA4 .popuptextA4{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupA5 .popuptextA5{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupA1 .popuptextA1::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupA2 .popuptextA2::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupA3 .popuptextA3::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupA4 .popuptextA4::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupA5 .popuptextA5::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupA1 .showA1{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupA2 .showA2{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupA3 .showA3{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupA4 .showA4{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupA5 .showA5{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupB1{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupB2{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupB3{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupB4{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupB5{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupB1 .popuptextB1{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupB2 .popuptextB2{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupB3 .popuptextB3{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupB4 .popuptextB4{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupB5 .popuptextB5{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupB1 .popuptextB1::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupB2 .popuptextB2::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupB3 .popuptextB3::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupB4 .popuptextB4::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupB5 .popuptextB5::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupB1 .showB1{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupB2 .showB2{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupB3 .showB3{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupB4 .showB4{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupB5 .showB5{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupC1{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupC2{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupC3{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupC4{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupC5{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupC1 .popuptextC1{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupC2 .popuptextC2{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupC3 .popuptextC3{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupC4 .popuptextC4{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupC5 .popuptextC5{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupC1 .popuptextC1::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupC2 .popuptextC2::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupC3 .popuptextC3::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupC4 .popuptextC4::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupC5 .popuptextC5::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupC1 .showC1{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupC2 .showC2{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupC3 .showC3{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupC4 .showC4{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupC5 .showC5{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupD1{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupD2{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupD3{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupD4{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupD5{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupD1 .popuptextD1{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupD2 .popuptextD2{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupD3 .popuptextD3{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupD4 .popuptextD4{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupD5 .popuptextD5{
+  visibility: hidden;
+  width: 160px;
+  background-color: #066CDF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popupD1 .popuptextD1::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupD2 .popuptextD2::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupD3 .popuptextD3::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupD4 .popuptextD4::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupD5 .popuptextD5::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #066CDF transparent transparent transparent;
+}
+
+.popupD1 .showD1{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupD2 .showD2{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupD3 .showD3{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupD4 .showD4{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+.popupD5 .showD5{
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+  
+@-webkit-keyframes fadeIn{
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+  
+@keyframes fadeIn{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.botaoPosicao{
+  position: relative;
+  margin-top: 20%;    
+}
+
+.botao-posicao{
+  position: relative;
+  left: 81.5%;
+  margin-top: 2%;
+  margin-bottom: -3%;
+}
