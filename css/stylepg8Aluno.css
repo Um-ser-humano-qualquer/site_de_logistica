@@ -123,7 +123,7 @@
 .popupA1 .popuptextA1{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -138,7 +138,7 @@
 .popupA2 .popuptextA2{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -153,7 +153,7 @@
 .popupA3 .popuptextA3{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -168,7 +168,7 @@
 .popupA4 .popuptextA4{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -183,7 +183,7 @@
 .popupA5 .popuptextA5{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -203,7 +203,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupA2 .popuptextA2::after{
@@ -214,7 +214,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupA3 .popuptextA3::after{
@@ -225,7 +225,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupA4 .popuptextA4::after{
@@ -236,7 +236,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupA5 .popuptextA5::after{
@@ -247,7 +247,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupA1 .showA1{
@@ -333,7 +333,7 @@
 .popupB1 .popuptextB1{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -348,7 +348,7 @@
 .popupB2 .popuptextB2{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -363,7 +363,7 @@
 .popupB3 .popuptextB3{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -378,7 +378,7 @@
 .popupB4 .popuptextB4{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -393,7 +393,7 @@
 .popupB5 .popuptextB5{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -413,7 +413,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupB2 .popuptextB2::after{
@@ -424,7 +424,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupB3 .popuptextB3::after{
@@ -435,7 +435,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupB4 .popuptextB4::after{
@@ -446,7 +446,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupB5 .popuptextB5::after{
@@ -457,7 +457,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupB1 .showB1{
@@ -543,7 +543,7 @@
 .popupC1 .popuptextC1{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -558,7 +558,7 @@
 .popupC2 .popuptextC2{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -573,7 +573,7 @@
 .popupC3 .popuptextC3{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -588,7 +588,7 @@
 .popupC4 .popuptextC4{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -603,7 +603,7 @@
 .popupC5 .popuptextC5{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -623,7 +623,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupC2 .popuptextC2::after{
@@ -634,7 +634,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupC3 .popuptextC3::after{
@@ -645,7 +645,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupC4 .popuptextC4::after{
@@ -656,7 +656,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupC5 .popuptextC5::after{
@@ -667,7 +667,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupC1 .showC1{
@@ -753,7 +753,7 @@
 .popupD1 .popuptextD1{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -768,7 +768,7 @@
 .popupD2 .popuptextD2{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -783,7 +783,7 @@
 .popupD3 .popuptextD3{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -798,7 +798,7 @@
 .popupD4 .popuptextD4{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -813,7 +813,7 @@
 .popupD5 .popuptextD5{
   visibility: hidden;
   width: 160px;
-  background-color: #066CDF;
+  background-color: #0057bb;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -833,7 +833,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupD2 .popuptextD2::after{
@@ -844,7 +844,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupD3 .popuptextD3::after{
@@ -855,7 +855,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupD4 .popuptextD4::after{
@@ -866,7 +866,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupD5 .popuptextD5::after{
@@ -877,7 +877,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #066CDF transparent transparent transparent;
+  border-color: #0057bb transparent transparent transparent;
 }
 
 .popupD1 .showD1{
