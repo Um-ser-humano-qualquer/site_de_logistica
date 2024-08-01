@@ -111,14 +111,24 @@
                     </div>
             </div>
 
-    </div>
-
-            <div class="divLogin-bot">
-                <input type="submit" value="Gerar Endereço" class="batu">
+            <div class="over">
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
             </div>
 
+    </div>
+
+
   </div>         
-        
             </div>
             <?php
                 include 'menuAluno.php'

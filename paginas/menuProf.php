@@ -34,15 +34,15 @@
                             <span class="txt-linke">Informação</span>
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina2Prof.php">
-                                <span class="icone"><i class="bi bi-truck"></i></span>
-                                <span class="txt-linke">Venda</span>
+                            <a href="pagina5Prof.php">
+                                <span class="icone"><i class="bi bi-currency-dollar"></i></span>
+                                <span class="txt-linke">Compra</span>
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina5Prof.php">
-                                <span class="icone"><i class="bi bi-boxes"></i></span>
-                                <span class="txt-linke">Compra</span>
+                            <a href="pagina2Prof.php">
+                                <span class="icone"><i class="bi bi-currency-exchange"></i></span>
+                                <span class="txt-linke">Venda</span>
                             </a>
                         </li>
                     </details>
