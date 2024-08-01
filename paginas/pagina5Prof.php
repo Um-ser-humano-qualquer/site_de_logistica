@@ -15,7 +15,7 @@
         ?>
         <div class="divProf2">
             <form method="POST0" action="">
-                <input type="text" name="pedido" size="20" class="caixaTexto produtoPosition" placeholder="Pedido de venda">
+                <input type="text" name="pedido" size="20" class="caixaTexto produtoPosition" placeholder="Pedido de compra">
             </form>
             <form method="POST0" action="">
                 <div class="posicaoP2">
