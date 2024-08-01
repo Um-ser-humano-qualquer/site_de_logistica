@@ -37,7 +37,7 @@
 
 .BlueBlock{
    position: relative;
-   padding: 35px 60px;
+   padding: 35px 40px;
    background-color: #057AFF;
    left: 5%;
    margin-left: 4%;
@@ -154,3 +154,6 @@
 }
 
 
+.textoPosicao{
+    margin-right: -100%;
+}

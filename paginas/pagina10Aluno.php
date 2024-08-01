@@ -12,7 +12,7 @@
         <div class="divMainZ">
             <div class="divLogin-pcd">
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="Pedido n°">
+                        <input type="text" name="" size="20" class="caixaTexto" placeholder="Pedido de compra n°">
                     <br/>
             </div>
             <div class="divLogin-mpb">
@@ -118,24 +118,24 @@
             <div class="divLogin-pt">
                 <br>
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="pegar" class="votuo">
+                <input type="submit" value="Separar" class="votuo">
             </div>
           
             <form action="pagina9Aluno.php" method="POST0">
             <div class="divLogin-bot">
-                <input type="submit" value="Final Pincking" class="batu">
+                <input type="submit" value="Finalizar Pincking" class="botao batu">
             </div>
             </form>
          </div>

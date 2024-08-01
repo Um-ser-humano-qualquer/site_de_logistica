@@ -26,19 +26,19 @@
         <div class="BlueBlock">
        
     <br>
-        <input type="text" name="solicitação nº" size="10" class="caixaTexto" placeholder="solicitação nº">
+        <input type="text" name="solicitação nº" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº">
     <br>
     <br>
-        <input type="text" name="solicitação nº" size="10" class="caixaTexto" placeholder="solicitação nº">
+        <input type="text" name="solicitação nº" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº">
     <br>
     <br>
-        <input type="text" name="solicitação nº" size="10" class="caixaTexto" placeholder="solicitação nº">
+        <input type="text" name="solicitação nº" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº">
     <br>
     <br>
-        <input type="text" name="solicitação nº" size="10" class="caixaTexto" placeholder="solicitação nº">
+        <input type="text" name="solicitação nº" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº">
     <br>
     <br>
-        <input type="text" name="solicitação nº" size="10" class="caixaTexto" placeholder="solicitação nº">
+        <input type="text" name="solicitação nº" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº">
     <br>
     <br>
             
