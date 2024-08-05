@@ -15,7 +15,7 @@
         <div class="divMain3"></div>
         <div class="divLogin divLogin-pedido posicao-pedidoL">
             <h1 class="texto">Produto</h1>
-            <form method="POST" action="../php/processoAlunopg4.php">
+            <form method="POST" action="../php/processoAlunopg4.php" name="form" id="form">
                 <br>
                 <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Pedido">
                 <br>
@@ -40,13 +40,13 @@
                         <div class="Btable"></div>
                         <div>
                             <td>
-                                <input type="text" class="tableL texto" name="qtd">
+                                <input type="text" class="tableL texto" name="qtd" id="qnt" onkeyup="calcular_preco()">
                             </td>
                             <td>
-                                <input type="text" class="tableC texto" name="valor_unit">
+                                <input type="text" class="tableC texto" name="valor_unit" id="valor_unit" onkeyup="calcular_preco()">
                             </td>
                             <td>
-                                <input type="text" class="tableR texto" name="valor_total">
+                                <input type="text" class="tableR texto" name="valor_total" id="valor_total">
                             </td>
                         </div>
                     </tr>
@@ -54,16 +54,16 @@
                 <br>
                 <div class="inline">
                     <div class="faltando">
-                            <h2>Faltando?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]">
-                            </div>
+                        <h2>Faltando?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]">
+                        </div>
                     </div>
                     <div class="avariado">
-                            <h2>Avariado?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]">
-                            </div>
+                        <h2>Avariado?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]">
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -98,10 +98,10 @@
                         <div class="Btable"></div>
                         <div class="posicaoTabela">
                             <td>
-                                <input type="text" class="tableL texto" name="qtd">
+                                <input type="text" class="tableL texto" name="qtd" id="qnt" onkeyup="calcular_preco()">
                             </td>
                             <td>
-                                <input type="text" class="tableC texto" name="valor_unit">
+                                <input type="text" class="tableC texto" name="valor_unit" id="valor_unit" onkeyup="calcular_preco()">
                             </td>
                             <td>
                                 <input type="text" class="tableR texto" name="valor_total">
@@ -112,16 +112,16 @@
                 <br>
                 <div class="inline">
                     <div class="faltando">
-                            <h2>Faltando?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]" value="faltando">
-                            </div>
+                        <h2>Faltando?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]" value="faltando">
+                        </div>
                     </div>
                     <div class="avariado">
-                            <h2>Avariado?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]" value="avariado">
-                            </div>
+                        <h2>Avariado?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]" value="avariado">
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -157,10 +157,10 @@
                         <div class="Btable"></div>
                         <div class="posicaoTabela">
                             <td>
-                                <input type="text" class="tableL texto" name="qtd">
+                                <input type="text" class="tableL texto" name="qtd" id="qnt" onkeyup="calcular_preco()">
                             </td>
                             <td>
-                                <input type="text" class="tableC texto" name="valor_unit">
+                                <input type="text" class="tableC texto" name="valor_unit" id="valor_unit" onkeyup="calcular_preco()">
                             </td>
                             <td>
                                 <input type="text" class="tableR texto" name="valor_total">
@@ -171,16 +171,16 @@
                 <br>
                 <div class="inline">
                     <div class="faltando">
-                            <h2>Faltando?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]" value="faltando">
-                            </div>
+                        <h2>Faltando?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]" value="faltando">
+                        </div>
                     </div>
                     <div class="avariado">
-                            <h2>Avariado?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]" value="avariado">
-                            </div>
+                        <h2>Avariado?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]" value="avariado">
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -217,10 +217,10 @@
                         <div class="Btable"></div>
                         <div class="posicaoTabela">
                             <td>
-                                <input type="text" class="tableL texto" name="qtd">
+                                <input type="text" class="tableL texto" name="qtd" id="qnt" onkeyup="calcular_preco()">
                             </td>
                             <td>
-                                <input type="text" class="tableC texto" name="valor_unit">
+                                <input type="text" class="tableC texto" name="valor_unit" id="valor_unit" onkeyup="calcular_preco()">
                             </td>
                             <td>
                                 <input type="text" class="tableR texto" name="valor_total">
@@ -231,16 +231,16 @@
                 <br>
                 <div class="inline">
                     <div class="faltando">
-                            <h2>Faltando?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]" value="faltando">
-                            </div>
+                        <h2>Faltando?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]" value="faltando">
+                        </div>
                     </div>
                     <div class="avariado">
-                            <h2>Avariado?</h2>
-                            <div class="posicao">
-                                <input type="checkbox" name="check[]" value="avariado">
-                            </div>
+                        <h2>Avariado?</h2>
+                        <div class="posicao">
+                            <input type="checkbox" name="check[]" value="avariado">
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -250,7 +250,8 @@
     </div>
     <?php
     include 'menuAluno.php'
-    ?>
+        ?>
+        <script src="../js/calcular_preco.js"></script>
 </body>
 
 </html>
