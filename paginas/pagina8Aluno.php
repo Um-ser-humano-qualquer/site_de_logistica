@@ -1,15 +1,4 @@
 <?php
-session_start();
-if (!isset($_SESSION['id'])) {
-    header("Location: index.php");
-    exit;
-}
-include_once('../php/processoLoginAluno.php');
-
-if ($connect->connect_error) {
-    die("Connection failed: " . $connect->connect_error);
-}
-$turma = $_SESSION['turma_id'];
 include 'menuAluno.php';
 include '../php/Alunopg8.php'
 ?>
