@@ -17,7 +17,7 @@
             <h1 class="texto">Produto</h1>
             <form method="POST" action="../php/processoAlunopg4.php" name="form" id="form">
                 <br>
-                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Pedido">
+                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Produto">
                 <br>
                 <br>
                 <table class="texto">
@@ -75,7 +75,7 @@
             <h1 class="texto">Produto</h1>
             <form method="POST" action="../php/processoAlunopg4.phpcessoAlunopg4">
                 <br>
-                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Pedido">
+                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Produto">
                 <br>
                 <br>
                 <table class="texto">
@@ -134,7 +134,7 @@
             <h1 class="texto">Produto</h1>
             <form method="POST" action="../php/processoAlunopg4.php">
                 <br>
-                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Pedido">
+                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Produto">
                 <br>
                 <br>
                 <table class="texto">
@@ -194,7 +194,7 @@
             <h1 class="texto">Produto</h1>
             <form method="POST" action="../php/processoAlunopg4.php">
                 <br>
-                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Pedido">
+                <input type="text" name="nome_produto" size="28" class="caixaTexto" placeholder="Nome do Produto">
                 <br>
                 <br>
                 <table class="texto">

@@ -1,41 +1,68 @@
-.divEstoque{
+.divEstoque {
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   position: absolute;
   padding: 43px 60px;
   background-color: #004089;
   border-radius: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
 
-.divEstoque1{
+.divEstoque1 {
   position: relative;
   left: 0%;
   padding: 10px 30px;
-  background-color: #057AFF;
+  background-color: #057aff;
   border-radius: 30px;
   margin-right: 5%;
 }
 
-.divEstoque2{
+.divEstoque2 {
   position: relative;
   left: 0%;
   padding: 20px 30px;
-  background-color: #057AFF;
+  background-color: #057aff;
   border-radius: 30px;
 }
+.legenda {
+  position: absolute;
+  left: 30%;
+  padding: 1px 1px;
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 1px;
+  bottom: 27%;
+  width: 18%;
+}
+.laranja {
+  background-color: #f58915;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.laranja2 {
+  background-color: #ff6c01;
+}
+.ciano {
+  background-color: #7d9aff;
+}
+.azul {
+  background-color: #4654c7;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
-.margin-bottom{
+.margin-bottom {
   margin-bottom: 2%;
 }
 
-.margin-right{
+.margin-right {
   margin-right: 39.1%;
 }
 
-.posicaoEstoque{
+.posicaoEstoque {
   position: relative;
   top: 14%;
   width: 100%;
@@ -49,12 +76,13 @@
   padding-inline-start: 15px;
 }
 
-.btn-estoque{
+.btn-estoque {
   font-size: 130%;
-  background-color: #FF8C15;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ff8c15;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 3em;
-  height: 2.5em;   
+  height: 2.5em;
   border-radius: 8px;
   color: white;
   border-block-color: revert;
@@ -66,11 +94,11 @@
   cursor: pointer;
 }
 
-.btn-estoque:hover{
+.btn-estoque:hover {
   background-color: #f58915;
 }
 
-.popupA1{
+.popupA1 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -80,7 +108,7 @@
   user-select: none;
 }
 
-.popupA2{
+.popupA2 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -90,7 +118,7 @@
   user-select: none;
 }
 
-.popupA3{
+.popupA3 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -100,7 +128,7 @@
   user-select: none;
 }
 
-.popupA4{
+.popupA4 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -110,7 +138,7 @@
   user-select: none;
 }
 
-.popupA5{
+.popupA5 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -120,9 +148,9 @@
   user-select: none;
 }
 
-.popupA1 .popuptextA1{
+.popupA1 .popuptextA1 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -130,14 +158,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupA2 .popuptextA2{
+.popupA2 .popuptextA2 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -145,14 +173,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupA3 .popuptextA3{
+.popupA3 .popuptextA3 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -160,14 +188,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupA4 .popuptextA4{
+.popupA4 .popuptextA4 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -175,14 +203,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupA5 .popuptextA5{
+.popupA5 .popuptextA5 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -190,12 +218,12 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupA1 .popuptextA1::after{
+.popupA1 .popuptextA1::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -206,7 +234,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupA2 .popuptextA2::after{
+.popupA2 .popuptextA2::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -217,7 +245,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupA3 .popuptextA3::after{
+.popupA3 .popuptextA3::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -228,7 +256,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupA4 .popuptextA4::after{
+.popupA4 .popuptextA4::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -239,7 +267,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupA5 .popuptextA5::after{
+.popupA5 .popuptextA5::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -250,37 +278,37 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupA1 .showA1{
+.popupA1 .showA1 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupA2 .showA2{
+.popupA2 .showA2 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupA3 .showA3{
+.popupA3 .showA3 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupA4 .showA4{
+.popupA4 .showA4 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupA5 .showA5{
+.popupA5 .showA5 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupB1{
+.popupB1 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -290,7 +318,7 @@
   user-select: none;
 }
 
-.popupB2{
+.popupB2 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -300,7 +328,7 @@
   user-select: none;
 }
 
-.popupB3{
+.popupB3 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -310,7 +338,7 @@
   user-select: none;
 }
 
-.popupB4{
+.popupB4 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -320,7 +348,7 @@
   user-select: none;
 }
 
-.popupB5{
+.popupB5 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -330,9 +358,9 @@
   user-select: none;
 }
 
-.popupB1 .popuptextB1{
+.popupB1 .popuptextB1 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -340,14 +368,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupB2 .popuptextB2{
+.popupB2 .popuptextB2 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -355,14 +383,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupB3 .popuptextB3{
+.popupB3 .popuptextB3 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -370,14 +398,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupB4 .popuptextB4{
+.popupB4 .popuptextB4 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -385,14 +413,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupB5 .popuptextB5{
+.popupB5 .popuptextB5 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -400,12 +428,12 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupB1 .popuptextB1::after{
+.popupB1 .popuptextB1::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -416,7 +444,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupB2 .popuptextB2::after{
+.popupB2 .popuptextB2::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -427,7 +455,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupB3 .popuptextB3::after{
+.popupB3 .popuptextB3::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -438,7 +466,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupB4 .popuptextB4::after{
+.popupB4 .popuptextB4::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -449,7 +477,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupB5 .popuptextB5::after{
+.popupB5 .popuptextB5::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -460,37 +488,37 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupB1 .showB1{
+.popupB1 .showB1 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupB2 .showB2{
+.popupB2 .showB2 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupB3 .showB3{
+.popupB3 .showB3 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupB4 .showB4{
+.popupB4 .showB4 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupB5 .showB5{
+.popupB5 .showB5 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupC1{
+.popupC1 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -500,7 +528,7 @@
   user-select: none;
 }
 
-.popupC2{
+.popupC2 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -510,7 +538,7 @@
   user-select: none;
 }
 
-.popupC3{
+.popupC3 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -520,7 +548,7 @@
   user-select: none;
 }
 
-.popupC4{
+.popupC4 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -530,7 +558,7 @@
   user-select: none;
 }
 
-.popupC5{
+.popupC5 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -540,9 +568,9 @@
   user-select: none;
 }
 
-.popupC1 .popuptextC1{
+.popupC1 .popuptextC1 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -550,14 +578,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupC2 .popuptextC2{
+.popupC2 .popuptextC2 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -565,14 +593,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupC3 .popuptextC3{
+.popupC3 .popuptextC3 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -580,14 +608,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupC4 .popuptextC4{
+.popupC4 .popuptextC4 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -595,14 +623,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupC5 .popuptextC5{
+.popupC5 .popuptextC5 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -610,12 +638,12 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupC1 .popuptextC1::after{
+.popupC1 .popuptextC1::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -626,7 +654,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupC2 .popuptextC2::after{
+.popupC2 .popuptextC2::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -637,7 +665,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupC3 .popuptextC3::after{
+.popupC3 .popuptextC3::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -648,7 +676,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupC4 .popuptextC4::after{
+.popupC4 .popuptextC4::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -659,7 +687,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupC5 .popuptextC5::after{
+.popupC5 .popuptextC5::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -670,37 +698,37 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupC1 .showC1{
+.popupC1 .showC1 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupC2 .showC2{
+.popupC2 .showC2 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupC3 .showC3{
+.popupC3 .showC3 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupC4 .showC4{
+.popupC4 .showC4 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupC5 .showC5{
+.popupC5 .showC5 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupD1{
+.popupD1 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -710,7 +738,7 @@
   user-select: none;
 }
 
-.popupD2{
+.popupD2 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -720,7 +748,7 @@
   user-select: none;
 }
 
-.popupD3{
+.popupD3 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -730,7 +758,7 @@
   user-select: none;
 }
 
-.popupD4{
+.popupD4 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -740,7 +768,7 @@
   user-select: none;
 }
 
-.popupD5{
+.popupD5 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -750,9 +778,9 @@
   user-select: none;
 }
 
-.popupD1 .popuptextD1{
+.popupD1 .popuptextD1 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -760,14 +788,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupD2 .popuptextD2{
+.popupD2 .popuptextD2 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -775,14 +803,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupD3 .popuptextD3{
+.popupD3 .popuptextD3 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -790,14 +818,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupD4 .popuptextD4{
+.popupD4 .popuptextD4 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -805,14 +833,14 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupD5 .popuptextD5{
+.popupD5 .popuptextD5 {
   visibility: hidden;
-  width: 160px;
+  width: 40px;
   background-color: #0057bb;
   color: #fff;
   text-align: center;
@@ -820,12 +848,12 @@
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 90%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -1em;
 }
 
-.popupD1 .popuptextD1::after{
+.popupD1 .popuptextD1::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -836,7 +864,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupD2 .popuptextD2::after{
+.popupD2 .popuptextD2::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -847,7 +875,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupD3 .popuptextD3::after{
+.popupD3 .popuptextD3::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -858,7 +886,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupD4 .popuptextD4::after{
+.popupD4 .popuptextD4::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -869,7 +897,7 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupD5 .popuptextD5::after{
+.popupD5 .popuptextD5::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -880,52 +908,60 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupD1 .showD1{
+.popupD1 .showD1 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupD2 .showD2{
+.popupD2 .showD2 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupD3 .showD3{
+.popupD3 .showD3 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupD4 .showD4{
+.popupD4 .showD4 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.popupD5 .showD5{
+.popupD5 .showD5 {
   visibility: visible;
-  -webkit-animation: fadeIn .5s;
-  animation: fadeIn .5s;
-}
-  
-@-webkit-keyframes fadeIn{
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-  
-@keyframes fadeIn{
-  from {opacity: 0;}
-  to {opacity: 1;}
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
 }
 
-.botaoPosicao{
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.botaoPosicao {
   position: relative;
-  margin-top: 20%;    
+  margin-top: 20%;
 }
 
-.botao-posicao{
+.botao-posicao {
   position: relative;
   left: 81.5%;
   margin-top: 2%;

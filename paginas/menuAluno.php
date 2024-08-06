@@ -26,7 +26,7 @@
                         <span class="txt-link">Home</span>
                     </a>
                 </li>
-                <li class="item-menuu"> <!-- item recebimento e suas sub classes -->
+                <li class="item-menuu post"> <!-- item recebimento e suas sub classes -->
                     <details class="item-menuu"> <!-- serve para criar sub itens -->
                         <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
                             <span class="icone"><i class="bi bi-grid-3x3-gap-fill"></i></span>
@@ -64,11 +64,11 @@
                         <span class="txt-link">Picking</span>
                     </a>
                 </li>
-                <li class="item-menuu"> <!-- item recebimento e suas sub classes -->
+                <li class="item-menuu post"> <!-- item recebimento e suas sub classes -->
                     <details class="item-menuu"> <!-- serve para criar sub itens -->
                         <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
                             <span class="icone"><i class="bi bi-globe2"></i></span>
-                            <span class="txt-linke">Expediçãp</span>
+                            <span class="txt-linke">Expedição</span>
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
                             <a href="pagina18Aluno.php">

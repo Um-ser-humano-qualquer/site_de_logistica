@@ -16,12 +16,3 @@ var menuSide = document.querySelector('.menu-lateral')
 
 btnExp.addEventListener('click', function(){
 menuSide.classList.toggle('expandir')})
-    
-var div = window.document.querySelector(".post");
-
-div.addEventListener("mousehover", saiu);
-
-function saiu() {
-
-div.style.width = "100px";
-}
