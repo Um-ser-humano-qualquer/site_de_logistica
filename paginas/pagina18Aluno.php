@@ -32,6 +32,10 @@
                 <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº10">
                 <br>
             </div>
+
+               <div class="candy">
+                    <h1 class="texto">Check List</h1>
+                </div>
          
             <div class="over">
                 <input type="submit" class="sbt-OK" value="OK"></input>

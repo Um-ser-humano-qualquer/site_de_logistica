@@ -23,10 +23,11 @@
                 <input type="text" name="pedido" size="20" class="caixaTexto" placeholder="Pedido de compra">
                 <br>
                 <br>
-                <input type="submit" class="botao">
+                <input type="submit" class="botao perna ">
             </form>
-            
-            <a href="pagina4Aluno.php">Não tenho um pedido.</a>
+            <form method="POST" action="pagina4Aluno.php">
+                <input type="submit" value="RNC" class="bata poti">
+            </form>
         </div>
     </div>
 

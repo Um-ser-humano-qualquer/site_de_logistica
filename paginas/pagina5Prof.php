@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/stylepg2Prof.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
-        <title>Página Inicial</title>
+        <title>Venda</title>
     </head>
 
     <body class="mando">
@@ -32,7 +33,9 @@
                         <br>
                         <input type="text" name="Produto6" size="20" class="caixaTexto produtoPosition" placeholder="Produto">
                     </div>
-                    <div class="UNQTD">
+
+
+                    <div class="UNQTD caixaTextoUNQTDPosi"> 
                         <div class="inline UNQTDPosition">
                             <h2 class="UNPosition">UN</h2>
                             <h2>QTD</h2>
@@ -67,12 +70,42 @@
                             <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition produtoPosition">
                         </div>
                     </div>
+
+                    <div class="TD caixaTextoTDPosi">
+                    <div class="inline TDPosition">
+                            <h2 class="NPosition">V.total</h2>
+                            <h2>V.Unit</h2>
+                        </div>
+                        <div class="inline TDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoTD">
+                            <input type="text" name="QTD" size="20" class="caixaTextoTD TOPosition">
+                        </div>
+                        <br>
+                        <div class="inline TDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoTD">
+                            <input type="text" name="QTD" size="20" class="caixaTextoTD TOPosition">
+                        </div>
+                        <br>
+                        <div class="inline TDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoTD">
+                            <input type="text" name="QTD" size="20" class="caixaTextoTD TOPosition">
+                        </div>
+                        <br>
+                        <div class="inline TDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoTD">
+                            <input type="text" name="QTD" size="20" class="caixaTextoTD TOPosition">
+                        </div>
+                        <br>
+                        <div class="inline TDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoTD">
+                            <input type="text" name="QTD" size="20" class="caixaTextoTD TOPosition">
+                        </div>
+                        <br>
+                        <div class="inline TDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoTD produtoPosition">
+                            <input type="text" name="QTD" size="20" class="caixaTextoTD TOPosition produtoPosition">
+                        </div>
+                    </div>
                 </div>
-                <div class="divMensagem">
-                    <input type="text" name="Escreva" size="20" class="mensagem" placeholder="Escreva">
-                </div>
-                <input type="submit" class="botao posicaoBotao">
-            </form>
-        </div>
     </body>
 </html>
