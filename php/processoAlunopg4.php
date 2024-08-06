@@ -17,12 +17,6 @@ if ($connect->connect_error) {
     $valor_unit = $connect->real_escape_string($_POST['valor_unit']);
     $valor_total = $connect->real_escape_string($_POST['valor_total']);
 
-    if (isset($_POST['check'])) {
-        $check= $_POST['check'];
-
-
-
-
     $sql = "INSERT INTO `avaliacao_pedidos`
     (`produto`,`qtd`,`valor_unit`,`valor_total`,`faltando`,`avariado`,`turma_id`)
     VALUES
@@ -33,5 +27,4 @@ if ($connect->connect_error) {
     $connect->close();
     header('location: ../paginas/pagina4Aluno.php', true, 301);
     exit();
-}
 }
