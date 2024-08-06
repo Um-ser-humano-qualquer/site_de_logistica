@@ -12,28 +12,28 @@
 
     <body class="fundo">
         <div class="divMain inline">
-        <form method="post" action="pagina7Aluno.php" id="confirmarDocas" name="confirmarDocas">
+        <form method="post" action="pagina15Aluno.php" id="confirmarDocas" name="confirmarDocas">
             <div class="divLogin-left">
                 <h1 class="texto">Produtos nas docas</h1>
-                <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido nº1">
+                <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº2">
+                <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº2">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº3">
+                <input type="text" name="Pedido1" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº3">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº4">
+                <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº5">
+                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº5">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº6">
+                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº6">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº7">
+                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº7">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº8">
+                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº8">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº9">
+                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº9">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº10">
+                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº10">
                 <br>
             </div>
             <div class="divLogin-mid">
@@ -70,11 +70,6 @@
                 <br>
                 <input type="submit" class="btn-OK" value="OK"></input>
                 <br>
-            </div>
-        </form>
-        <form method="POST" action="pagina15Aluno.php" id="" name="">
-            <div class="confirmado">
-                <input type="submit" class="btn-confirmado" value="confirmação"></input>
             </div>
         </form>
         </div>

@@ -97,24 +97,24 @@
                 <br>
                 <br>
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Enviar" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
             </div>
           
             <form action="pagina14Aluno.php" method="POST0">
             <div class="divLogin-bot">
-                <input type="submit" value="Retornar" class="batu">
+                <input type="submit" value="Enviar" class="batu">
             </div>
             </form>
          </div>
