@@ -33,25 +33,51 @@
   padding: 1px 1px;
   background-color: transparent;
   border-radius: 10px;
-  margin: 1px;
   bottom: 27%;
   width: 18%;
+  margin-bottom: .6%;
 }
-.laranja {
+
+.laranja{
   background-color: #f58915;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
-.laranja2 {
+
+.laranja:hover{
+ background-color: #e27f14;
+}
+
+.laranja2{
   background-color: #ff6c01;
 }
-.ciano {
+
+.ciano{
   background-color: #7d9aff;
 }
-.azul {
+
+.azul{
   background-color: #4654c7;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.empurra{
+  margin-left: 10%;
+}
+
+.btn-estoque-YEAH{
+  font-size: 130%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 3em;
+  height: 2.5em;
+  border-radius: 8px;
+  color: white;
+  border-block-color: revert;
+  border-block-start-width: initial;
+  border-block-end: none;
+  border-left-color: #ffffff00;
+  border-right-color: #ffffff00;
+  border-top-color: #ffffff00;
+  cursor: pointer;
 }
 
 .margin-bottom {
@@ -79,8 +105,7 @@
 .btn-estoque {
   font-size: 130%;
   background-color: #ff8c15;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 3em;
   height: 2.5em;
   border-radius: 8px;
@@ -147,6 +172,17 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.popupLARANJA {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 
 .popupA1 .popuptextA1 {
   visibility: hidden;
@@ -223,6 +259,21 @@
   margin-left: -1em;
 }
 
+.popupLARANJA .popuptextLARANJA {
+  visibility: hidden;
+  background-color: #0057bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 70px;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  display: flex;
+  left: -157%;
+  bottom: -300%;
+}
+
 .popupA1 .popuptextA1::after {
   content: "";
   position: absolute;
@@ -278,6 +329,18 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
+.popupLARANJA .popuptextLARANJA::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0057bb transparent transparent transparent;
+  transform: rotate(180deg);
+}
+
 .popupA1 .showA1 {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
@@ -303,6 +366,12 @@
 }
 
 .popupA5 .showA5 {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.popupLARANJA .showLARANJA {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
   animation: fadeIn 0.5s;
@@ -349,6 +418,16 @@
 }
 
 .popupB5 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupLARANJA2 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -433,6 +512,21 @@
   margin-left: -1em;
 }
 
+.popupLARANJA2 .popuptextLARANJA2 {
+  visibility: hidden;
+  width: 40px;
+  background-color: #0057bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -1em;
+}
+
 .popupB1 .popuptextB1::after {
   content: "";
   position: absolute;
@@ -488,6 +582,17 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
+.popupLARANJA2 .popuptextLARANJA2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0057bb transparent transparent transparent;
+}
+
 .popupB1 .showB1 {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
@@ -513,6 +618,12 @@
 }
 
 .popupB5 .showB5 {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.popupLARANJA2 .showLARANJA2 {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
   animation: fadeIn 0.5s;
@@ -559,6 +670,16 @@
 }
 
 .popupC5 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupCIANO {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -643,6 +764,21 @@
   margin-left: -1em;
 }
 
+.popupCIANO .popuptextCIANO {
+  visibility: hidden;
+  width: 40px;
+  background-color: #0057bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -1em;
+}
+
 .popupC1 .popuptextC1::after {
   content: "";
   position: absolute;
@@ -698,6 +834,17 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
+.popupCIANO .popuptextCIANO::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0057bb transparent transparent transparent;
+}
+
 .popupC1 .showC1 {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
@@ -723,6 +870,12 @@
 }
 
 .popupC5 .showC5 {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.popupCIANO .showCIANO {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
   animation: fadeIn 0.5s;
@@ -769,6 +922,16 @@
 }
 
 .popupD5 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popupAZUl {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -853,6 +1016,21 @@
   margin-left: -1em;
 }
 
+.popupAZUL .popuptextAZUL {
+  visibility: hidden;
+  width: 40px;
+  background-color: #0057bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -1em;
+}
+
 .popupD1 .popuptextD1::after {
   content: "";
   position: absolute;
@@ -908,6 +1086,17 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
+.popupAZUL .popuptextAZUL::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #0057bb transparent transparent transparent;
+}
+
 .popupD1 .showD1 {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
@@ -938,6 +1127,12 @@
   animation: fadeIn 0.5s;
 }
 
+.popupAZUL .showAZUL {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -959,6 +1154,13 @@
 .botaoPosicao {
   position: relative;
   margin-top: 20%;
+}
+
+.botaoPosicaoo {
+  position: relative;
+  margin-top: 22%;
+  margin-left: 45%;
+  font-weight: bold
 }
 
 .botao-posicao {

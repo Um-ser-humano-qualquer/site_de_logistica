@@ -160,15 +160,26 @@ include '../php/Alunopg8.php'
                     </tr>
                 </table>
             </div>
-
-            <input type="submit" value="Gerar endereço" class="botao botao-posicao">
+        <input type="submit" value="Gerar endereço" class="botao botao-posicao">
     </div>
     </form>
-    <div class="legenda">
-        <p class="laranja"> Não tem o produto pesquisado.</p>
-        <p class="laranja2"> Quantidade insuficiente.</p>
-        <p class="ciano"> Quantidade exata.</p>
-        <p class="azul"> Quantidade a mais.</p>
+    <div class="legenda inline">
+        <div class="popupLARANJA btn-estoque-YEAH laranja" onclick="popupLARANJA()">
+            <p class="botaoPosicaoo texto">i</p>
+            <span type="submit" class="popuptextLARANJA" id="myPopupLARANJA">O Produto pesquisado não consta no banco de dados.</span>
+        </div>
+        <div class="popupLARANJA2 btn-estoque-YEAH laranja2 empurra" onclick="popupLARANJA2()">
+            <p class="botaoPosicaoo texto">i</p>
+            <span type="submit" class="popuptextLARANJA2" id="myPopupLARANJA2">Quantidade insuficiente.</span>
+        </div>
+        <div class="popupCIANO btn-estoque-YEAH ciano empurra" onclick="popupCIANO()">
+            <p class="botaoPosicaoo texto">i</p>
+            <span type="submit" class="popuptextCIANO" id="myPopupCIANO">Quantidade exata.</span>
+        </div>
+        <div class="popupAZUL btn-estoque-YEAH azul empurra" onclick="popupAZUL()">
+            <p class="botaoPosicaoo texto">i</p>
+            <span type="submit" class="popuptextAZUL" id="myPopupAZUL">Quantidade a mais.</span>
+        </div>
     </div>
 
     <script src="../js/popup.js"></script>

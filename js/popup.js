@@ -97,3 +97,23 @@ function popupD5(){
   var popup = document.getElementById("myPopupD5");
   popup.classList.toggle("showD5");
 }
+
+function popupLARANJA(){
+  var popup = document.getElementById("myPopupLARANJA");
+  popup.classList.toggle("showLARANJA");
+}
+
+function popupLARANJA2(){
+  var popup = document.getElementById("myPopupLARANJA2");
+  popup.classList.toggle("showLARANJA2");
+}
+
+function popupCIANO(){
+  var popup = document.getElementById("myPopupCIANO");
+  popup.classList.toggle("showCIANO");
+}
+
+function popupAZUL(){
+  var popup = document.getElementById("myPopupAZUL");
+  popup.classList.toggle("showAZUL");
+}
