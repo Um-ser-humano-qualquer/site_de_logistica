@@ -26,7 +26,7 @@
                         <span class="txt-link">Home</span>
                     </a>
                 </li>
-                <li class="item-menuu post"> <!-- item recebimento e suas sub classes -->
+                <li class="item-menuu"> <!-- item recebimento e suas sub classes -->
                     <details class="item-menuu"> <!-- serve para criar sub itens -->
                         <summary> <!-- serve para nomear o item da lista e colocar o ícone -->
                             <span class="icone"><i class="bi bi-grid-3x3-gap-fill"></i></span>

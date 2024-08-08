@@ -66,10 +66,6 @@ ul li.item-menu:hover{
     width: 200%;
 }
 
-ul li.item-menuu:hover{
-    width: 200%;
-}
-
 ul li.item-menu a{
     color: #fff;
     text-decoration: none;
@@ -135,12 +131,6 @@ summary::after {
 details{
     cursor: pointer;
 }
-
-li > details[open]{
-    width: 20%;
-    transition: .5s;
-}
-
 details[open] > summary::after {
   transform: rotate(90deg);
 }
