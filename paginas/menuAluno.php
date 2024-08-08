@@ -85,7 +85,7 @@
                     </details>
                 </li>
                 <li class="item-menu post">
-                    <a href="">
+                    <a href="pagina20Aluno.php">
                         <span class="icon"><i class="bi bi-file-earmark-text-fill"></i></span>
                         <span class="txt-link">Romaneio</span>
                     </a>
