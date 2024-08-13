@@ -177,7 +177,7 @@ include '../php/Alunopg8.php'
         </div>
         <div class="popupAZUL btn-estoque-YEAH azul empurra" onclick="popupAZUL()">
             <p class="botaoPosicaoo texto"><i class="bi bi-info-circle iposicao"></i></p>
-            <span type="submit" class="popuptextAZUL" id="myPopupAZUL">Quantidade exata.</span>
+            <span type="submit" class="popuptextAZUL" id="myPopupAZUL">Quantidade excessiva.</span>
         </div>
     </div>
     </div>
