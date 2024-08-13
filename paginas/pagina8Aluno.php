@@ -160,9 +160,8 @@ include '../php/Alunopg8.php'
                     </tr>
                 </table>
             </div>
-        <input type="submit" value="Gerar endereço" class="botao botao-posicao">
-    </div>
     </form>
+    <input type="submit" value="Gerar endereço" class="botao botao-posicao">
     <div class="legenda inline">
         <div class="popupLARANJA btn-estoque-YEAH laranja" onclick="popupLARANJA()">
             <p class="botaoPosicaoo texto">i</p>
@@ -180,6 +179,7 @@ include '../php/Alunopg8.php'
             <p class="botaoPosicaoo texto">i</p>
             <span type="submit" class="popuptextAZUL" id="myPopupAZUL">Quantidade a mais.</span>
         </div>
+    </div>
     </div>
 
     <script src="../js/popup.js"></script>
