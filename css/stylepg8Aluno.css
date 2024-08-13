@@ -27,6 +27,7 @@
   background-color: #057aff;
   border-radius: 30px;
 }
+
 .legenda {
   position: relative;
   background-color: transparent;
@@ -34,6 +35,10 @@
   width: 45%;
   margin-top: -3%;
   margin-bottom: -3%;
+}
+
+.iposicao{
+  margin-left: -20%;
 }
 
 .laranja{
@@ -44,18 +49,48 @@
  background-color: #e27f14;
 }
 
+.laranja:active{
+  position: relative;
+  top: 2px;
+}
+
 .laranja2{
   background-color: #ff6c01;
+}
+
+.laranja2:hover{
+  background-color: #e76000;
+}
+
+.laranja2:active{
+  position: relative;
+  top: 2px;
 }
 
 .ciano{
   background-color: #7d9aff;
 }
 
+.ciano:hover{
+  background-color: #6c86e2;
+}
+
+.ciano:active{
+  position: relative;
+  top: 2px;
+}
+
 .azul{
   background-color: #4654c7;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+}
+
+.azul:hover{
+  background-color: #4250bb;
+}
+
+.azul:active{
+  position: relative;
+  top: 2px;
 }
 
 .empurra{
@@ -118,7 +153,7 @@
 }
 
 .btn-estoque:hover {
-  background-color: #f58915;
+  background-color: #eb8416;
 }
 
 .popupA1 {
@@ -181,6 +216,15 @@
   user-select: none;
 }
 
+.popupAZUL {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 .popupA1 .popuptextA1 {
   visibility: hidden;
@@ -259,17 +303,30 @@
 
 .popupLARANJA .popuptextLARANJA {
   visibility: hidden;
-  background-color: #0057bb;
+  background-color: #e27f14;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 70px;
+  padding: 8% 60%;
   position: absolute;
   z-index: 1;
-  bottom: 90%;
+  bottom: -140%;
   display: flex;
-  left: -157%;
-  bottom: -300%;
+  left: -95%;
+}
+
+.popupAZUL .popuptextAZUL {
+  visibility: hidden;
+  background-color: #4250bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8% 60%;
+  position: absolute;
+  z-index: 1;
+  bottom: -140%;
+  display: flex;
+  left: -100%;
 }
 
 .popupA1 .popuptextA1::after {
@@ -335,7 +392,19 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #0057bb transparent transparent transparent;
+  border-color: #e27f14 transparent transparent transparent;
+  transform: rotate(180deg);
+}
+
+.popupAZUL .popuptextAZUL::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #4250bb transparent transparent transparent;
   transform: rotate(180deg);
 }
 
@@ -370,6 +439,12 @@
 }
 
 .popupLARANJA .showLARANJA {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.popupAZUL .showAZUL {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
   animation: fadeIn 0.5s;
@@ -512,17 +587,16 @@
 
 .popupLARANJA2 .popuptextLARANJA2 {
   visibility: hidden;
-  width: 40px;
-  background-color: #0057bb;
+  background-color: #e76000;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 8% 60%;
   position: absolute;
   z-index: 1;
-  bottom: 90%;
-  left: 50%;
-  margin-left: -1em;
+  bottom: -140%;
+  display: flex;
+  left: -100%;
 }
 
 .popupB1 .popuptextB1::after {
@@ -583,12 +657,13 @@
 .popupLARANJA2 .popuptextLARANJA2::after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: 100%;
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #0057bb transparent transparent transparent;
+  border-color: #e76000 transparent transparent transparent;
+  transform: rotate(180deg);
 }
 
 .popupB1 .showB1 {
@@ -764,17 +839,16 @@
 
 .popupCIANO .popuptextCIANO {
   visibility: hidden;
-  width: 40px;
-  background-color: #0057bb;
+  background-color: #6c86e2;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 8% 60%;
   position: absolute;
   z-index: 1;
-  bottom: 90%;
-  left: 50%;
-  margin-left: -1em;
+  bottom: -140%;
+  display: flex;
+  left: -100%;
 }
 
 .popupC1 .popuptextC1::after {
@@ -835,12 +909,13 @@
 .popupCIANO .popuptextCIANO::after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: 100%;
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #0057bb transparent transparent transparent;
+  border-color: #6c86e2 transparent transparent transparent;
+  transform: rotate(180deg);
 }
 
 .popupC1 .showC1 {
@@ -929,16 +1004,6 @@
   user-select: none;
 }
 
-.popupAZUl {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 .popupD1 .popuptextD1 {
   visibility: hidden;
   width: 40px;
@@ -1014,21 +1079,6 @@
   margin-left: -1em;
 }
 
-.popupAZUL .popuptextAZUL {
-  visibility: hidden;
-  width: 40px;
-  background-color: #0057bb;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 90%;
-  left: 50%;
-  margin-left: -1em;
-}
-
 .popupD1 .popuptextD1::after {
   content: "";
   position: absolute;
@@ -1084,17 +1134,6 @@
   border-color: #0057bb transparent transparent transparent;
 }
 
-.popupAZUL .popuptextAZUL::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #0057bb transparent transparent transparent;
-}
-
 .popupD1 .showD1 {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
@@ -1120,12 +1159,6 @@
 }
 
 .popupD5 .showD5 {
-  visibility: visible;
-  -webkit-animation: fadeIn 0.5s;
-  animation: fadeIn 0.5s;
-}
-
-.popupAZUL .showAZUL {
   visibility: visible;
   -webkit-animation: fadeIn 0.5s;
   animation: fadeIn 0.5s;
