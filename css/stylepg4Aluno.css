@@ -1,21 +1,9 @@
 .divMain2{
-    top: 52%;
-    left: 54%;
+    top: 53%;
+    left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 400px 700px;
-    background-color: transparent;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-}
-
-.divMain3{
-    top: 50.2%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    padding: 400px 730px;
+    padding: 10% 18%;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,13 +17,12 @@
 
 .divLogin{
     transform: translate(-50% , -50%);
-    padding: 20px 50px;
+    padding: 2% 5%;
     background-color: #057AFF;
-    border-radius:15px;
-    border-radius:10px;
+    border-radius: 15px;
     border-color: white;
     position: absolute;
-    left: 74%;
+    left: 50%;
 }
 
 .divLogin-pedido{
@@ -76,10 +63,10 @@
 .Btable{
     position: fixed;
     background-color: white;
-    top: 166px;
-    left: 50px;
+    top: 50%;
+    left: 5.6%;
     height: 14.4%;
-    width: 83%;
+    width: 86.5%;
     border-radius: 30px;
 }
 
