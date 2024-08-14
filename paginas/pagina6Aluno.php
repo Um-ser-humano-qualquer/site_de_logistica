@@ -14,35 +14,36 @@
             <div class="divLogin-meu">
                         <h2 class="texto">Descrição do produto</h2>
                         <br>
-                            <input type="text" name="" size="20" class="caixaTexto divLogin-amado" placeholder="">
+                        <form action="../php/Alunopg6.php" method="post" id="form_mov">
+                            <input type="text" name="nome_produto" id="nome_produto" size="20" class="caixaTexto divLogin-amado" oninput="dados_produto()">
                         <br/>
                         <br>
-                            <input type="text" name="" size="20" class="caixaTexto divLogin-amado" placeholder="">
+                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
                         <br/>
                         <br>
-                            <input type="text" name="" size="20" class="caixaTexto divLogin-amado" placeholder="">
+                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
                         <br/>
                         <br>
-                            <input type="text" name="" size="20" class="caixaTexto divLogin-amado" placeholder="">
+                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
                         <br/>
                         <br>
-                            <input type="text" name="" size="20" class="caixaTexto divLogin-amado" placeholder="">
+                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
                         <br/>
                         <br>
-                            <input type="text" name="" size="20" class="caixaTexto divLogin-amado" placeholder="">
+                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
                         <br/>
         </div>
 
             <div class="Btable"> <!-- primeira tabela -->
                     <div class="posicaoTabela">
                         
-                            <input type="text" class="tableA texto" placeholder="UN">
+                            <input type="text" class="tableA texto" placeholder="UN" id="un">
                         
-                            <input type="text" class="tableB texto" placeholder="QNT">
+                            <input type="text" class="tableB texto" placeholder="QNT" id="qnt">
 
-                            <input type="text" class="tableC texto" placeholder="R$/UNIT">
+                            <input type="text" class="tableC texto" placeholder="R$/UNIT" id="RSunit">
                         
-                            <input type="text" class="tableD texto" placeholder="Total">     
+                            <input type="text" class="tableD texto" placeholder="Total" id="total">     
                     </div>
             </div>
 
@@ -124,7 +125,7 @@
                 <br>
                 <input type="submit" class="sbt-OK" value="OK"></input>
             </div>
-
+            </form>
     </div>
 
 
@@ -133,5 +134,6 @@
             <?php
                 include 'menuAluno.php'
             ?>
+            <script src="../js/Alunopg6.js"></script>
         </body>
 </html>
