@@ -11,7 +11,7 @@
 <body class="fundinhoA">
 <div class="divMainH">
         <div class="divLogin-big">
-            <input type="text" name="nota" size="16" class="caixaTexto" placeholder="Pedido n°">
+            <input type="text" name="nota" size="16" class="caixaTexto" placeholder="Pedido de compra n°">
         </div>
 
         <div class="divLogin-the">
