@@ -1,139 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <link rel="stylesheet" href="../css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/stylepg6Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
-        <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Movimentação</title>
     </head>
-
-    <body class="fundinhoA">
-    <div class="divMainX">
-        <div class="divLogin-senhor">
-            <div class="divLogin-meu">
-                        <h2 class="texto">Descrição do produto</h2>
-                        <br>
-                        <form action="../php/Alunopg6.php" method="post" id="form_mov">
-                            <input type="text" name="nome_produto" id="nome_produto" size="20" class="caixaTexto divLogin-amado" oninput="dados_produto()">
-                        <br/>
-                        <br>
-                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
-                        <br/>
-                        <br>
-                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
-                        <br/>
-                        <br>
-                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
-                        <br/>
-                        <br>
-                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
-                        <br/>
-                        <br>
-                            <input type="text" name="nome_produto" size="20" class="caixaTexto divLogin-amado" placeholder="">
-                        <br/>
-        </div>
-
-            <div class="Btable"> <!-- primeira tabela -->
-                    <div class="posicaoTabela">
-                        
-                            <input type="text" class="tableA texto" placeholder="UN" id="un">
-                        
-                            <input type="text" class="tableB texto" placeholder="QNT" id="qnt">
-
-                            <input type="text" class="tableC texto" placeholder="R$/UNIT" id="RSunit">
-                        
-                            <input type="text" class="tableD texto" placeholder="Total" id="total">     
+        <body class="fundinhoA">
+            <div class="divInicial">
+                <div class="divSegundo inline">
+                        <div class="tituloPosicao inline">
+                            <h1 class="decepcionante">Descrição</h1>
+                            <h1 class="decepcionante">do</h1>
+                            <h1 class="decepcionante">produto:</h1>
+                        </div>
+                        <div class="ohYeah"></div>
+                    <div class="divCaixaTexto">
+                        <input type="text" name="solicitação nº" size="15" class="caixaTexto posicao">
+                        <input type="text" name="solicitação nº" size="15" class="caixaTexto posicao">
+                        <input type="text" name="solicitação nº" size="15" class="caixaTexto posicao">
+                        <input type="text" name="solicitação nº" size="15" class="caixaTexto posicao">
+                        <input type="text" name="solicitação nº" size="15" class="caixaTexto posicao">
                     </div>
-            </div>
-
-            <div class="Btable2"> <!-- segunda tabela -->
-                    <div class="posicaoTabela2">
-                        
-                            <input type="text" class="tableE texto" placeholder="UN">
-                        
-                            <input type="text" class="tableF texto" placeholder="QNT">
-
-                            <input type="text" class="tableG texto" placeholder="R$/UNIT">
-                        
-                            <input type="text" class="tableH texto" placeholder="Total">     
-                    </div>
-            </div>
-
-            <div class="Btable3"> <!-- terceira tabela -->
-                    <div class="posicaoTabela3">
-                        
-                            <input type="text" class="tableI texto" placeholder="UN">
-                        
-                            <input type="text" class="tableJ texto" placeholder="QNT">
-
-                            <input type="text" class="tableK texto" placeholder="R$/UNIT">
-                        
-                            <input type="text" class="tableL texto" placeholder="Total">     
-                    </div>
-            </div>
-
-            <div class="Btable4"> <!-- quarta tabela -->
-                    <div class="posicaoTabela4">
-                        
-                            <input type="text" class="tableM texto" placeholder="UN">
-                        
-                            <input type="text" class="tableN texto" placeholder="QNT">
-
-                            <input type="text" class="tableO texto" placeholder="R$/UNIT">
-                        
-                            <input type="text" class="tableP texto" placeholder="Total">     
-                    </div>
-            </div>
-
-            <div class="Btable5"> <!-- quinta tabela -->
-                    <div class="posicaoTabela5">
-                        
-                            <input type="text" class="tableQ texto" placeholder="UN">
-                        
-                            <input type="text" class="tableR texto" placeholder="QNT">
-
-                            <input type="text" class="tableS texto" placeholder="R$/UNIT">
-                        
-                            <input type="text" class="tableT texto" placeholder="Total">     
-                    </div>
-            </div>
-
-            <div class="Btable6"> <!-- sexta tabela -->
-                    <div class="posicaoTabela6">
-                        
-                            <input type="text" class="tableU texto" placeholder="UN">
-                        
-                            <input type="text" class="tableV texto" placeholder="QNT">
-
-                            <input type="text" class="tableW texto" placeholder="R$/UNIT">
-                        
-                            <input type="text" class="tableX texto" placeholder="Total">     
-                    </div>
-            </div>
-
-            <div class="over">
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-            </div>
-            </form>
-    </div>
-
-
-  </div>         
+                    <table class="texto tabela">
+                    <tr>
+                        <th></th>
+                        <th>
+                            <h3 class="trPosicao">QTD</h3>
+                        </th>
+                        <th>
+                            <h3 class="trPosicao">R$/UNIT</h3>
+                        </th>
+                        <th>
+                            <h3 class="trPosicao">R$TOTAL</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3>UN</h3>
+                        </th>
+                        <div>
+                            <td>
+                                <input type="text" class="tableLa texto" name="qtd" id="qnt">
+                            </td>
+                            <td>
+                                <input type="text" class="tableCa texto" name="valor_unit" id="valor_unit">
+                            </td>
+                            <td>
+                                <input type="text" class="tableRa texto" name="valor_total" id="valor_total">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3 class="UN">UN</h3>
+                        </th>
+                        <div class="Btable"></div>
+                        <div>
+                            <td>
+                                <input type="text" class="tableLa texto" name="qtd" id="qnt">
+                            </td>
+                            <td>
+                                <input type="text" class="tableCa texto" name="valor_unit" id="valor_unit">
+                            </td>
+                            <td>
+                                <input type="text" class="tableRa texto" name="valor_total" id="valor_total">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3 class="UN">UN</h3>
+                        </th>
+                        <div class="Btable"></div>
+                        <div>
+                            <td>
+                                <input type="text" class="tableLa texto" name="qtd" id="qnt">
+                            </td>
+                            <td>
+                                <input type="text" class="tableCa texto" name="valor_unit" id="valor_unit">
+                            </td>
+                            <td>
+                                <input type="text" class="tableRa texto" name="valor_total" id="valor_total">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3 class="UN">UN</h3>
+                        </th>
+                        <div class="Btable"></div>
+                        <div>
+                            <td>
+                                <input type="text" class="tableLa texto" name="qtd" id="qnt">
+                            </td>
+                            <td>
+                                <input type="text" class="tableCa texto" name="valor_unit" id="valor_unit">
+                            </td>
+                            <td>
+                                <input type="text" class="tableRa texto" name="valor_total" id="valor_total">
+                            </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3 class="UN">UN</h3>
+                        </th>
+                        <div class="Btable"></div>
+                        <div>
+                            <td>
+                                <input type="text" class="tableLa texto" name="qtd" id="qnt">
+                            </td>
+                            <td>
+                                <input type="text" class="tableCa texto" name="valor_unit" id="valor_unit">
+                            </td>
+                            <td>
+                                <input type="text" class="tableRa texto" name="valor_total" id="valor_total">
+                            </td>
+                        </div>
+                    </tr>
+                </table>
+                <div class="divBonita">
+                    <input type="submit" value="OK" class="botao botaoPosicao botaoPosicaoUp">
+                    <input type="submit" value="OK" class="botao botaoPosicao">
+                    <input type="submit" value="OK" class="botao botaoPosicao">
+                    <input type="submit" value="OK" class="botao botaoPosicao">
+                    <input type="submit" value="OK" class="botao botaoPosicao">
+                </div>
+                </div>
             </div>
             <?php
                 include 'menuAluno.php'
             ?>
             <script src="../js/Alunopg6.js"></script>
         </body>
-</html>
+        </html>

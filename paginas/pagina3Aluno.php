@@ -18,7 +18,7 @@
             <form method="POST" action="../php/processoAlunopg3.php">
                 <br>
                 <input type="text" name="nota" size="20" class="caixaTexto" placeholder="Nota fiscal">
-                <br>
+                <br>    
                 <br>
                 <input type="text" name="pedido" size="20" class="caixaTexto" placeholder="Pedido de compra">
                 <br>
