@@ -13,7 +13,7 @@
 			$hostname = "127.0.0.1";
 			$user = "root";
 			$password = "";
-			$database = "sa_logistica";
+			$database = "logistica";
 		
 			$conexao = new mysqli($hostname, $user, $password, $database);
 

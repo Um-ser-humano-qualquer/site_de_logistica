@@ -1,3 +1,9 @@
+
+<?php $num =$_POST["soli1"]; 
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -12,7 +18,7 @@
         <div class="divMainZ">
             <div class="divLogin-pcd">
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="Pedido de compra n°">
+                        <input type="text" name="" size="20" class="caixaTexto" placeholder="Pedido de compra n°" valure="<?php echo "$num" ;?>">
                     <br/>
             </div>
             <div class="divLogin-mpb">
