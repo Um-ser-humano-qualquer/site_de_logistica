@@ -49,26 +49,16 @@
                 <div class="divLogin-mid"></div>
             </div>   
             <div class="OK">
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
+                <form action="pagina6Prof.php"><input type="submit" class="btn-OK" value="OK"></input></form>
             </div>
         </div>
 

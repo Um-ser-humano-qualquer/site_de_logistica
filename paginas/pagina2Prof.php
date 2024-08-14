@@ -16,7 +16,7 @@
         ?>
         <div class="divProf2">
             <form method="POST0" action="">
-                <input type="text" name="pedido" size="20" class="caixaTexto produtoPosition" placeholder="Pedido de venda">
+                <input type="text" name="pedido" size="20" class="caixaTexto produtoPositione" placeholder="Pedido de venda">
             </form>
             <form method="POST0" action="">
                 <div class="posicaoP2">
@@ -35,37 +35,51 @@
                     </div>
                     <div class="UNQTD">
                         <div class="inline UNQTDPosition">
-                            <h2 class="UNPosition">UN</h2>
-                            <h2>QTD</h2>
+                            <h2 class="UNposition">UN</h2>
+                            <h2 class="QTDposition">QTD</h2>
+                            <h2 class="VUNTposition">V.Unt</h2>
+                            <h2 class="VTOTALposition">V.Total</h2>
                         </div>
                         <div class="inline UNQTDPositionInput">
-                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD">
-                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition">
-                        </div>
-                        <br>
-                        <div class="inline UNQTDPositionInput">
-                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD">
-                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition">
-                        </div>
-                        <br>
-                        <div class="inline UNQTDPositionInput">
-                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD">
-                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition">
+                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Unt" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Total" size="20" class="caixaTextoUNQTD Position">
                         </div>
                         <br>
                         <div class="inline UNQTDPositionInput">
-                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD">
-                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition">
+                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Unt" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Total" size="20" class="caixaTextoUNQTD Position">
                         </div>
                         <br>
                         <div class="inline UNQTDPositionInput">
-                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD">
-                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition">
+                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Unt" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Total" size="20" class="caixaTextoUNQTD Position">
                         </div>
                         <br>
                         <div class="inline UNQTDPositionInput">
-                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD produtoPosition">
-                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD QTDPosition produtoPosition">
+                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Unt" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Total" size="20" class="caixaTextoUNQTD Position">
+                        </div>
+                        <br>
+                        <div class="inline UNQTDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Unt" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Total" size="20" class="caixaTextoUNQTD Position">
+                        </div>
+                        <br>
+                        <div class="inline UNQTDPositionInput">
+                            <input type="text" name="UN" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="QTD" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Unt" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="V.Total" size="20" class="caixaTextoUNQTD Position">
                         </div>
                     </div>
                 </div>
