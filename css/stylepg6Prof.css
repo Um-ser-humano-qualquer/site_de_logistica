@@ -12,7 +12,7 @@
 
 .divLogin-left {
     position: absolute;
-    top: 26%;
+    top: 12%;
     left: -1%;
     padding: 14px 26px;
     background-color: #057AFF;
@@ -33,9 +33,9 @@
 
 .divLoginP {
     position: absolute;
-    top: 1%;
+    top: 0%;
     left: 1%;
-    padding: 356px 520px;
+    padding: 368px 520px;
     background-color: #057AFF;
     border-radius: 30px;
     margin-left: 3.5%;
@@ -83,11 +83,11 @@ textarea {
     border-style: solid;
     cursor: pointer;
     font-size: 1em;
-    padding: 306px 180px;
+    padding: 327px 180px;
 }
 .batu{
     position: absolute;
-    top: 84%;
+    top: 87%;
     left: 74%;
     padding: 10px 13px;
     background-color: #FF6C01;
