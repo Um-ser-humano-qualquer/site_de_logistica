@@ -128,3 +128,10 @@
     left: 610px;
     font-size: .9em;
 }
+
+.botaoPosicao:active{
+    position: relative;
+    top: 250px;
+    left: 610px;
+    font-size: .9em;
+}
