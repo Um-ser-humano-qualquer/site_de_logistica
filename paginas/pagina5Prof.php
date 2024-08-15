@@ -21,7 +21,10 @@
                 <div class="posicaoP2">
                     <div class="produto">
                         <input type="text" name="nome_produto" size="20" class="caixaTexto produtoPosition produtoPositionUp" placeholder="Produto">
-                        </div>
+                        <br>
+                        <input type="text" name="Produto2" size="20" class="caixaTexto produtoPosition" placeholder="Produto">
+                        <br>
+                    </div>
                     <div class="UNQTD">
                         <div class="inline UNQTDPosition">
                             <h2 class="UNposition">UN</h2>
@@ -29,6 +32,13 @@
                             <h2 class="VUNTposition">V.Unt</h2>
                             <h2 class="VTOTALposition">V.Total</h2>
                         </div>
+                        <div class="inline UNQTDPositionInput">
+                            <input type="text" name="un" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="qtd" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="valor_unit" size="20" class="caixaTextoUNQTD Position">
+                            <input type="text" name="valor_total" size="20" class="caixaTextoUNQTD Position">
+                        </div>
+                        <br>
                         <div class="inline UNQTDPositionInput">
                             <input type="text" name="un" size="20" class="caixaTextoUNQTD Position">
                             <input type="text" name="qtd" size="20" class="caixaTextoUNQTD Position">
