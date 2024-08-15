@@ -8,11 +8,11 @@
 }
 
 .divMain{
-    top: 52%;
-    left: 54%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 200px 300px;
+    padding: 150px 295px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

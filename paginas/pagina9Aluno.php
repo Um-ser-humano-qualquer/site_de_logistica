@@ -12,6 +12,9 @@
 </head>
 
 <body class="fundolegal">
+    <?php
+    include 'MenuAluno.php';
+    ?>
 
     <div class="divMain">
 
@@ -89,9 +92,6 @@
         ?>
 
     </div>
-    <?php
-    include 'MenuAluno.php'
-    ?>
 </body>
 
 </html>
