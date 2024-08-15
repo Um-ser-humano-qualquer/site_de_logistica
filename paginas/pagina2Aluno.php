@@ -53,7 +53,7 @@
 
             </div>
             <div class="divLogin divLogin-Right">
-                <h2 class="texto">Assinale se tiver algum problema:</h2>
+                <h2 class="texto posicaaao">Assinale se tiver algum problema:</h2>
                 <br>
                 <h3><input type="checkbox" name="sem lona" class="texto">Sem lona</h3>
                 <br>
