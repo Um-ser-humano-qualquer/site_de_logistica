@@ -4,7 +4,7 @@ include_once("conexao.php");
 $nome_produto = $_POST['Produtos'];
 $qtd = $_POST['QTD'];
 
-$stmt = $connect->prepare("SELECT * FROM produto WHERE nome_produto = ?  AND Quantidade > 0 AND turma_id = ?");
+$stmt = $connect->prepare("SELECT * FROM `produto` WHERE `nome_produto` = '" . $nome_produto . "'  AND `qtd` > 0");
 $stmt->bind_param("si", $nome_produto, $qtd);
 
 $stmt->execute();
