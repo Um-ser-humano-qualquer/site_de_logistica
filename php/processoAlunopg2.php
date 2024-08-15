@@ -1,17 +1,6 @@
 <?php
-session_start();
+include_once("conexao.php");
 
-$hostname = "127.0.0.1";
-$user = "root";
-$password = "";
-$database = "logistica";
-
-$connect = new mysqli($hostname, $user, $password, $database);
-
-if ($connect->connect_errno) {
-   echo "Failed to connect to MySQL: " . $connect->connect_error;
-   exit();
-} else {
    $cliente = $connect->real_escape_string($_POST['cliente']);
    $placa = $connect->real_escape_string($_POST['placa']);
    $carga = $connect->real_escape_string($_POST['carga']);
@@ -35,4 +24,3 @@ if ($connect->connect_errno) {
    $connect->close();
    header('location: ../paginas/pagina2Aluno.php', true, 301);
    exit();
-}
