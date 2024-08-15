@@ -3,7 +3,7 @@
     top: 53%;
     left: 51%;
     transform: translate(-50%, -50%);
-    padding: 13% 21%;
+    padding: 14% 18.3%;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,81 +12,119 @@
 }
 
 .divLogin-pobi{
-    top: 18%;
+    top: 17%;
     left: 3%;
     position: absolute;
-    padding: 17% 43%;
+    padding: 5% 7%;
     background-color: #057AFF;
     border-radius: 2em;
-
 }
 
-.tabeleL{
-    position: relative;
+.caixaTextoL{
     font-size: 2em;
-    border-color: #ffffff;
     border-style: solid;
     padding-inline-start: 15px;
-    background-color: #ff8a36;
-    border-top-left-radius: 3em;
-    border-bottom-left-radius: 3em;
-    border-width: 30%;
+    width: 300px;
+    border-color: rgb(185, 185, 185);
+}
+
+.caixaTextoC{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 100px;
+    border-color: rgb(185, 185, 185);
+}
+
+.caixaTextoR{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 100px;
+    border-color: rgb(185, 185, 185);
+}
+
+.tablePosition{
+    position: relative;
+    right: 3%;
+}
+
+.tablePosition2{
+    position: relative;
+    left: 3%;
+}
+
+.alinhamento{
+    position: relative;
+    text-align: left;
+    left: 2%;
+}
+
+.caixaTextoLUpLeft{
+    border-top-left-radius: 10px;
+}
+
+.caixaTextoLUpRight{
+    border-top-right-radius: 10px;
+}
+
+.caixaTextoLBottomLeft{
+    border-bottom-left-radius: 10px;
+}
+
+.caixaTextoLBottomRight{
+    border-bottom-right-radius: 10px;
+}
+
+.caixaTextoLaranja{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 200px;
+    border-color: rgb(255, 255, 255);   
+    background-color: #FF8C15;
     color: white;
 }
 
-.tableR {
-    position: relative;
+.caixaTextoLaranja2{
     font-size: 2em;
-    border-color: #ffffff;
     border-style: solid;
     padding-inline-start: 15px;
-    background-color: #ff8a36;
-    border-top-left-radius: 3em;
-    border-bottom-left-radius: 3em;
-    border-width: 30%;
-}   
-
-.caixaTextoPosicao{
-    position: relative;
-    z-index: 1;
-}
-
-
-
-.divLogin-puts{
-    top: 14%;
-    left: 10%;
-    position: absolute;
-    padding: 0% 0%;
-    border-radius: 2em;
-}
-
-.bot{
-    background-color: #FF6C01;
-    position: relative;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 15rem;
-    height: 3rem;
-    border-radius: 26px;
+    width: 200px;
+    border-color: rgb(255, 255, 255); 
+    background-color: #FF8C15;
     color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
-    margin-bottom: 32%;
-    top: 640px;
-    left: 480%;
-    bottom: 19%;
-    right: 458%;
 }
 
-.bot:hover{
-    background-color: #db5d03;
+.caixaTextoLaranjaLUpLeft{
+    border-top-left-radius: 20px;
 }
 
-.bot:active{
-    top: 4px;
+.caixaTextoLaranjaLUpRight{
+    border-top-right-radius: 20px;
+}
+
+.caixaTextoLaranjaBottomLeft{
+    border-bottom-left-radius: 20px;
+}
+
+.caixaTextoLaranjaBottomRight{
+    border-bottom-right-radius: 20px;
+}
+
+.pedidoDeVenda{
+    position: relative;
+    bottom: 235px;
+    right: 320px;
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    border-radius: 20px;
+}
+
+.botaoPosicao{
+    position: relative;
+    top: 248px;
+    left: 610px;
+    font-size: .9em;
 }
