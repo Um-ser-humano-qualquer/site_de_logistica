@@ -26,7 +26,6 @@
         </div>
         <input type="submit" value="Enviar" class="bot batu">
     </div>
-    
 
 
         <?php

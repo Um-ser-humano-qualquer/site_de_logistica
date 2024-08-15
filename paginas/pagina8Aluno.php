@@ -185,5 +185,6 @@ include '../php/Alunopg8.php'
     <script src="../js/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
-
 </html>
+
+<!-- Mas que código lindo meu deus eu vou chorar -->
