@@ -52,7 +52,8 @@
     margin-bottom: 20px;
 }
 
-.botaoExpedicao{    background-color: #FF6C01;
+.botaoExpedicao{    
+    background-color: #FF6C01;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 5rem;
     height: 2.5rem;   

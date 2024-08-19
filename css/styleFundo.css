@@ -99,3 +99,22 @@
     background-size: cover;
 }
 
+@media screen and (max-width: 360px){
+
+.fundoHome{
+    background-image: url("../img/luzLua.png");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundinhoB{
+    background-image: url("../img/luzSol.png");
+    background-repeat:no-repeat;
+    background-position:absolute;
+    background-size: cover;
+}
+
+
+}
+
