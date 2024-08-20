@@ -24,7 +24,6 @@
     position: absolute;
     left: 50%;
 }
-
 .divLogin-pedido{
     width: 48%;
     height: auto;
@@ -233,4 +232,20 @@
         bottom: 0%;
         box-sizing: border-box;
     }
+}
+
+@media screen and (max-width: 1440px){
+
+.divMain2{
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 12.7% 23.6%;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
 }

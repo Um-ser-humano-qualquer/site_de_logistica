@@ -1200,3 +1200,17 @@
   margin-top: 2%;
   margin-bottom: -3%;
 }
+
+@media screen and (max-width: 1440px){
+
+.divEstoque1 {
+  position: relative;
+  left: 0%;
+  padding: 10px 30px;
+  background-color: #057aff;
+  border-radius: 30px;
+  margin-right: 5%;
+  width: 383px;
+}
+
+}
