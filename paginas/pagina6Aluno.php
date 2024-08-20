@@ -21,13 +21,13 @@
                     <tr>
                         <th></th>
                         <th>
-                            <h3>QTD</h3>
+                            <h3 class="QTTD">QTD</h3>
                         </th>
                         <th>
                             <h3>R$/UNIT</h3>
                         </th>
                         <th>
-                            <h3>R$ TOTAL</h3>
+                            <h3 class="TOTTAL">R$ TOTAL</h3>
                         </th>
                     </tr>
                     <tr>
@@ -60,13 +60,13 @@
                     <tr>
                         <th></th>
                         <th>
-                            <h3>QTD</h3>
+                            <h3 class="QTTD">QTD</h3>
                         </th>
                         <th>
                             <h3>R$/UNIT</h3>
                         </th>
                         <th>
-                            <h3>R$ TOTAL</h3>
+                            <h3 class="TOTTAL">R$ TOTAL</h3>
                         </th>
                     </tr>
                     <tr>
