@@ -24,25 +24,25 @@
             <div class="divLogin-mpb">
                 <h2 class="texto">Produtos do Picking</h2>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
                     <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
+                        <input type="text" name="" size="18" class="caixaTexto" placeholder="">
                     <br/>
             </div>
 
