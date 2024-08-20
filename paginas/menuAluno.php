@@ -31,13 +31,13 @@
                             <span class="icone"><i class="bi bi-grid-3x3-gap-fill"></i></span>
                             <span class="txt-linke">Recebimento</span>
                         </summary>
-                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
+                        <li class="item-menu sim post position txt-top"> <!-- sub classe do item recebimento -->
                             <a href="pagina2Aluno.php">
                                 <span class="icone"><i class="bi bi-truck"></i></span>
                                 <span class="txt-linke">Transporte</span>
                             </a>
                         </li>
-                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
+                        <li class="item-menu iten-menuu post position txt-bottom"> <!-- sub classe do item recebimento -->
                             <a href="pagina3Aluno.php">
                                 <span class="icone"><i class="bi bi-boxes"></i></span>
                                 <span class="txt-linke">Carga</span>
