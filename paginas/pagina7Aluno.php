@@ -162,7 +162,7 @@ include_once("../php/Alunopg8.php");
                 </table>
             </div>
         </form>
-        <input type="submit" value="Gerar endereço" class="botao botao-posicao">
+        <input type="submit" value="Separar Pedido" class="botao botao-posicao">
         <div class="legenda inline">
             <div class="popupLARANJA btn-estoque-YEAH laranja" onclick="popupLARANJA()">
                 <p class="botaoPosicaoo texto"><i class="bi bi-info-circle iposicao"></i></p>

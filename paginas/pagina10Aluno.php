@@ -152,7 +152,9 @@
                     </tr>
                 </table>
             </div>
+            <form action="pagina7Aluno.php" method="POST0">
             <input type="submit" value="Consultar estoque" class="botao botaoPosicao">
+            </form>
         </div>
         <?php
             include 'menuAluno.php'
