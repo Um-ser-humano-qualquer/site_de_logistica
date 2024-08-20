@@ -161,7 +161,7 @@ nav.transicao{
 
 
 input[type=checkbox] {
-    position: relative;
+      position: relative;
       cursor: pointer;
       right: 22px;
       bottom: 9px;

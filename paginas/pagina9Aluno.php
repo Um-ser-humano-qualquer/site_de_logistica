@@ -81,7 +81,7 @@
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             echo "<div class='formResult'>
-                    <span>id: " . $row["id_pedido"] . " produto: " . $row["nome_produto"] . " quantidade: " . $row["qtd"] . " total: " . $row["valor_total"] . " mensagem: " . $row["msg"] . " </span>
+                    <span>nº do pedido: " . $row["id_pedido"] . ", " . $row["qtd"] . " " . $row["nome_produto"] . ". Valor total: R$" . $row["qtd"] * $row["valor_unit"] . ". Mensagem anexada: " . $row["msg"] . " </span>
                 </div>";
         } else {
             echo "<div class='formResult'>

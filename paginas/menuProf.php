@@ -11,7 +11,6 @@
     <body>  
         <nav>
             <div class="barra-superior">
-                <a href="profile.php">
                     <i class="bi bi-person-circle perfil"></i>
                 </a>
             </div>

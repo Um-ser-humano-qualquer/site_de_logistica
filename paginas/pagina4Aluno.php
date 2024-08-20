@@ -39,7 +39,7 @@
                         <div class="Btable"></div>
                         <div>
                             <td>
-                                <input type="text" class="tableL texto" name="qtd" id="qnt" onkeyup="calcular_preco()">
+                                <input type="text" class="tableL texto" name="qtd" id="qtd" onkeyup="calcular_preco()">
                             </td>
                             <td>
                                 <input type="text" class="tableC texto" name="valor_unit" id="valor_unit" onkeyup="calcular_preco()">

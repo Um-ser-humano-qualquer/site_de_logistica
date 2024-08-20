@@ -1,172 +1,175 @@
 .divMain {
-    top: 50%;
-    left: 54%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    padding: 50px 100px;
-    background-color: #004089;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+  top: 50%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 50px 100px;
+  background-color: #004089;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .Line {
-    position: relative;
-    height: 10%;
-    left: 0%;
-    padding: 3px 300px;
-    background-color: #ffffff;
-    top: 0%;
-    margin-left: 0;
-    margin-right: 40%;
-    border-radius: 20px;
-    }
-
-.OrangeBlock{
-    position: relative;
-    border-style: solid;
-    height: 60%;
-    left: 0%;
-    padding: 37px 92px;
-    background-color: #FF9528;
-    top: 80%;
-    margin-left: 72%;
-    margin-right: 60%;
-    border-radius: 20px;
-    }
-
-.BlueBlock{
-   position: relative;
-   padding: 35px 40px;
-   background-color: #057AFF;
-   left: 5%;
-   margin-left: 4%;
-   margin-right: 600%;
-   border-radius: 20px;
-   position: absolute;
-        
+  position: relative;
+  height: 10%;
+  left: 0%;
+  padding: 3px 300px;
+  background-color: #ffffff;
+  top: 0%;
+  margin-left: 0;
+  margin-right: 40%;
+  border-radius: 20px;
 }
 
-.botaob{
-    position: relative;
-    background-color: #FF6C01;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 9rem;
-    height: 2rem;
-    border-radius: 15px;
-    color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
-    right: 72px;
+.OrangeBlock {
+  position: relative;
+  border-style: solid;
+  height: 60%;
+  left: 0%;
+  padding: 37px 92px;
+  background-color: #ff9528;
+  top: 80%;
+  margin-left: 72%;
+  margin-right: 60%;
+  border-radius: 20px;
 }
 
-.botaob:hover{
-    background-color: #db5d03;
+.BlueBlock {
+  position: relative;
+  padding: 35px 40px;
+  background-color: #057aff;
+  left: 5%;
+  margin-left: 4%;
+  margin-right: 600%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.botaob {
+  position: relative;
+  background-color: #ff6c01;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 15px;
+  color: white;
+  border-block-color: revert;
+  border-block-start-width: initial;
+  border-block-end: none;
+  border-left-color: #ffffff00;
+  border-right-color: #ffffff00;
+  border-top-color: #ffffff00;
+  cursor: pointer;
+  right: 72px;
+}
+
+.botaob:hover {
+  background-color: #db5d03;
 }
 
 .divLogin-left {
-    height: auto;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    padding: 40px 60px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 40px 60px;
 }
-.btn-link{
-    background: none;
-    border: none;
-    padding: 0;
-    font: inherit;
-    color: rgb(0, 0, 0);;
-    text-decoration: underline;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.posicao-pedidoL{
-    position: absolute;
-    top: 25%;
-    left: 23.5%;
+.btn-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+  z-index: 1;
 }
 
-.posicao-pedidoR{
-    position: absolute;
-    top: 25%;
-    left: 74.5%;
+.posicao-pedidoL {
+  position: absolute;
+  top: 25%;
+  left: 23.5%;
 }
 
-.posicao-pedidoBL{
-    position: absolute;
-    top: 75%;
-    left: 23.5%;
+.posicao-pedidoR {
+  position: absolute;
+  top: 25%;
+  left: 74.5%;
 }
 
-.posicao-pedidoBR{
-    position: absolute;
-    top: 75%;
-    left: 74.5%;
+.posicao-pedidoBL {
+  position: absolute;
+  top: 75%;
+  left: 23.5%;
 }
 
-.divLogin-pedido{
-    width: 48%;
-    height: auto;
-    padding: 200px -1px;
+.posicao-pedidoBR {
+  position: absolute;
+  top: 75%;
+  left: 74.5%;
 }
-    
+
+.divLogin-pedido {
+  width: 48%;
+  height: auto;
+  padding: 200px -1px;
+}
+
 .divMain2 {
-    top: 52%;
-    left: 54%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    padding: 400px 700px;
-    background-color: transparent;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-    }
+  top: 52%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 400px 700px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+}
 
 .divMain3 {
-    top: 50.2%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    padding: 400px 730px;
-    background-color: #004089;
-    border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-    } 
-
-.divLogin-ped{
-    top: 52%;
-    left: 54%;
-    transform: translate(-50% , -50%);
-    position: absolute;
-    padding: 430px 604px;
-    background-color: #004089;
-    border-radius:20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+  top: 50.2%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 400px 730px;
+  background-color: #004089;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-
-.textoPosicao{
-    margin-right: -100%;
+.divLogin-ped {
+  top: 52%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 430px 604px;
+  background-color: #004089;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
 }
-.formResult{
-    font-weight: bold;
-    position: relative;
-    padding: 25px;
-    margin: 1px;
-    background-color: #057AFF;
-    left: -2%;
-    width: 29em;
-    height: 4em;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 1.5em;
+
+.textoPosicao {
+  margin-right: -100%;
+}
+.formResult {
+  font-weight: bold;
+  position: relative;
+  padding: 25px;
+  margin: 1px;
+  background-color: #057aff;
+  left: -2%;
+  width: 29em;
+  height: 4em;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 1.5em;
 }
