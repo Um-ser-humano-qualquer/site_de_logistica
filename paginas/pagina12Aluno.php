@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+    <head>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/stylepg12Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
@@ -8,13 +8,17 @@
         <title>Expedição2</title>
     </head>
 
-    <body class="fundinhoA">
-        <div class="divMainW">
-        <div class="divLogin-seven">
-            <input type="text" name="nota" size="20" class="caixaTexto" placeholder="Pedido n°">
+<body class="fundinhoA">
+<div class="divMainH">
+        <div class="divLogin-big">
+            <input type="text" name="nota" size="16" class="caixaTexto" placeholder="Pedido de compra n°">
         </div>
 
-            <div class="divLogin-one">
+        <div class="divLogin-the">
+            <input type="text" name="nota" size="16" class="caixaTexto" placeholder="Doca">
+        </div>
+
+            <div class="divLogin-ceu">
              <h2 class="texto">Operação em aberto</h2>
                     <br>
                         <input type="text" name="" size="20" class="caixaTexto" placeholder="">
@@ -39,32 +43,7 @@
                     <br/>
             </div>
 
-            <div class="divLogin-two">
-            <center><h2 class="texto">UN</h2></center>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-            </div>
-
-            <div class="divLogin-three">
+            <div class="divLogin-cia">
                 <center><h2 class="texto">QTD</h2></center>
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
@@ -89,7 +68,7 @@
                     <br/>
             </div>
 
-            <div class="divLogin-four">
+            <div class="divLogin-hi">
                 <center><h2 class="texto">POSIÇÃO</h2></center>
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
@@ -114,43 +93,30 @@
                     <br/>
             </div>
 
-            <div class="divLogin-five">
+            <div class="divLogin-bts">
                 <br>
                 <br>
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="pego" class="botuo">
+                <input type="submit" value="Ok" class="botuo">
             </div>
-
-            <div class="divLogin-nine">
-            <input type="submit" value="Ok em tudo" class="bar">
-            </div>
-
-            <div class="num">
-            <h2 class="texto">Enviado para qual doca de saída?</h2>
-            </div>
-
-            <form action="pagina11Aluno.php" method="POST0">
-            <div class="divLogin-six">
-                <input type="submit" value="Retornar" class="bidu">
+          
+            <form action="pagina14Aluno.php" method="POST0">
+            <div class="divLogin-bot">
+                <input type="submit" value="Enviar" class="batu">
             </div>
             </form>
-
-            <div class="divLogin-eight">
-            <input type="text" name="nota" size="10" class="caixaTexto" placeholder="Doca n°">
-            </div>
-
          </div>
 
         <?php

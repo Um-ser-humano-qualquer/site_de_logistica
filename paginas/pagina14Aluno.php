@@ -7,77 +7,28 @@
         <link rel="stylesheet" href="../css/stylepg14Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
-        <title> Doca </title>
+        <title>Romaneio</title>
     </head>
+    
+    <body class="fando">
+        <div class="divMain">
 
-    <body class="fundo">
-        <div class="divMain inline">
-        <form method="post" action="pagina15Aluno.php" id="confirmarDocas" name="confirmarDocas">
+        <div class="divLoginP">
+             <input type="text" name="" size="24" class="caixaTexto divLogin-baby" placeholder=" Links">
+
             <div class="divLogin-left">
-                <h1 class="texto">Produtos nas docas</h1>
-                <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº2">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº3">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº5">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº6">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº7">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº8">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº9">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº10">
-                <br>
+                <textarea id="story" name="story" rows="5" cols="33" placeholder="Adendos"></textarea>
             </div>
-            <div class="divLogin-mid">
-                <h1 class="texto texto-posicao">Docas</h1>
-                <div class="divLogin-mid posicao-div-top"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-            </div>   
-            <div class="OK">
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
+
+            <div class="divLogin-let">
+                <div class="help"></div>
             </div>
-        </form>
         </div>
+        <input type="submit" value="Enviar" class="bot batu">
+    </div>
 
-    <?php
-    include 'menuAluno.php'
+        <?php
+            include 'menuAluno.php'
         ?>
-
-</body>
-
+    </body>
 </html>

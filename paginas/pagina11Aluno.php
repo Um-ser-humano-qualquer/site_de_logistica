@@ -4,160 +4,80 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="stylesheet" href="../css/stylepg11Aluno.css">
-        <title>Pedido de Venda</title>
+        <link rel="stylesheet" href="../css/styleFundo.css">
+        <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
+        <title> Doca </title>
     </head>
-    <body class="fundinhoA">
-        <div class="divMainY">
-            <div>
-                <input type="text" name="" placeholder="Nº do pedido de Venda" class="pedidoDeVenda">
-            </div>
-            <div class="divLogin-pobi inline">
-                <table class="tablePosition">
-                    <tr>
-                        <th>
-                            <h1 class="alinhamento">Produto</h1>
-                        </th>
-                        <th>
-                            <h1>UN</h1>
-                        </th>
-                        <th>
-                            <h1>QTD</h1>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoL caixaTextoLUpLeft">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoC">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoR caixaTextoLUpRight">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoL">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoC">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoR">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoL">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoC">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoR">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoL">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoC">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoR">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoL">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoC">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoR">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoL caixaTextoLBottomLeft">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoC">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoR caixaTextoLBottomRight">
-                        </th>
-                    </tr>
-                </table>
-                <table class="tablePosition2 texto">
-                    <tr>
-                        <th>
-                            <h1>Valor Unit</h1>
-                        </th>
-                        <th>
-                            <h1>Valor Total</h1>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja caixaTextoLaranjaLUpLeft">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja2 caixaTextoLaranjaLUpRight">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja2">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja2">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja2">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja2">
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja caixaTextoLaranjaBottomLeft">
-                        </th>
-                        <th>
-                            <input type="text" name="" class="caixaTextoLaranja2 caixaTextoLaranjaBottomRight">
-                        </th>
-                    </tr>
-                </table>
-            </div>
-            <input type="submit" value="Consultar estoque" class="botao botaoPosicao">
-        </div>
-        <?php
-            include 'menuAluno.php'
-        ?>
-    </body>
-</html>
 
-<!-- Mais um código lindjooo feito por mim :))))) -->
+    <body class="fundo">
+        <div class="divMain inline">
+        <form method="post" action="pagina12Aluno.php" id="confirmarDocas" name="confirmarDocas">
+            <div class="divLogin-left">
+                <h1 class="texto">Produtos nas docas</h1>
+                <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº2">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº3">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº5">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº6">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº7">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº8">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº9">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº10">
+                <br>
+            </div>
+            <div class="divLogin-mid">
+                <h1 class="texto texto-posicao">Docas</h1>
+                <div class="divLogin-mid posicao-div-top"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+            </div>   
+            <div class="OK">
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+            </div>
+        </form>
+        </div>
+
+    <?php
+    include 'menuAluno.php'
+        ?>
+
+</body>
+
+</html>

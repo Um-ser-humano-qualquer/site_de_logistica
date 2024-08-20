@@ -3,7 +3,7 @@
     left: 54%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 40px 515px;
+    padding: 400px 565px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,117 +12,84 @@
 
 .divLogin-left {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    padding: 14px 50px;
+    top: 26%;
+    left: -1%;
+    padding: 14px 26px;
     background-color: #057AFF;
     border-radius: 30px;
     margin-left: 3.5%;
     margin-top: 3%;
 }
 
-.divLogin-mid {
-    height: auto;
-    top: 0%;
-    left: 0%;
+.divLogin-baby {
     position: absolute;
-    padding: 23px 100px;
-    background-color: #057AFF;
+    top: 4%;
+    left: 2%;
+    background-color: white;
     border-radius: 30px;
-    margin-left: 43.5%;
+    margin-left: 3%;
     margin-top: 3%;
 }
 
-.texto-posicao{
-    margin-bottom: 10%;
-    position: relative;
-    right: 20%;
-}
-
-.textoPosicao{
-    margin-bottom: 7.8%;
-    margin-top: -2%;
-    height: 50%;
-}   
-
-.posicaoPedido1{
-    margin-top: 8%;
-}
-
-.posicao-div-top{
-    position: relative;
-    margin-top: 5%;
-}
-
-.OK{
-    position: relative;
-    left: 0%;
-    bottom: 0%;
-    padding: 16px 10px;
-    background-color: #FF9F3D;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: white;
-    margin-left: 220%;
-    margin-top: 28%;
-    width: 100%;
-}
-
-.btn-OK{
-    margin-bottom: 8.5%;
-    left: 0%;
-    background-color: #FF6C01;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 12em;
-    height: 2.9em;   
-    border-radius: 30px;
-    color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
-    font-size: 1em;
-    margin-right: 70%;
-}
-
-.btn-OK:hover{
-    background-color:#FF4D00;
-}
-
-.confirmado{
+.divLoginP {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    margin-top: 3.1%;
-    margin-left: 79.4%;
+    top: 1%;
+    left: 1%;
+    padding: 356px 520px;
+    background-color: #057AFF;
+    border-radius: 30px;
+    margin-left: 3.5%;
+    margin-top: 3%;
 }
 
-.btn-confirmado{
+textarea {
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+  }
+  
+  textarea {
+    padding: 80px;
+    max-width: 85%;
+    line-height: 2;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+.divLogin-let {
+    position: absolute;
+    top: -3%;
+    left: 52%;
+    padding: 10px 43px;
+    background-color: #057AFF;
+    border-radius: 30px;
+    margin-left: 3.5%;
+    margin-top: 3%;
+}
+.help{
+    position: absolute;
     margin-bottom: 5%;
-    left: 0%;
-    background-color: #FF8C15;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 13.8em;
-    height: 3em;   
+    left: 48%;
+    background-color: white;  
     border-radius: 20px;
     color: white;
     border-color: white;
     border-style: solid;
     cursor: pointer;
     font-size: 1em;
+    padding: 306px 180px;
 }
-
-.divLogin-mid div{
-    background-color: #FF8C15;
-    position: relative;
-    height: 60%;
-    margin-bottom: 5%;
-    margin-left: -20%;
-    margin-right: -20%;
-    border-color: white;
-    border-style: solid;
-    border-radius: 30px;
+.batu{
+    position: absolute;
+    top: 84%;
+    left: 74%;
+    padding: 10px 13px;
+    background-color: #FF6C01;
+    margin-top: 3%;
 }
