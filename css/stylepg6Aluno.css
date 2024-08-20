@@ -176,108 +176,193 @@
     color: #fff;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1440px){
     
-    .divMain2{
-        top: 52%;
-        left: 54%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        padding: 400px 700px;
-        background-color: transparent;
-        border-radius: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: rgb(255, 255, 255);
-    }
-    
-    .divMain3{
-        top: 50.2%;
-        left: 49%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        padding: 400px 730px;
-        background-color: #004089;
-        border-radius: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: rgb(255, 255, 255);
-    }
-    
-    .divLogin :visited{
-        color: #000000;
-        font-weight: bolder;
-    }
-    
-    .divLogin{
-        transform: translate(-50% , -50%);
-        padding: 20px 50px;
-        background-color: #057AFF;
-        border-radius:15px;
-        border-radius:10px;
-        border-color: white;
-        position: absolute;
-        left: 74%;
-    }
-    
-    .divLogin-pedido{
-        width: 48%;
-        height: auto;
-        padding: 200px -1px;
-    }
-    
-    .posicao-pedidoL{
-        position: absolute;
-        top: 25%;
-        left: 23.5%;
-    }
-    
-    .posicao-pedidoR{
-        position: absolute;
-        top: 25%;
-        left: 74.5%;
-    }
-    
-    .posicao-pedidoBL{
-        position: absolute;
-        top: 75%;
-        left: 23.5%;
-    }
-    
-    .posicao-pedidoBR{
-        position: absolute;
-        top: 75%;
-        left: 74.5%;
-    }
-    
-    .UN{
-        position: relative;
-        right: 20%;
-    }
-    
-    .Btable{
-        position: fixed;
-        background-color: white;
-        top: 166px;
-        left: 50px;
-        height: 14.4%;
-        width: 83%;
-        border-radius: 30px;
-    }
-    
-    .faltando{
-        position: relative;
-        margin-right: 30%;
-        margin-left: 6%;
-    }
-    
-    .avariado{
-        position: relative;
-    }
-    
-    .posicao{
-        position: absolute;
-        margin-right: 40%;
-        right: 55%;
-        bottom: 0%;
-        box-sizing: border-box;
-    }
+.divMain2{
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 2.5% 5%;
+    background-color: #004089;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.divLogin :visited{
+    color: #000000;
+    font-weight: bolder;
+}
+
+.divLogin{
+    transform: translate(-50% , -50%);
+    padding: 5% 1%;
+    background-color: #057AFF;
+    border-radius: 15px;
+    border-color: white;
+    position: relative;
+    left: 260px;
+    top: 167px;
+}
+
+.divLogin2{
+    transform: translate(-50% , -50%);
+    padding: 5% 1%;
+    background-color: #057AFF;
+    border-radius: 15px;
+    border-color: white;
+    position: relative;
+    left: 281px;
+    top: 167px;
+}
+
+.divLogin-pedido{
+    width: 48%;
+    height: auto;
+    padding: 200px -1px;
+}
+
+.posicao-pedidoL{
+    position: absolute;
+    top: 25%;
+    left: 23.5%;
+}
+
+.posicao-pedidoR{
+    position: absolute;
+    top: 25%;
+    left: 74.5%;
+}
+
+.posicao-pedidoBL{
+    position: absolute;
+    top: 75%;
+    left: 23.5%;
+}
+
+.posicao-pedidoBR{
+    position: absolute;
+    top: 75%;
+    left: 74.5%;
+}
+
+.UN{
+    position: relative;
+    left: 100%;
+}
+
+.Btable{
+    position: fixed;
+    background-color: white;
+    top: 59.6%;
+    left: 7.1%;
+    height: 14%;
+    width: 84.1%;
+    border-radius: 30px;
+}
+
+.faltando{
+    position: relative;
+    margin-right: 30%;
+    margin-left: 6%;
+}
+
+.avariado{
+    position: relative;
+}
+
+.posicao{
+    position: absolute;
+    margin-right: 40%;
+    right: 55%;
+    bottom: 0%;
+    box-sizing: border-box;
+}
+
+.tableL{
+    font-size: 200%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 15px;
+    background-color:  #ff8a36;
+    width: 90%;
+    position: relative;
+    left: 20%;
+    border: white;
+    text-align: center;
+}
+
+.tableC{
+    font-size: 200%;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 15px;
+    background-color:  #ff8a36;
+    width: 90%;
+    position: relative;
+    right: 100%;
+    text-align: center;
+    margin-left: 6%;
+}
+
+.tableR{
+    font-size: 200%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: #ffffff;
+    border-style: hidden;
+    padding-inline-start: 15px;
+    background-color:  #ff8a36;
+    width: 90%;
+    position: relative;
+    right: 150px;
+    text-align: center;
+    margin-left: -5%;
+}
+
+.posicaoCaixa{
+    margin-bottom: 3%;
+}
+
+.botaoPosicao{
+    position: relative;
+    top: 20px;
+}
+
+.botaou{
+    background-color: #FF6C01;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 9rem;
+    height: 2rem;   
+    border-radius: 15px;
+    color: white;
+    border-block-color: revert;
+    border-block-start-width: initial;
+    border-block-end: none;
+    border-left-color: #ffffff00;
+    border-right-color: #ffffff00;
+    border-top-color: #ffffff00;
+    cursor: pointer;
+}
+
+.botaou:active{
+    position: relative;
+    top: 22px;
+}
+
+.botaou:hover{
+    background-color: #db5d03;
+    color: #fff;
+}
+
+.QTTD{
+    margin-left: 30%;
+}
+
+.TOTTAL{
+    margin-right: 20%;
+}
 }
