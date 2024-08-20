@@ -1,106 +1,137 @@
-.divMainZ{
-    top: 54%;
-    left: 52%;
-    transform: translate(-50%, -50%);
+.divMainY{
     position: absolute;
-    padding: 380px 830px;
+    top: 53%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    padding: 14% 18.3%;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
+    border-radius: 2em;
 }
 
-.divLogin-pcd{
-    height: auto;
-    top: 2%;
-    left: 5%;
+.divLogin-pobi{
+    top: 17%;
+    left: 3%;
     position: absolute;
-    padding: 36px 25px;
-    background-color: #004089;
-    border-radius: 8px;
-}
-
-.divLogin-mpb{
-    height: auto;
-    top: 20%;
-    left: 6%;
-    position: absolute;
-    padding: 30px 32px;
+    padding: 5% 7%;
     background-color: #057AFF;
-    border-radius: 9px;
+    border-radius: 2em;
 }
 
-.divLogin-clt{
-    height: auto;
-    top: 20%;
-    left: 38%;
-    position: absolute;
-    padding: 30px 32px;
-    background-color: #057AFF;
-    border-radius: 8px;
+.caixaTextoL{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 300px;
+    border-color: rgb(185, 185, 185);
 }
 
-.divLogin-tcc{
-    height: auto;
-    top: 20%;
-    left: 52%;
-    position: absolute;
-    padding: 30px 32px;
-    background-color: #057AFF;
-    border-radius: 8px;
+.caixaTextoC{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 100px;
+    border-color: rgb(185, 185, 185);
 }
 
-.divLogin-sn{
-    height: auto;
-    top: 20%;
-    left: 65.9%;
-    position: absolute;
-    padding: 30px 32px;
-    background-color: #057AFF;
-    border-radius: 8px;
+.caixaTextoR{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 100px;
+    border-color: rgb(185, 185, 185);
 }
 
-.divLogin-pt{
-    height: auto;
-    top: 20%;
-    left: 81%;
-    position: absolute;
-    padding: 24.5px 25px;
-    background-color: #FF9528;
-    border-radius: 8px;
+.tablePosition{
+    position: relative;
+    right: 3%;
 }
 
-.votuo{
-    background-color: #FF6C01;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 9rem;
-    height: 2rem;   
-    border-radius: 15px;
+.tablePosition2{
+    position: relative;
+    left: 3%;
+}
+
+.alinhamento{
+    position: relative;
+    text-align: left;
+    left: 2%;
+}
+
+.caixaTextoLUpLeft{
+    border-top-left-radius: 10px;
+}
+
+.caixaTextoLUpRight{
+    border-top-right-radius: 10px;
+}
+
+.caixaTextoLBottomLeft{
+    border-bottom-left-radius: 10px;
+}
+
+.caixaTextoLBottomRight{
+    border-bottom-right-radius: 10px;
+}
+
+.caixaTextoLaranja{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 200px;
+    border-color: rgb(255, 255, 255);   
+    background-color: #FF8C15;
     color: white;
-    border-block-color: revert;
-    border-block-start-width: initial;
-    border-block-end: none;
-    border-left-color: #ffffff00;
-    border-right-color: #ffffff00;
-    border-top-color: #ffffff00;
-    cursor: pointer;
-    margin-bottom: 21%;
 }
 
-.votuo:hover{
-    background-color: #db5d03;
+.caixaTextoLaranja2{
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    width: 200px;
+    border-color: rgb(255, 255, 255); 
+    background-color: #FF8C15;
+    color: white;
 }
 
-.divLogin-bot{
-    height: auto;
-    top: 90%;
-    left: 79%;
-    position: absolute;
-    padding: 14px 18px;
-    background-color: #004089;
-    border-radius: 8px;
+.caixaTextoLaranjaLUpLeft{
+    border-top-left-radius: 20px;
 }
 
-.batu{
-    margin-left: 25%;
+.caixaTextoLaranjaLUpRight{
+    border-top-right-radius: 20px;
+}
+
+.caixaTextoLaranjaBottomLeft{
+    border-bottom-left-radius: 20px;
+}
+
+.caixaTextoLaranjaBottomRight{
+    border-bottom-right-radius: 20px;
+}
+
+.pedidoDeVenda{
+    position: relative;
+    bottom: 235px;
+    right: 320px;
+    font-size: 2em;
+    border-style: solid;
+    padding-inline-start: 15px;
+    border-radius: 20px;
+}
+
+.botaoPosicao{
+    position: relative;
+    top: 248px;
+    left: 610px;
+    font-size: .9em;
+}
+
+.botaoPosicao:active{
+    position: relative;
+    top: 250px;
+    left: 610px;
+    font-size: .9em;
 }

@@ -52,13 +52,19 @@
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina8Aluno.php">
+                    <a href="pagina10Aluno.php">
+                        <span class="icon"><i class="bi bi-currency-dollar"></i></span>
+                        <span class="txt-link">Venda</span>
+                    </a>
+                </li>
+                <li class="item-menu post">
+                    <a href="pagina7Aluno.php">
                         <span class="icon"><i class="bi bi-box-seam-fill"></i></span>
                         <span class="txt-link">Estoque</span>
                     </a>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina9Aluno.php">
+                    <a href="pagina8Aluno.php">
                         <span class="icon"><i class="bi bi-geo-alt-fill"></i></span>
                         <span class="txt-link">Picking</span>
                     </a>
@@ -70,13 +76,13 @@
                             <span class="txt-linke">Expedição</span>
                         </summary>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina18Aluno.php">
+                            <a href="pagina13Aluno.php">
                                 <span class="icone"><i class="bi bi-arrow-right-square"></i></span>
                                 <span class="txt-linke">Solicitação</span>
                             </a>
                         </li>
                         <li class="item-menu post position"> <!-- sub classe do item recebimento -->
-                            <a href="pagina14Aluno.php">
+                            <a href="pagina11Aluno.php">
                                 <span class="icone"><i class="bi bi-dpad-fill"></i></span>
                                 <span class="txt-linke">Docas</span>
                             </a>
@@ -84,7 +90,7 @@
                     </details>
                 </li>
                 <li class="item-menu post">
-                    <a href="pagina20Aluno.php">
+                    <a href="pagina14Aluno.php">
                         <span class="icon"><i class="bi bi-file-earmark-text-fill"></i></span>
                         <span class="txt-link">Romaneio</span>
                     </a>

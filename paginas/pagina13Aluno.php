@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/stylepg13Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
-        <title>Expedição</title>
+        <title> Solicitações </title>
     </head>
-    <body class="fundoExpedicao">
-        <form action="" method="POST0"></form>
-            <div class="divExpedicao inline">
-                <div class="divExpedicao1">
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Solicitação nº">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Solicitação nº">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Solicitação nº">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Solicitação nº">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Solicitação nº">
-                </div>
-                <div class="divExpedicao2">
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Doca">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Doca">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Doca">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Doca">
-                    <br>
-                    <input type="text" class="caixaTextoExpedicao"placeholder="Doca">
-                </div>
-                <div class="divExpedicao3">
-                    <input type="submit" class="botaoExpedicao botaoExpedicaoSuperior" value="Abrir">
-                    <br>
-                    <input type="submit" class="botaoExpedicao" value="Abrir">
-                    <br>
-                    <input type="submit" class="botaoExpedicao" value="Abrir">
-                    <br>
-                    <input type="submit" class="botaoExpedicao" value="Abrir">
-                    <br>
-                    <input type="submit" class="botaoExpedicao" value="Abrir">
-                </div>
+
+    <body class="fando">
+        <div class="divMainT inline">
+            <div class="divLogin-lego">
+                <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido nº1">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº2">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº3">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº4">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº5">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº6">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº7">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº8">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº9">
+                <br>
+                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº10">
+                <br>
             </div>
-        </form>
-        <?php
-            include "menuAluno.php"
+
+               <div class="candy">
+                    <h1 class="texto">Check List</h1>
+                </div>
+         
+            <div class="over">
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="sbt-OK" value="OK"></input>
+                <br>
+            </div>
+        </div>
+
+    <?php
+    include 'menuAluno.php'
         ?>
-    </body>
+
+</body>
+
 </html>
