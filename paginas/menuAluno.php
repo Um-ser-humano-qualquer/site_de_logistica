@@ -75,13 +75,13 @@
                             <span class="icone"><i class="bi bi-globe2"></i></span>
                             <span class="txt-linke">Expedição</span>
                         </summary>
-                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
+                        <li class="item-menu post position txt-top"> <!-- sub classe do item recebimento -->
                             <a href="pagina13Aluno.php">
                                 <span class="icone"><i class="bi bi-arrow-right-square"></i></span>
                                 <span class="txt-linke">Solicitação</span>
                             </a>
                         </li>
-                        <li class="item-menu post position"> <!-- sub classe do item recebimento -->
+                        <li class="item-menu post position txt-bottom"> <!-- sub classe do item recebimento -->
                             <a href="pagina11Aluno.php">
                                 <span class="icone"><i class="bi bi-dpad-fill"></i></span>
                                 <span class="txt-linke">Docas</span>
