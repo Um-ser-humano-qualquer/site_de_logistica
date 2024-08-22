@@ -1,7 +1,3 @@
-<?php
-include 'menuAluno.php';
-include_once("../php/Alunopg8.php");
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -185,6 +181,12 @@ include_once("../php/Alunopg8.php");
 
     <script src="../js/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <?php
+        include 'menuAluno.php';
+        include_once("../php/Alunopg8.php");
+    ?>
+
 </body>
 </html>
 
