@@ -181,3 +181,166 @@ details[open] > summary::after {
     margin-top: 20px;
     margin-bottom: -20px;
 }
+
+body {
+    margin: 0;
+}
+
+.popup-button:hover,
+.popup .close-popup-button:hover {
+    opacity: .8;
+}
+
+.popup-button:active,
+.popup .close-popup-button:active {
+    transform: scale(.8);
+}
+
+.popup{
+    position: absolute;
+    background-color: #262FA8;
+    padding: 30px;
+    width: 290px;
+    height: 410px;
+    box-sizing: border-box;
+    transition: all .4s;
+    z-index: -1;
+    transform: scale(.4);
+    opacity: 0;
+    border-radius: 20px;
+    right: 2%;
+    top: 4%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.popup2{
+    position: relative;
+    right: 103.4%;
+    bottom: 85%;
+    background-color: #057AFF;
+    padding: 30px;
+    width: 700px;
+    height: 910px;
+    box-sizing: border-box;
+    transition: all .4s;
+    z-index: -1;
+    transform: scale(.4);
+    border-radius: 70px;
+    border-color: white;
+    border-style: solid;
+}
+
+.popup.opened {
+    z-index: 999;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.popup img {
+    width: 100px;
+}
+
+.popup h2.title {
+    color: #ee404c;
+}
+
+.popup p.desc {
+    color: #FFF;
+}
+
+.perfil{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 37px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: .5%;
+    top: 5px;
+}
+
+.perfil:hover{
+    color: #e0e0e0;
+    transition: .2s;
+}
+
+.inline{
+    display: flex;
+}
+
+.profile{
+    color: white;
+    position: relative;
+    font-size: 17em;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.close{
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    bottom: 23px;
+    left: 235px;
+}
+
+.close:hover{
+    color: rgb(219, 219, 219);
+}
+
+.caixaDeTexto{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9742;
+    border-radius: 70px;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    align-items: center;
+    color: white;
+    height: 12%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-inline-start: 5%;
+    content: 'Usuário';
+}
+
+.sair{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9742;
+    border-radius: 20px;
+    font-size: 4em;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    align-items: center;
+    color: white;
+    width: 40%;
+    padding-inline-end: 10%;
+    position: relative;
+    left: 60%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.sair:hover{
+    background-color: #e98a3d;
+}
+
+.SAIR{
+    color: white;
+    font-size: 3em;
+    position: relative;
+    left: 310px;
+    top: 17px;
+}
