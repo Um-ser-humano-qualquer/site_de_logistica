@@ -55,21 +55,21 @@
             <div class="divLogin divLogin-Right">
                 <h2 class="texto posicaaao">Assinale se tiver algum problema:</h2>
                 <br>
-                <h3><input type="checkbox" name="sem lona" class="texto">Sem lona</h3>
+                <h3><input type="checkbox" name="sem lona" id="sem lona" class="texto">Sem lona</h3>
                 <br>
-                <h3><input type="checkbox" name="container_desgastado" class="texto">Container bem desgastado</h3>
+                <h3><input type="checkbox" name="container_desgastado" id="container_desgastado" class="texto">Container bem desgastado</h3>
                 <br>
-                <h3><input type="checkbox" name="avaria_lateral_direita" class="texto">Avaria na lateral direita</h3>
+                <h3><input type="checkbox" name="avaria_lateral_direita" id="avaria_lateral_direita" class="texto">Avaria na lateral direita</h3>
                 <br>
-                <h3><input type="checkbox" name="avaria_lateral_esquerda" class="texto">Avaria na lateral esquerda</h3>
+                <h3><input type="checkbox" name="avaria_lateral_esquerda" id="avaria_lateral_esquerda" class="texto">Avaria na lateral esquerda</h3>
                 <br>
-                <h3><input type="checkbox" name="avaria_teto" class="texto">Avaria no teto</h3>
+                <h3><input type="checkbox" name="avaria_teto" id="avaria_teto" class="texto">Avaria no teto</h3>
                 <br>
-                <h3><input type="checkbox" name="avaria_frente" class="texto">Avaria na frente</h3>
+                <h3><input type="checkbox" name="avaria_frente" id="avaria_frente" class="texto">Avaria na frente</h3>
                 <br>
-                <h3><input type="checkbox" name="sem_lacre" class="texto">Sem lacre</h3>
+                <h3><input type="checkbox" name="sem_lacre" id="sem_lacre" class="texto">Sem lacre</h3>
                 <br>
-                <h3><input type="checkbox" name="adesivos_avariados" class="texto">Adesivos avariados</h3>
+                <h3><input type="checkbox" name="adesivos_avariados" id="adesivos_avariados" class="texto">Adesivos avariados</h3>
                 <br>
                 <h3><input type="checkbox" name="excesso_altura" class="texto">Excesso de altura</h3>
                 <br>

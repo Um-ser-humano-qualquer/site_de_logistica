@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url("/../site_de_logistica/img/fundo_login.png"); 
+    background-image: url("../img/fundo_login.png"); 
     background-repeat:no-repeat;
     background-position:absolute;
     background-size: cover;  
@@ -221,14 +221,14 @@ input:-webkit-autofill
     border-radius: 50px;
     animation: slidein 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
     z-index: 12;
-    background-image: url("/../site_de_logistica/img/senai-logo-fundo.jpeg");  
+    background-image: url("../img/senai-logo-fundo.jpeg");  
 
 }
 
 .sign-up-js .content::before {
     animation: slideout 1s; 
     z-index: 12;
-    background-image: url("/../site_de_logistica/img/senai-logo-fundo.jpeg");  
+    background-image: url("../img/senai-logo-fundo.jpeg");  
     
 }
 

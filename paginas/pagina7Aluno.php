@@ -1,6 +1,6 @@
 <?php
 include 'menuAluno.php';
-include_once("../php/Alunopg8.php");
+include_once("../php/conexao.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -30,6 +30,40 @@ include_once("../php/Alunopg8.php");
                     <br>
                     <input type="text" name="QTD" size="20" class="posicaoEstoque" placeholder="QTD">
                 </div>
+                <?php
+                if (isset($_POST['nome_produto'])) {
+
+                    $nome_produto = $_POST['nome_produto'];
+                    $qtd = (int) $_POST['qtd'];
+
+                    // Query to find the product in the database
+                    $stmt = $connect->prepare("SELECT `qtd` FROM `estoque` WHERE `nome_produto` = ?");
+                    $stmt->bind_param("s", $nome_produto);
+                    $stmt->execute();
+                    $stmt->bind_result($qtd);
+                    $stmt->fetch();
+                    $stmt->close();
+
+                    // Determine the color based on the number of qtd
+                    $color = "#f58915"; // Default color if the product is not found
+                
+                    if ($qtd !== null) {
+                        if ($qtd >= $qtd) {
+                            $color = "##ff6c01";  // Sufficient stock
+                        } elseif ($qtd > 0 && $qtd < $qtd) {
+                            $color = "#7d9aff"; // Partial stock
+                        } else {
+                            $color = "#ff6c01";    // Out of stock
+                        }
+                    } else {
+                        echo "Product not found.<br>";
+                    }
+
+                    echo "<div id='colorSquare' style='background-color: $color;'></div>";
+                    $connect->close();
+
+                }
+                ?>
                 <table class="divEstoque2">
                     <tr>
                         <th>
