@@ -11,8 +11,21 @@
     <body>  
         <nav>
             <div class="barra-superior">
-                    <i class="bi bi-person-circle perfil"></i>
-                </a>
+            </div>
+            <i class="bi bi-person-circle perfil" onclick="handlePopup(true)"></i>
+            <div class="popup" id="popup">
+                <i class="bi bi-x-lg close" type="submit" onclick="handlePopup(false)"></i>
+                <div class="popup2">
+                    <i class="bi bi-person-circle profile"></i>
+                    <br>
+                    <input type="text" class="caixaDeTexto" value="Usuário: ">
+                    <br>
+                    <input type="text" class="caixaDeTexto" value="Turma: ">
+                    <br>
+                    <div class="inline">
+                        <input type="submit" class="sair" value="Sair"><i class="bi bi-box-arrow-right SAIR"></i>
+                    </div>
+                </div>
             </div>
         </nav>
         <nav class="menu-lateral"> <!-- menu lateral -->

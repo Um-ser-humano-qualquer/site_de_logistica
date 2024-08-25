@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="stylesheet" href="../css/stylepg10Aluno.css">
+        <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
         <title>Pedido de Venda</title>
     </head>
     <body class="fundinhoA">

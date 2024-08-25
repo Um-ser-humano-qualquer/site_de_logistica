@@ -16,3 +16,10 @@ var menuSide = document.querySelector('.menu-lateral')
 
 btnExp.addEventListener('click', function(){
 menuSide.classList.toggle('expandir')})
+
+
+const popup = document.getElementById('popup');
+
+function handlePopup(open) {
+    popup.classList[open ? 'add' : 'remove']('opened');
+}

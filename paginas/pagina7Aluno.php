@@ -219,6 +219,12 @@ include_once("../php/conexao.php");
 
     <script src="../js/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <?php
+        include 'menuAluno.php';
+        include_once("../php/Alunopg8.php");
+    ?>
+
 </body>
 </html>
 

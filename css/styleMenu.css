@@ -181,3 +181,525 @@ details[open] > summary::after {
     margin-top: 20px;
     margin-bottom: -20px;
 }
+
+body {
+    margin: 0;
+}
+
+.popup-button:hover,
+.popup .close-popup-button:hover {
+    opacity: .8;
+}
+
+.popup-button:active,
+.popup .close-popup-button:active {
+    transform: scale(.8);
+}
+
+.popup{
+    position: absolute;
+    background-color: #262FA8;
+    padding: 30px;
+    width: 290px;
+    height: 410px;
+    box-sizing: border-box;
+    transition: all .4s;
+    z-index: -1;
+    transform: scale(.4);
+    opacity: 0;
+    border-radius: 20px;
+    right: 2%;
+    top: 4%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.popup2{
+    position: relative;
+    right: 103.4%;
+    bottom: 85%;
+    background-color: #057AFF;
+    padding: 30px;
+    width: 700px;
+    height: 910px;
+    box-sizing: border-box;
+    transition: all .4s;
+    z-index: -1;
+    transform: scale(.4);
+    border-radius: 70px;
+    border-color: white;
+    border-style: solid;
+}
+
+.popup.opened {
+    z-index: 999;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.popup img {
+    width: 100px;
+}
+
+.popup h2.title {
+    color: #ee404c;
+}
+
+.popup p.desc {
+    color: #FFF;
+}
+
+.perfil{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 37px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: .5%;
+    top: 5px;
+}
+
+.perfil:hover{
+    color: #e0e0e0;
+    transition: .2s;
+}
+
+.inline{
+    display: flex;
+}
+
+.profile{
+    color: white;
+    position: relative;
+    font-size: 17em;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.close{
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    bottom: 23px;
+    left: 235px;
+}
+
+.close:hover{
+    color: rgb(219, 219, 219);
+}
+
+.caixaDeTexto{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9742;
+    border-radius: 70px;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    align-items: center;
+    color: white;
+    height: 12%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-inline-start: 5%;
+    content: 'Usuário';
+}
+
+.sair{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9742;
+    border-radius: 20px;
+    font-size: 4em;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    align-items: center;
+    color: white;
+    width: 40%;
+    padding-inline-end: 10%;
+    position: relative;
+    left: 60%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.sair:hover{
+    background-color: #e98a3d;
+}
+
+.SAIR{
+    color: white;
+    font-size: 3em;
+    position: relative;
+    left: 310px;
+    top: 17px;
+}
+
+@media screen and (max-width: 360px){
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.container{
+    background-color: #165fb8;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+nav.menu-lateral{
+    width: 70px;
+    height: 100%;
+    background-color: transparent;
+    padding: 40px o 40px 1%;
+    box-shadow: 8px 0 0 transparent;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral.expandir{
+    width: 300px;
+    background-color: #12133a;
+    box-shadow: 8px 0 0 #165fb8;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .5s;
+}
+
+ul li.item-menuu{
+    transition: .5s;
+}
+
+ul li.ativo{
+    background-color: #165fb8;
+    width: 100%;
+}
+
+ul li.item-menu:hover{
+    background: #165fb8;
+    width: 200%;
+    transition: .5s;
+}
+
+ul li.item-menuu:hover{
+    width: 250%;
+    transition: .5s;
+}
+
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+}
+
+ul li.item-menuu{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+}
+
+nav ul{
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir ul{
+    opacity: 1;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+ul li.item-menuu .txt-linke{
+    margin-left: 70px;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+nav.menu-lateral.expandir .txt-linke{
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 14px;
+}
+
+ul li.item-menuu .icone > i{
+    font-size: 30px;
+    margin-left: 13px;
+}
+
+summary {
+  display: flex;
+}
+
+summary::after {
+  margin-left: 1ch;
+  display: inline-block;
+  content: '▶';
+  color: #fff;
+  transition: .1s;
+}
+
+details{
+    cursor: pointer;
+}
+
+li > details[open]{
+    width: 20%;
+    transition: .5s;
+}
+
+details[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.post{
+    width: 90%;
+}
+
+.position{
+    position: relative;
+    left: 10%;
+}
+
+.position:hover{
+    position: relative;
+    left: 15%;
+    transition: .5s;
+}
+
+.barra-superior{
+    width: 1920px;
+    height: 50px;
+    background-color: #165fb8;
+    padding: 40px o 40px 1%;
+    position: fixed;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.txt-top{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.txt-bottom{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+body {
+    margin: 0;
+}
+
+.popup-button:hover,
+.popup .close-popup-button:hover {
+    opacity: .8;
+}
+
+.popup-button:active,
+.popup .close-popup-button:active {
+    transform: scale(.8);
+}
+
+.popup{
+    position: absolute;
+    background-color: #262FA8;
+    padding: 30px;
+    width: 290px;
+    height: 410px;
+    box-sizing: border-box;
+    transition: all .4s;
+    z-index: -1;
+    transform: scale(.4);
+    opacity: 0;
+    border-radius: 20px;
+    right: 9%;
+    top: 10%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.popup2{
+    position: relative;
+    right: 103.4%;
+    bottom: 85%;
+    background-color: #057AFF;
+    padding: 30px;
+    width: 700px;
+    height: 910px;
+    box-sizing: border-box;
+    transition: all .4s;
+    z-index: -1;
+    transform: scale(.4);
+    border-radius: 70px;
+    border-color: white;
+    border-style: solid;
+}
+
+.popup.opened {
+    z-index: 999;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.popup img {
+    width: 100px;
+}
+
+.popup h2.title {
+    color: #ee404c;
+}
+
+.popup p.desc {
+    color: #FFF;
+}
+
+.perfil{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    font-size: 37px;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: .5%;
+    top: 5px;
+}
+
+.perfil:hover{
+    color: #e0e0e0;
+    transition: .2s;
+}
+
+.inline{
+    display: flex;
+}
+
+.profile{
+    color: white;
+    position: relative;
+    font-size: 17em;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.close{
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    position: relative;
+    bottom: 23px;
+    left: 235px;
+}
+
+.close:hover{
+    color: rgb(219, 219, 219);
+}
+
+.caixaDeTexto{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9742;
+    border-radius: 70px;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    align-items: center;
+    color: white;
+    height: 12%;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-inline-start: 5%;
+    content: 'Usuário';
+}
+
+.sair{
+    display: flex;
+    justify-content: center;
+    background-color: #FF9742;
+    border-radius: 20px;
+    font-size: 4em;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    align-items: center;
+    color: white;
+    width: 40%;
+    padding-inline-end: 10%;
+    position: relative;
+    left: 60%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.sair:hover{
+    background-color: #e98a3d;
+}
+
+.SAIR{
+    color: white;
+    font-size: 3em;
+    position: relative;
+    left: 310px;
+    top: 17px;
+}
+}
