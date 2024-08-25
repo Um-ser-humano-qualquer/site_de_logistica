@@ -522,7 +522,7 @@ details[open] > summary::after {
 
 .barra-superior{
     width: 1920px;
-    height: 6.3%;
+    height: 50px;
     background-color: #165fb8;
     padding: 40px o 40px 1%;
     position: fixed;
