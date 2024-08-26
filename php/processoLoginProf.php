@@ -1,19 +1,8 @@
 <?php
-session_start();
+include_once("conexao.php");
 
-$hostname = "127.0.0.1";
-$user = "root";
-$password = "";
-$database = "logistica";
-
-$connect = new mysqli($hostname, $user, $password, $database);
-
-if ($connect->connect_errno) {
-    echo "Falha ao conectar ao MySQL: " . $connect->connect_error;
-    exit();
-} else
-    if (isset($_POST['username']) && isset($_POST['password']))
-        $username = $connect->real_escape_string($_POST['username']);
+if (isset($_POST['username']) && isset($_POST['password']))
+    $username = $connect->real_escape_string($_POST['username']);
 $password = $connect->real_escape_string($_POST['password']);
 
 $SQL = "SELECT `id`, `username` 

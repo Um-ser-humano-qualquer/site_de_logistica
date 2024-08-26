@@ -27,6 +27,12 @@
   background-color: #057aff;
   border-radius: 30px;
 }
+.result{
+  margin: 1px;
+  padding: 1px;
+  width: 2.5em;
+
+}
 
 .legenda {
   position: relative;

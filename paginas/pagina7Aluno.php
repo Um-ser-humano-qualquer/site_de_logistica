@@ -1,7 +1,3 @@
-<?php
-include 'menuAluno.php';
-include_once("../php/conexao.php");
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -24,46 +20,12 @@ include_once("../php/conexao.php");
             <div class="inline">
 
                 <div class="divEstoque1">
-                    <input type="text" name="Produtos" size="20" class="posicaoEstoque" placeholder="Produtos">
+                    <input type="text" name="nome_produto" size="20" class="posicaoEstoque" placeholder="Produtos">
                     <br>
-                    <input type="text" name="UN" size="20" class="posicaoEstoque" placeholder="UN">
+                    <input type="text" name="un" size="20" class="posicaoEstoque" placeholder="UN">
                     <br>
-                    <input type="text" name="QTD" size="20" class="posicaoEstoque" placeholder="QTD">
+                    <input type="text" name="qtd" size="20" class="posicaoEstoque" placeholder="QTD">
                 </div>
-                <?php
-                if (isset($_POST['nome_produto'])) {
-
-                    $nome_produto = $_POST['nome_produto'];
-                    $qtd = (int) $_POST['qtd'];
-
-                    // Query to find the product in the database
-                    $stmt = $connect->prepare("SELECT `qtd` FROM `estoque` WHERE `nome_produto` = ?");
-                    $stmt->bind_param("s", $nome_produto);
-                    $stmt->execute();
-                    $stmt->bind_result($qtd);
-                    $stmt->fetch();
-                    $stmt->close();
-
-                    // Determine the color based on the number of qtd
-                    $color = "#f58915"; // Default color if the product is not found
-                
-                    if ($qtd !== null) {
-                        if ($qtd >= $qtd) {
-                            $color = "##ff6c01";  // Sufficient stock
-                        } elseif ($qtd > 0 && $qtd < $qtd) {
-                            $color = "#7d9aff"; // Partial stock
-                        } else {
-                            $color = "#ff6c01";    // Out of stock
-                        }
-                    } else {
-                        echo "Product not found.<br>";
-                    }
-
-                    echo "<div id='colorSquare' style='background-color: $color;'></div>";
-                    $connect->close();
-
-                }
-                ?>
                 <table class="divEstoque2">
                     <tr>
                         <th>
@@ -194,10 +156,8 @@ include_once("../php/conexao.php");
                         </th>
                     </tr>
                 </table>
-            </div>
-        </form>
-        <input type="submit" value="Separar Pedido" class="botao botao-posicao">
-        <div class="legenda inline">
+                </div>
+                <div class="legenda inline">
             <div class="popupLARANJA btn-estoque-YEAH laranja" onclick="popupLARANJA()">
                 <p class="botaoPosicaoo texto"><i class="bi bi-info-circle iposicao"></i></p>
                 <span type="submit" class="popuptextLARANJA" id="myPopupLARANJA">Produto inexistente.</span>
@@ -215,17 +175,57 @@ include_once("../php/conexao.php");
                 <span type="submit" class="popuptextAZUL" id="myPopupAZUL">Quantidade excessiva.</span>
             </div>
         </div>
-    </div>
+            <input type="submit" value="Separar Pedido" class="botao botao-posicao"> 
+        </div>
+       
+                <?php /*
+                include_once("../php/conexao.php");
+                if (isset($_POST['nome_produto'])) {
+
+                    $nome_produto = $_POST['nome_produto'];
+                    $qtd = $_POST['qtd'];
+
+                    $sql = ("SELECT `qtd` FROM `estoque` WHERE `nome_produto` = ?");
+
+                    $stmt = $connect->prepare($sql);
+                    $stmt->bind_param("s", $nome_produto);
+                    $stmt->execute();
+
+                    $stmt->bind_result($qtd_estoque);
+
+                    //determina a cor ed acordo com a quatidade(qtd)
+                    switch ($qtd) {
+                        case '$qtd_estoque < $qtd'://Quantidade insuficiente
+                            $color = "#f58915";
+                            break;
+
+                        case '$qtd_estoque == $qtd':// Quantidade exata
+                            $color = "#7d9aff";
+                            break;
+                        case '$qtd_estoque > $qtd':// Quantidade exata
+                            $color = "#7d9aff";
+                            break;
+
+                        default:// cor padrão pra sem produtos
+                            $color = "#ff6c01";
+                            break;
+                    }
+                    echo "<div name='query_result' id='query_result' class='result' style='background: $color;'></div>";
+                    $connect->close();
+                }
+                */?>
+        </form>
+  
 
     <script src="../js/popup.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <?php
-        include 'menuAluno.php';
-        include_once("../php/Alunopg8.php");
+    include 'menuAluno.php';
     ?>
 
 </body>
+
 </html>
 
 <!-- Mas que código lindo meu deus eu vou chorar -->
