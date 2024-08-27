@@ -19,18 +19,6 @@
                 <br>
                 <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº4">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº5">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº6">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº7">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº8">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº9">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº10">
-                <br>
             </div>
 
                <div class="candy">
@@ -38,18 +26,6 @@
                 </div>
          
             <div class="over">
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="sbt-OK" value="OK"></input>
-                <br>
                 <input type="submit" class="sbt-OK" value="OK"></input>
                 <br>
                 <input type="submit" class="sbt-OK" value="OK"></input>

@@ -3,7 +3,7 @@
     left: 54%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 40px 360px;
+    padding: 48px 350px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,7 +22,7 @@
 
 .divLogin-lego{
     position: absolute;
-    top: 4%;
+    top: 10%;
     left: 6%;
     padding: 14px 50px;
     background-color: #057AFF;
