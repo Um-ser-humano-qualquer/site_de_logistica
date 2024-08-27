@@ -6,9 +6,31 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-image: url("../img/fundo_login.png"); 
-    background-repeat:no-repeat;
-    background-position:absolute;
+    background-repeat: no-repeat;
+    background-position: absolute;
     background-size: cover;  
+}
+
+.btn-link{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: rgb(0, 136, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.btn-linkB{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: rgb(255, 255, 255);;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 0;
 }
 
 .btn-link-right{
@@ -29,6 +51,16 @@ body{
 
 .btn-link-right:hover{
     color: rgb(2, 102, 190);
+}
+
+.btn-link-rightB{
+    position: absolute;
+    top: 350px;
+    right: 160px;
+}
+
+.btn-link-rightB:hover{
+    color: rgb(230, 230, 230);
 }
 
 .container{
@@ -103,17 +135,6 @@ body{
     color: #fff;
 }
 
-.btn-link{
-    background: none;
-    border: none;
-    padding: 0;
-    font: inherit;
-    color: rgb(0, 136, 255);;
-    text-decoration: underline;
-    cursor: pointer;
-    z-index: 1;
-}
-
 .first-content{
     display: flex;
 }
@@ -174,17 +195,19 @@ body{
     border-top-style: solid;
     padding-inline-start: 15px;
 }
-input:-webkit-autofill 
-{    
+
+input:-webkit-autofill{    
     -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset !important;
     -webkit-text-fill-color: #000 !important;
 }
+
 .label-input {
     background-color: #ecf0f1;
     display: flex;
     align-items: center;
     margin: 8px;
 }
+
 .icon-modify {
     color: #7f8c8d;
     padding: 0 5px;
@@ -212,6 +235,7 @@ input:-webkit-autofill
 .sign-in-js .second-content .second-column {
     z-index: 11;
 }
+
 .sign-in-js .second-content .first-column {
     z-index: 13;
 }
@@ -219,7 +243,7 @@ input:-webkit-autofill
 .sign-in-js .content::before {
     right: 50%;
     border-radius: 50px;
-    animation: slidein 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: slidein 1s;
     z-index: 12;
     background-image: url("../img/senai-logo-fundo.jpeg");  
 
@@ -228,8 +252,7 @@ input:-webkit-autofill
 .sign-up-js .content::before {
     animation: slideout 1s; 
     z-index: 12;
-    background-image: url("../img/senai-logo-fundo.jpeg");  
-    
+    background-image: url("../img/senai-logo-fundo.jpeg");    
 }
 
 .sign-up-js .second-content .first-column,

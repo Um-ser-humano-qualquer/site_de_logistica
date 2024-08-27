@@ -38,6 +38,7 @@
                         <input type="password" name="password" id="senhaProf" placeholder="Senha" required>
                         <br>
                         <button class="btn-second btn-right">acessar</button>
+                        <a href="paginas/cadastroProf.php" class="btn-linkB btn-link-rightB">Ainda não fez cadastro? Clique aqui!</a>
                     </form>
                 </div> <!-- second-column -->
                 <div class="first-column first-position2">

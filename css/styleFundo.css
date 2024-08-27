@@ -1,3 +1,11 @@
+.fundoLogin{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../img/fundo_login.png"); 
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;  
+}
+
 .fundinhoA{
     background-image: url("../img/Movi_dic.png");
     background-repeat:no-repeat;
