@@ -51,21 +51,9 @@ include_once("../php/conexao.php");
                 </div>
                 <div class="OrangeBlock">
                     <input type="submit" class="botaob" value="abrir">
-                    <br>
-                    <br>
-                    <br>
                     <input name="num2" type="submit" class="botaob" placeholder="abrir">
-                    <br>
-                    <br>
-                    <br>
                     <input name="num3" type="submit" class="botaob" placeholder="abrir">
-                    <br>
-                    <br>
-                    <br>
                     <input name="num4" type="submit" class="botaob" placeholder="abrir">
-                    <br>
-                    <br>
-                    <br>
                     </form>
 
                     <input name="num5" type="submit" class="botaob" placeholder="abrir">

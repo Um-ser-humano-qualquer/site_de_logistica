@@ -3,7 +3,7 @@
   left: 54%;
   transform: translate(-50%, -50%);
   position: absolute;
-  padding: 50px 100px;
+  padding: 50px 0px;
   background-color: #004089;
   border-radius: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -28,11 +28,11 @@
   border-style: solid;
   height: 60%;
   left: 0%;
-  padding: 37px 92px;
+  padding: 36px 92px;
   background-color: #ff9528;
   top: 80%;
-  margin-left: 72%;
-  margin-right: 60%;
+  margin-left: 70%;
+  margin-right: 50%;
   border-radius: 20px;
 }
 
@@ -42,7 +42,7 @@
   background-color: #057aff;
   left: 5%;
   margin-left: 4%;
-  margin-right: 600%;
+  margin-right: -6000px;
   border-radius: 20px;
   position: absolute;
 }
@@ -64,6 +64,7 @@
   border-top-color: #ffffff00;
   cursor: pointer;
   right: 72px;
+  margin-bottom: 30px;
 }
 
 .botaob:hover {
