@@ -1,5 +1,4 @@
 <?php
-include 'menuAluno.php';
 include_once("../php/conexao.php");
 ?>
     <!DOCTYPE html>
@@ -12,14 +11,13 @@ include_once("../php/conexao.php");
         <link rel="stylesheet" href="../css/stylepg8Aluno.css">
         <link rel="stylesheet" href="../css/styleFundo.css">
         <link rel="shortcut icon" href="../img/icone_creati.ico" type="image/x-icon">
+        <?php
+        include 'MenuAluno.php';
+        ?>
         <title>Picking</title>
     </head>
 
     <body class="fundolegal">
-        <?php
-        include 'MenuAluno.php';
-        ?>
-
         <div class="divMain">
 
             <center>
