@@ -3,7 +3,7 @@
     left: 52%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 390px 680px;
+    padding: 280px 680px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,7 +32,7 @@
 
 .divLogin-ceu{
     height: auto;
-    top: 20%;
+    top: 24%;
     left: 7%;
     position: absolute;
     padding: 30px 32px;
@@ -42,7 +42,7 @@
 
 .divLogin-cia{
     height: auto;
-    top: 20%;
+    top: 24%;
     left: 46%;
     position: absolute;
     padding: 30px 32px;
@@ -52,7 +52,7 @@
 
 .divLogin-hi{
     height: auto;
-    top: 20%;
+    top: 24%;
     left: 63%;
     position: absolute;
     padding: 30px 32px;
@@ -62,7 +62,7 @@
 
 .divLogin-bts{
     height: auto;
-    top: 20.2%;
+    top: 24%;
     left: 80%;
     position: absolute;
     padding: 8px 25px;
@@ -72,7 +72,7 @@
 
 .divLogin-bot{
     height: auto;
-    top: 90%;
+    top: 86%;
     left: 76.5%;
     position: absolute;
     padding: 14px 20px;
@@ -103,7 +103,7 @@
     left: 53%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 370px 646px;
+    padding: 280px 646px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -132,7 +132,7 @@
 
 .divLogin-ceu{
     height: auto;
-    top: 20%;
+    top: 24%;
     left: 4%;
     position: absolute;
     padding: 30px 32px;
@@ -142,7 +142,7 @@
 
 .divLogin-cia{
     height: auto;
-    top: 20%;
+    top: 24%;
     left: 46%;
     position: absolute;
     padding: 30px 32px;
@@ -152,7 +152,7 @@
 
 .divLogin-hi{
     height: auto;
-    top: 20%;
+    top: 24%;
     left: 64%;
     position: absolute;
     padding: 30px 32px;
@@ -162,17 +162,17 @@
 
 .divLogin-bts{
     height: auto;
-    top: 20.2%;
+    top: 24%;
     left: 82%;
     position: absolute;
-    padding: 8px 25px;
+    padding: 12px 25px;
     background-color: #FF9528;
     border-radius: 8px;
 }
 
 .divLogin-bot{
     height: auto;
-    top: 92%;
+    top: 86%;
     left: 78%;
     position: absolute;
     padding: 12px 20px;

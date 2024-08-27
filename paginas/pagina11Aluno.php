@@ -23,18 +23,6 @@
                 <br>
                 <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
                 <br>
-                <input type="text" name="Pedido1" id="Pedido5" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº5">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido6" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº6">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido7" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº7">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido8" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº8">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido9" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº9">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido10" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº10">
-                <br>
             </div>
             <div class="divLogin-mid">
                 <h1 class="texto texto-posicao">Docas</h1>
@@ -42,26 +30,9 @@
                 <div class="divLogin-mid"></div>
                 <div class="divLogin-mid"></div>
                 <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-                <div class="divLogin-mid"></div>
-            </div>   
+            </div> 
+
             <div class="OK">
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
-                <input type="submit" class="btn-OK" value="OK"></input>
-                <br>
                 <input type="submit" class="btn-OK" value="OK"></input>
                 <br>
                 <input type="submit" class="btn-OK" value="OK"></input>

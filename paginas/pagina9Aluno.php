@@ -31,14 +31,6 @@
             <input type="text" name="" size="18" class="caixaTexto" placeholder="">
             <br />
             <br>
-            <input type="text" name="" size="18" class="caixaTexto" placeholder="">
-            <br />
-            <br>
-            <input type="text" name="" size="18" class="caixaTexto" placeholder="">
-            <br />
-            <br>
-            <input type="text" name="" size="18" class="caixaTexto" placeholder="">
-            <br />
         </div>
 
         <div class="divLogin-clt">
@@ -58,14 +50,6 @@
             <input type="text" name="" size="2" class="caixaTexto" placeholder="">
             <br />
             <br>
-            <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-            <br />
-            <br>
-            <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-            <br />
-            <br>
-            <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-            <br />
         </div>
 
         <body class="fundolegal">
@@ -86,14 +70,6 @@
                 <input type="text" name="" size="2" class="caixaTexto" placeholder="">
                 <br />
                 <br>
-                <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                <br />
-                <br>
-                <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                <br />
-                <br>
-                <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                <br />
             </div>
 
             <div class="divLogin-sn">
@@ -113,14 +89,6 @@
                 <input type="text" name="" size="2" class="caixaTexto" placeholder="">
                 <br />
                 <br>
-                <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                <br />
-                <br>
-                <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                <br />
-                <br>
-                <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                <br />
             </div>
 
             <div class="divLogin-pt">
@@ -134,11 +102,6 @@
                 <br>
                 <input type="submit" value="Separar" class="votuo">
                 <br>
-                <input type="submit" value="Separar" class="votuo">
-                <br>
-                <input type="submit" value="Separar" class="votuo">
-                <br>
-                <input type="submit" value="Separar" class="votuo">
             </div>
 
             <form action="pagina8Aluno.php" method="POST0">

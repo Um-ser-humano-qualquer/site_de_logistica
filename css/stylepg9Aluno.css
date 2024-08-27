@@ -3,7 +3,7 @@
     left: 52%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 380px 820px;
+    padding: 286px 800px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,7 +12,7 @@
 
 .divLogin-pcd{
     height: auto;
-    top: 2%;
+    top: 0%;
     left: 6%;
     position: absolute;
     padding: 36px 25px;
@@ -22,7 +22,7 @@
 
 .divLogin-mpb{
     height: auto;
-    top: 20%;
+    top: 22%;
     left: 8%;
     position: absolute;
     padding: 30px 32px;
@@ -32,7 +32,7 @@
 
 .divLogin-clt{
     height: auto;
-    top: 20%;
+    top: 22%;
     left: 38%;
     position: absolute;
     padding: 30px 32px;
@@ -42,7 +42,7 @@
 
 .divLogin-tcc{
     height: auto;
-    top: 20%;
+    top: 22%;
     left: 52%;
     position: absolute;
     padding: 30px 32px;
@@ -52,7 +52,7 @@
 
 .divLogin-sn{
     height: auto;
-    top: 20%;
+    top: 22%;
     left: 65.9%;
     position: absolute;
     padding: 30px 32px;
@@ -62,10 +62,10 @@
 
 .divLogin-pt{
     height: auto;
-    top: 20%;
+    top: 22%;
     left: 81%;
     position: absolute;
-    padding: 24.5px 25px;
+    padding: 34px 25px;
     background-color: #FF9528;
     border-radius: 8px;
 }
@@ -93,7 +93,7 @@
 
 .divLogin-bot{
     height: auto;
-    top: 90%;
+    top: 89%;
     left: 79%;
     position: absolute;
     padding: 14px 18px;
@@ -112,7 +112,7 @@
     left: 52%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 360px 652px;
+    padding: 270px 652px;
     background-color: #004089;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,7 +121,7 @@
 
 .divLogin-mpb{
     height: auto;
-    top: 18%;
+    top: 22%;
     left: 4%;
     position: absolute;
     padding: 20px 32px;
@@ -131,7 +131,7 @@
 
 .divLogin-clt{
     height: auto;
-    top: 18%;
+    top: 22%;
     left: 38%;
     position: absolute;
     padding: 20px 32px;
@@ -141,7 +141,7 @@
 
 .divLogin-tcc{
     height: auto;
-    top: 18%;
+    top: 22%;
     left: 52%;
     position: absolute;
     padding: 20px 32px;
@@ -151,7 +151,7 @@
 
 .divLogin-sn{
     height: auto;
-    top: 18%;
+    top: 22%;
     left: 65.9%;
     position: absolute;
     padding: 20px 32px;
@@ -161,10 +161,10 @@
 
 .divLogin-pt{
     height: auto;
-    top: 18%;
+    top: 22%;
     left: 83%;
     position: absolute;
-    padding: 14px 25px;
+    padding: 24px 25px;
     background-color: #FF9528;
     border-radius: 8px;
 }
@@ -181,8 +181,8 @@
 
 .divLogin-bot{
     height: auto;
-    top: 90%;
-    left: 82%;
+    top: 88%;
+    left: 80%;
     position: absolute;
     padding: 14px 18px;
     background-color: #004089;
