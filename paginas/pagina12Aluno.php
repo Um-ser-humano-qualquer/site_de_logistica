@@ -32,28 +32,10 @@
                     <br>
                         <input type="text" name="" size="20" class="caixaTexto" placeholder="">
                     <br/>
-                    <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="20" class="caixaTexto" placeholder="">
-                    <br/>
             </div>
 
             <div class="divLogin-cia">
                 <center><h2 class="texto">QTD</h2></center>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
                     <br/>
@@ -82,15 +64,6 @@
                     <br>
                         <input type="text" name="" size="2" class="caixaTexto" placeholder="">
                     <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
-                    <br>
-                        <input type="text" name="" size="2" class="caixaTexto" placeholder="">
-                    <br/>
             </div>
 
             <div class="divLogin-bts">
@@ -105,11 +78,6 @@
                 <br>
                 <input type="submit" value="Ok" class="botuo">
                 <br>
-                <input type="submit" value="Ok" class="botuo">
-                <br>
-                <input type="submit" value="Ok" class="botuo">
-                <br>
-                <input type="submit" value="Ok" class="botuo">
             </div>
           
             <form action="pagina11Aluno.php" method="POST0">
