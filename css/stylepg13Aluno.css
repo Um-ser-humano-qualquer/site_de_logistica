@@ -25,38 +25,28 @@
     top: 12.5%;
     left: 6%;
     padding: 10px;
-    width: 470px;
+    width: 760px;
+    height: 420px;
     background-color: #057AFF;
     border-radius: 30px;
 }
 
 .top{
-    margin-top: 14%;
-}
-
-.over{
-    position: absolute;
-    right: 6%;
-    bottom: 9%;
-    padding: 208px 100px;
-    background-color: #FF9F3D;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 16%;
+    margin-top: 4%;
 }
 
 .textoPosicao{
-    margin-bottom: 7.8%;
-    margin-top: -2%;
-    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-left: 4.5%;
     height: 50%;
+    width: 90%;
     margin-right: 10px;
 }   
 
 .ohyeah{
     position: relative;
     margin-bottom: 10%;
+    left: 95%;
 }
 
 .posicaoPedido1{
@@ -67,7 +57,7 @@
     position: relative;
     margin-bottom: 8.5%;
     padding: 0% 15%;
-    left: 150px;
+    left: 450px;
     bottom: .5em;
     background-color: #FF6C01;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -90,5 +80,5 @@
 
 .sbt-OK:active{
     position: relative;
-    top: 1px;
+    top: .3px;
 }
