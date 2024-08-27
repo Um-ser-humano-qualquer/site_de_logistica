@@ -12,18 +12,26 @@
 
     <body class="fundo">
         <div class="divMain inline">
-        <form method="post" action="pagina12Aluno.php" id="confirmarDocas" name="confirmarDocas">
+     
             <div class="divLogin-left">
                 <h1 class="texto">Produtos nas docas</h1>
-                <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº2">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº3">
-                <br>
-                <input type="text" name="Pedido1" id="Pedido4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
-                <br>
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido1" id="prod1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">  <input type="submit" class="btn-OK" value="OK"></input>
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido1" id="prod2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº2">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido1" id="prod3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº3">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido1" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
             </div>
+
             <div class="divLogin-mid">
                 <h1 class="texto texto-posicao">Docas</h1>
                 <div class="divLogin-mid posicao-div-top"></div>
@@ -33,7 +41,7 @@
             </div> 
 
             <div class="OK">
-                <input type="submit" class="btn-OK" value="OK"></input>
+                
                 <br>
                 <input type="submit" class="btn-OK" value="OK"></input>
                 <br>

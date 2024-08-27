@@ -14,10 +14,9 @@
         <div class="divMain">
 
         <div class="divLoginP">
-             <input type="text" name="" size="24" class="caixaTexto divLogin-baby" placeholder=" Links">
 
             <div class="divLogin-left">
-                <textarea id="story" name="story" rows="5" cols="33" placeholder="Adendos"></textarea>
+                <textarea id="story" name="story" rows="10" cols="33" placeholder="Adendos"></textarea>
             </div>
 
             <div class="divLogin-let">
