@@ -16,7 +16,7 @@
             <div class="divLogin-left">
                 <h1 class="texto">Produtos nas docas</h1>
                 <form method="POST" action="../php/produto_doca.php">
-                <input type="text" name="Pedido1" id="prod1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">  <input type="submit" class="btn-OK" value="OK"></input>
+                <input type="text" name="Pedido1" id="prod1" size="15" class="caixaTexto textoPosicao posicaoPedido1" placeholder="Pedido de compra nº1">
                 </form>
 
                 <form method="POST" action="../php/produto_doca.php">
@@ -30,6 +30,30 @@
                 <form method="POST" action="../php/produto_doca.php">
                 <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
                 </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
+
+                <form method="POST" action="../php/produto_doca.php">
+                <input type="text" name="Pedido4" id="prod4" size="15" class="caixaTexto textoPosicao" placeholder="Pedido de compra nº4">
+                </form>
             </div>
 
             <div class="divLogin-mid">
@@ -38,12 +62,30 @@
                 <div class="divLogin-mid"></div>
                 <div class="divLogin-mid"></div>
                 <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
+                <div class="divLogin-mid"></div>
             </div> 
 
             <div class="OK">
-                
+                <input type="submit" class="btn-OK" value="OK"></input>
                 <br>
-            
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
+                <br>
+                <input type="submit" class="btn-OK" value="OK"></input>
                 <br>
                 <input type="submit" class="btn-OK" value="OK"></input>
                 <br>
