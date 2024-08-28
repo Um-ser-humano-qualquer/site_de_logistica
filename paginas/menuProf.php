@@ -72,7 +72,7 @@
                     </a>
                 </li>
                 <li class="item-menu post"> <!-- sub classe do item controle -->
-                    <a href="">
+                    <a href="pagina7Prof.php">
                         <span class="icon"><i class="bi bi-trash-fill"></i></span>
                         <span class="txt-link">Descarte</span>
                     </a>

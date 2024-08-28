@@ -1,0 +1,30 @@
+.lixo{
+    background-color: #057AFF;
+    border-radius: 30px;
+    padding: 50px 50px;
+    top: 53%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-style: solid;
+}
+
+.caixinhaDeLixo{
+    color: white;
+    font-size: 10em;
+    position: relative;
+    top: 50%;
+    left: 14%;
+}
+
+.caixinhaDeLixo:hover{
+    color: rgb(230, 229, 229);
+}
+
+.caixinhaDeLixo:active{
+    position: relative;
+    top: 2px;
+}
