@@ -339,10 +339,10 @@ body {
 
 .SAIR{
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     position: relative;
-    left: 310px;
-    top: 17px;
+    left: 563px;
+    top: -80px
 }
 
 @media screen and (max-width: 360px){
