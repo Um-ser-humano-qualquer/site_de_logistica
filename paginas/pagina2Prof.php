@@ -17,7 +17,6 @@
         <div class="divProf2">
             <form method="POST0" action="pedidoProf.php">
                 <input type="text" name="pedido" required size="20" class="caixaTexto produtoPositione" placeholder="Pedido de venda">
-           
                 <div class="posicaoP2">
                     <div class="produto">
                         <input type="text" name="Produto1" size="20" class="caixaTexto produtoPosition produtoPositionUp" placeholder="Produto">
