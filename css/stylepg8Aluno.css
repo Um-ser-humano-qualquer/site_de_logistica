@@ -27,18 +27,18 @@
   position: relative;
   border-style: solid;
   height: 60%;
-  left: 0%;
+  left: -1%;
   padding: 36px 92px;
   background-color: #ff9528;
   top: 80%;
   margin-left: 70%;
-  margin-right: 50%;
+  margin-right: 16%;
   border-radius: 20px;
 }
 
 .BlueBlock {
   position: relative;
-  padding: 35px 40px;
+  padding: 38px 40px;
   background-color: #057aff;
   left: 5%;
   margin-left: 4%;
@@ -164,10 +164,10 @@
 .formResult {
   font-weight: bold;
   position: relative;
-  padding: 25px;
+  padding: 29px;
   margin: 1px;
   background-color: #057aff;
-  left: -2%;
+  left: 11%;
   width: 29em;
   height: 4em;
   text-align: center;
