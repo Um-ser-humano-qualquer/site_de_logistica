@@ -5,4 +5,4 @@ include_once("conexao.php");
     $sql = "INSERT INTO `prod_doca`
         (`id_prod1`)
         VALUES 
-        ('" . $id_prod1  ")" ;")"
+        ('" . $id_prod1 . "')";

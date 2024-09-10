@@ -19,4 +19,3 @@ include_once("conexao.php");
     $connect->close();
     header('location: ../paginas/pagina5Prof.php', true, 301);
     exit();
-
