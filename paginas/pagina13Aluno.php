@@ -16,7 +16,7 @@
         </div>
         <div class="over"></div>
         <div class="divLogin-lego">
-            <form method="post" action="../php/guarda_id.php" class="top">
+            <form method="POST" action="../php/guarda_id.php" class="top">
                 <input type="text" name="Pedido1" id="Pedido1" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº1">             
                 <input type="text" name="Pedido2" id="Pedido2" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº2"> 
                 <input type="text" name="Pedido3" id="Pedido3" size="15" class="caixaTexto textoPosicao" placeholder="Pedido nº3"> 
